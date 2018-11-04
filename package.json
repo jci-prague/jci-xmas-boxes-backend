@@ -1,0 +1,44 @@
+{
+  "name": "jci-xmas-boxes-backend",
+  "version": "0.1.0",
+  "description": "Backend for JCI Christmas boxes app.",
+  "keywords": [
+    "jci",
+    "jci prague",
+    "christmas",
+    "children",
+    "gift"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "format": "./node_modules/.bin/pretty-quick",
+    "precommit": "./node_modules/.bin/pretty-quick --staged",
+    "test": "./node_modules/.bin/jest --silent",
+    "test:watch": "./node_modules/.bin/jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jci-prague/jci-xmas-boxes-backend.git"
+  },
+  "author": "Tomas Metz",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/jci-prague/jci-xmas-boxes-backend/issues"
+  },
+  "homepage": "https://github.com/jci-prague/jci-xmas-boxes-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "guid": "0.0.12",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "husky": "^1.1.2",
+    "jest": "^23.6.0",
+    "jest-environment-jsdom": "^23.4.0",
+    "jest-html-reporter": "^2.4.2",
+    "jest-junit": "^5.2.0",
+    "prettier": "^1.14.3",
+    "pretty-quick": "^1.8.0"
+  }
+}
