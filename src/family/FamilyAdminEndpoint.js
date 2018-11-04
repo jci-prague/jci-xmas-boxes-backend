@@ -7,7 +7,7 @@ const FamilyStoreModule = require('./FamilyStore.js')
 function FamilyAdminEndpoint(
   FamilyStore = FamilyStoreModule(),
 ) {
-  const ENDPOINT = '/family'
+  const ENDPOINT = '/admin/api/family'
 
   function register(app) {
     app.get(ENDPOINT, _get)
