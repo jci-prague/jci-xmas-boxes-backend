@@ -7,11 +7,11 @@ function http200(req, res, payload) {
     .send(payload)
 }
 
-function http400(req, res) {
+function http400(req, res, payload) {
   res
     .type('application/json')
     .status(400)
-    .send()
+    .send(payload)
 }
 
 function http405(req, res) {
