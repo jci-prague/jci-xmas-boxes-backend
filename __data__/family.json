@@ -1,18 +1,14 @@
 [
   {
     "id": "1001",
-    "free": false,
+    "free": true,
     "children": [
       {
         "name": "Jimm",
         "age": 11,
         "gender": "Male"
       }
-    ],
-    "contact": {
-      "name": "Gandalf",
-      "email": "gandalf@shire.world"
-    }
+    ]
   },
   {
     "id": "1002",
@@ -43,11 +39,7 @@
   },
   {
     "id": "1004",
-    "free": false,
-    "contact": {
-      "name": "James",
-      "email": "james@bond.cz"
-    },
+    "free": true,
     "children": [
       {
         "name": "Teresa",

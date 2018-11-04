@@ -48,7 +48,7 @@ function FamilyStore(
       console.error('No family to update found', family)
       return false
     }
-    familyToUpdate.free = false
+    familyToUpdate.free = family.free
     familyToUpdate.contact = family.contact
     const fileContent = JSON.stringify(families)
     fs.writeFileSync(pathToFamilyData, fileContent)
