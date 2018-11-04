@@ -1,5 +1,6 @@
 dependencies:
   body-parser: 1.18.3
+  dotenv: 6.1.0
   express: 4.16.4
   guid: 0.0.12
   lodash: 4.17.11
@@ -826,6 +827,12 @@ packages:
     dev: true
     resolution:
       integrity: sha512-raigMkn7CJNNo6Ihro1fzG7wr3fHuYVytzquZKX5n0yizGsTcYgzdIUwj1X9pK0VvjeihV+XiclP+DjwbsSKug==
+  /dotenv/6.1.0:
+    dev: false
+    engines:
+      node: '>=6'
+    resolution:
+      integrity: sha512-/veDn2ztgRlB7gKmE3i9f6CmDIyXAy6d5nBq+whO9SLX+Zs1sXEgFLPi+aSuWqUuusMfbi84fT8j34fs1HaYUw==
   /ecc-jsbn/0.1.2:
     dependencies:
       jsbn: 0.1.1
@@ -4047,6 +4054,7 @@ shrinkwrapMinorVersion: 9
 shrinkwrapVersion: 3
 specifiers:
   body-parser: ^1.17.1
+  dotenv: ^6.1.0
   express: ^4.15.2
   guid: 0.0.12
   husky: ^1.1.2
