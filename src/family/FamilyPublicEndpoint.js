@@ -29,37 +29,39 @@ function FamilyPublicEndpoint(
     /*
     Payload:
     {
-      id: '123456',
-      contactName: 'John Doe',
-      contactEmail: 'john@doe.com'
+      familyIds: ['F001', 'F006'],
+      donor: {
+        name: 'John Doe',
+        email: 'john@doe.com'
+      }
     }
     */
 
-    const id = req.body.id
-    const name = req.body.contactName
-    const email = req.body.contactEmail
-    const validationResult = validateReservationRequestParams(id, name, email)
+    const familyIds = req.body.familyIds
+    const name = req.body.donor.name
+    const email = req.body.donor.email
+    const validationResult = validateReservationRequestParams(familyIds, name, email)
 
     if (validationResult.success) {
-      const reservationState = FamilyService.reserveGift(id, name, email)
-      if (reservationState.success) {
-        apiResponse.http200(req, res, reservationState)
+      const reservationResults = FamilyService.reserveGift(familyIds, name, email)
+      if (reservationResults.success) {
+        apiResponse.http200(req, res, reservationResults)
       } else {
-        apiResponse.http400(req, res, reservationState)
+        apiResponse.http400(req, res, reservationResults)
       }
     } else {
       apiResponse.http400(req, res, validationResult)
     }
   }
 
-  function validateReservationRequestParams(id, name, email) {
+  function validateReservationRequestParams(familyIds, name, email) {
     let result = {
       success: true,
       errors: []
     }
 
-    if (!id) {
-      result.errors.push({ code: 1000, message: 'Missing attribute \'id\'' })
+    if (!familyIds) {
+      result.errors.push({ code: 1000, message: 'Missing attribute \'familyIds\'' })
       result.success = false
     }
     if (!name) {
