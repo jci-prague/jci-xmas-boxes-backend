@@ -4,6 +4,7 @@ dependencies:
   express: 4.16.4
   guid: 0.0.12
   lodash: 4.17.11
+  nodemailer: 4.7.0
 devDependencies:
   husky: 1.1.3
   jest: 23.6.0
@@ -2929,6 +2930,12 @@ packages:
     dev: true
     resolution:
       integrity: sha512-AhENzCSGZnZJgBARsUjnQ7DnZbzyP+HxlVXuD0xqAnvL8q+OqtSX7lGg9e8nHzwXkMMXNdVeqq4E2M3EUAqX6Q==
+  /nodemailer/4.7.0:
+    dev: false
+    engines:
+      node: '>=6.0.0'
+    resolution:
+      integrity: sha512-IludxDypFpYw4xpzKdMAozBSkzKHmNBvGanUREjJItgJ2NYcK/s8+PggVhj7c2yGFQykKsnnmv1+Aqo0ZfjHmw==
   /nodemon/1.18.5:
     dependencies:
       chokidar: 2.0.4
@@ -4570,6 +4577,7 @@ specifiers:
   jest-html-reporter: ^2.4.2
   jest-junit: ^5.2.0
   lodash: ^4.17.4
+  nodemailer: ^4.7.0
   nodemon: ^1.18.5
   prettier: ^1.14.3
   pretty-quick: ^1.8.0
