@@ -8,6 +8,7 @@ function _init() {
   return {
     applicationPort: process.env.PORT || process.env.APPLICATION_PORT,
     dataDirectoryPath: process.env.DATA_DIRECTORY_PATH,
+    mailConfigurationPath: process.env.MAIL_CONFIGURATION_PATH,
   }
 }
 
