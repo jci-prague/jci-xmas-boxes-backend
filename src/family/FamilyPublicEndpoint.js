@@ -4,10 +4,12 @@ const apiResponse = require('../common/ApiResponse.js')
 
 const FamilyServiceModule = require('./FamilyService.js')
 const FamilyStoreModule = require('./FamilyStore.js')
+const MailTransportModule = require('../common/MailTransport.js')
 
 function FamilyPublicEndpoint(
   FamilyService = FamilyServiceModule(),
   FamilyStore = FamilyStoreModule(),
+  MailTransport = MailTransportModule(),
 ) {
   const ENDPOINT = '/api/family'
 
@@ -40,12 +42,32 @@ function FamilyPublicEndpoint(
     const familyIds = req.body.familyIds
     const name = req.body.donor.name
     const email = req.body.donor.email
-    const validationResult = validateReservationRequestParams(familyIds, name, email)
+    const validationResult = validateReservationRequestParams(
+      familyIds,
+      name,
+      email,
+    )
 
     if (validationResult.success) {
-      const reservationResults = FamilyService.reserveGift(familyIds, name, email)
+      const reservationResults = FamilyService.reserveGift(
+        familyIds,
+        name,
+        email,
+      )
       if (reservationResults.success) {
-        apiResponse.http200(req, res, reservationResults)
+        const text = `Dobrý den,\nvelice nás těší Vaše rozhodnutí obdarovat následující děti či sourozence:\n${generateChildrenListForEmail(
+          familyIds,
+        )}\n\nDěkujeme! :-)\n\nRealizační tým "Krabice od bot"`
+        const message = {
+          from: 'krabice@jcicr.cz',
+          to: email,
+          cc: 'krabice@jcicr.cz',
+          subject: 'Krabice od bot - potvrzení registrace',
+          text: text,
+        }
+        MailTransport.sendMail(message).then(() => {
+          apiResponse.http200(req, res, reservationResults)
+        })
       } else {
         apiResponse.http400(req, res, reservationResults)
       }
@@ -54,26 +76,52 @@ function FamilyPublicEndpoint(
     }
   }
 
-  function validateReservationRequestParams(familyIds, name, email) {
+  function validateReservationRequestParams(
+    familyIds,
+    name,
+    email,
+  ) {
     let result = {
       success: true,
-      errors: []
+      errors: [],
     }
 
     if (!familyIds) {
-      result.errors.push({ code: 1000, message: 'Missing attribute \'familyIds\'' })
+      result.errors.push({
+        code: 1000,
+        message: "Missing attribute 'familyIds'",
+      })
       result.success = false
     }
     if (!name) {
-      result.errors.push({ code: 1001, message: 'Missing attribute \'name\'' })
+      result.errors.push({
+        code: 1001,
+        message: "Missing attribute 'name'",
+      })
       result.success = false
     }
     if (!email) {
-      result.errors.push({ code: 1002, message: 'Missing \'email\'' })
+      result.errors.push({
+        code: 1002,
+        message: "Missing 'email'",
+      })
       result.success = false
     }
 
     return result
+  }
+
+  function generateChildrenListForEmail(familyIds) {
+    const giftedFamilies = FamilyStore.listAll().filter(
+      family => familyIds.includes(family.id),
+    )
+
+    return giftedFamilies.reduce((acc, family) => {
+      const children = family.children
+        .map(child => `${child.name} (${child.age})`)
+        .join(', ')
+      return `${acc} - ${children}\n`
+    }, '')
   }
 
   const api = {
