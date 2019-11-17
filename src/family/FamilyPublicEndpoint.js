@@ -120,8 +120,29 @@ function FamilyPublicEndpoint(
       const children = family.children
         .map(child => `${child.name} (${child.age})`)
         .join(', ')
-      return `${acc} - ${children}\n`
+      return `${acc} - ${children}\n   - Sběrná místa: ${generateGatheringPlacesForEmail(
+        family.gatheringPlaces,
+      )}.\n`
     }, '')
+  }
+
+  function generateGatheringPlacesForEmail(places) {
+    return places.map(codeToPlaceName).join('; ')
+  }
+
+  function codeToPlaceName(code) {
+    switch (code) {
+      case 0:
+        return 'Rodinné centrum Letná, o.s.: Janovského 24, Praha 7'
+      case 1:
+        return 'Dobrá rodina o.p.s.: Klimentská 1246/1, Praha 1'
+      case 2:
+        return 'Barevný svět dětí: Pod Nuselskými schody 1721/3, Praha 2'
+      case 3:
+        return 'Dětský domov v Přestavlkách'
+      default:
+        ''
+    }
   }
 
   const api = {
