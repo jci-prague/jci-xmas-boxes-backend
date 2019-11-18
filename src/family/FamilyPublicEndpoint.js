@@ -118,12 +118,15 @@ function FamilyPublicEndpoint(
 
     return giftedFamilies.reduce((acc, family) => {
       const children = family.children
-        .map(child => `${child.name} (${child.age})`)
-        .join(', ')
-      return `${acc} - ${children}\n   - Sběrná místa: ${generateGatheringPlacesForEmail(
+        .map(
+          child =>
+            ` - ${child.name}\n   - věk: ${child.age}\n   - zájmy: ${child.specifics}`,
+        )
+        .join('\n')
+      return `${acc}${children}\n   => Sběrná místa: ${generateGatheringPlacesForEmail(
         family.gatheringPlaces,
       )}.\n`
-    }, '')
+    }, '\n=> Jedno vybrané dítě, či sourozenci:\n')
   }
 
   function generateGatheringPlacesForEmail(places) {
