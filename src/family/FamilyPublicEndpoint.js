@@ -57,7 +57,7 @@ function FamilyPublicEndpoint(
       if (reservationResults.success) {
         const text = `Dobrý den,\nvelice nás těší Vaše rozhodnutí obdarovat následující děti či sourozence:\n${generateChildrenListForEmail(
           familyIds,
-        )}\n\nDěkujeme! :-)\n\nRealizační tým "Krabice od bot"`
+        )}\n\nDěkujeme! :-)\n\nTým "Vánoční krabice od bot"`
         const message = {
           from: 'krabice@jcicr.cz',
           to: email,
