@@ -57,12 +57,13 @@ function FamilyPublicEndpoint(
       if (reservationResults.success) {
         const text = `Dobrý den,\nvelice nás těší Vaše rozhodnutí obdarovat následující děti či sourozence:\n${generateChildrenListForEmail(
           familyIds,
-        )}\n\nDěkujeme! :-)\n\nTým "Vánoční krabice od bot"`
+        )}\n\nDárky přineste na přidělené sběrné místo v týdnu od pondělí 7.12. do pátku 11.12. 2020. Otevírací hodiny budou vzhledem k epidemiologické situaci zaslány s dostatečným předstihem na Vaši e-mailovou adresu.\n\nV případě jakýchkoliv dotazů nás neváhejte kontaktovat na e-mailové adrese: krabice@jcicr.cz\n\nDěkujeme! :-)\n\nTým "Vánoční krabice od bot"`
+
         const message = {
           from: 'krabice@jcicr.cz',
           to: email,
           cc: 'krabice@jcicr.cz',
-          subject: 'Krabice od bot - potvrzení registrace',
+          subject: 'Vánoční Krabice - potvrzení registrace',
           text: text,
         }
         MailTransport.sendMail(message).then(() => {
