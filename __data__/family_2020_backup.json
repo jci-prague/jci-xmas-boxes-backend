@@ -1,0 +1,210 @@
+[
+  {
+    "id": "bc1e8903-4567-4080-b7f5-8d6afa5a90e0",
+    "free": true,
+    "children": [
+      {
+        "name": "Filip",
+        "age": 12,
+        "gender": "Male",
+        "specifics": "počítačové hry, venkovní aktivity (freerun, trampolína, skákání)"
+      }
+    ],
+    "gatheringPlaces": [2]
+  },
+  {
+    "id": "6715366e-5966-4be9-8c41-ec9b6c70c847",
+    "free": true,
+    "children": [
+      {
+        "name": "Dominik",
+        "age": 15,
+        "gender": "Male",
+        "specifics": "vaření, IT, počítačové hry, programování, hra na klavír, filmy a seriály s anime motivy"
+      }
+    ],
+    "gatheringPlaces": [2]
+  },
+  {
+    "id": "6decd7f7-15e3-4d45-8327-cd64a8909065",
+    "free": true,
+    "children": [
+      {
+        "name": "Vítek",
+        "age": 14,
+        "gender": "Male",
+        "specifics": "společenské i počítačové hry, venkovní aktivity, stavebnice"
+      }
+    ],
+    "gatheringPlaces": [2]
+  },
+  {
+    "id": "f0f16672-0f3d-4ddc-ac6d-59ecbd210309",
+    "free": true,
+    "children": [
+      {
+        "name": "Danča",
+        "age": 12,
+        "gender": "Female",
+        "specifics": "kosmetika, barevné spreje na vlasy, skateboard, kabela BTS"
+      }
+    ],
+    "gatheringPlaces": [2]
+  },
+  {
+    "id": "631817a3-eeb4-458d-9c5e-d40e9621adf9",
+    "free": true,
+    "children": [
+      {
+        "name": "Sába",
+        "age": 10,
+        "gender": "Female",
+        "specifics": "holčičí šperky, oblečení (velikost S, M), sluchátka a další komponenty k mobilu"
+      }
+    ],
+    "gatheringPlaces": [2]
+  },
+  {
+    "id": "e0a3facb-0619-4e82-a76e-cae69a18352e",
+    "free": true,
+    "children": [
+      {
+        "name": "David",
+        "age": 13,
+        "gender": "Male",
+        "specifics": "technika a elektrotechnika (baví ho rozebírat a opravovat), hudba, počítačové hry"
+      }
+    ],
+    "gatheringPlaces": [2]
+  },
+  {
+    "id": "4517bd32-f123-40cb-8c73-d8f86ea24e4f",
+    "free": true,
+    "children": [
+      {
+        "name": "Lukáš",
+        "age": 11,
+        "gender": "Male",
+        "specifics": "kutilské náčiní, skládání a lepení lodí"
+      }
+    ],
+    "gatheringPlaces": [2]
+  },
+  {
+    "id": "6a621052-d90e-48a6-83dd-93b07edce698",
+    "free": true,
+    "children": [
+      {
+        "name": "Dan",
+        "age": 13,
+        "gender": "Male",
+        "specifics": "drobná elektrotechnika (repráčky a sluchátka k mobilnímu telefonu)"
+      }
+    ],
+    "gatheringPlaces": [2]
+  },
+  {
+    "id": "a442e277-6e0a-4420-a3c7-7c1dd4736ab0",
+    "free": true,
+    "children": [
+      {
+        "name": "Sofča",
+        "age": 15,
+        "gender": "Female",
+        "specifics": "kreslení, grafika anime, Maincraft, počítačové hry, knihy s anime tematikou"
+      }
+    ],
+    "gatheringPlaces": [2]
+  },
+  {
+    "id": "f7c78973-5ec4-490e-9442-e3a3778e86fe",
+    "free": true,
+    "children": [
+      {
+        "name": "Dominik",
+        "age": 14,
+        "gender": "Male",
+        "specifics": "vlaky, MHD, jízní řády, jízda na kole, kosmetika"
+      }
+    ],
+    "gatheringPlaces": [2]
+  },
+  {
+    "id": "e02cc883-f6b2-4f44-bf7d-3a7c17c7d549",
+    "free": true,
+    "children": [
+      {
+        "name": "Táda",
+        "age": 8,
+        "gender": "Male",
+        "specifics": "autíčka, autodráha, dětské nářadí (vrtačka, šroubovák), lego"
+      }
+    ],
+    "gatheringPlaces": [2]
+  },
+  {
+    "id": "5a46a364-d315-4438-a745-0a5c3bcda530",
+    "free": true,
+    "children": [
+      {
+        "name": "Terka",
+        "age": 12,
+        "gender": "Female",
+        "specifics": "sportovní aktivity, žonglování, vodáctví"
+      }
+    ],
+    "gatheringPlaces": [2]
+  },
+  {
+    "id": "e1e06613-7d73-43fa-bb51-f0ada39bffdb",
+    "free": true,
+    "children": [
+      {
+        "name": "Fanda",
+        "age": 8,
+        "gender": "Male",
+        "specifics": "autíčka, autodráha, lego, švihadlo, míč, domácí kuželky"
+      }
+    ],
+    "gatheringPlaces": [2]
+  },
+  {
+    "id": "e9e6b75c-3527-4b96-8f83-031529345b05",
+    "free": true,
+    "children": [
+      {
+        "name": "Enrico",
+        "age": 13,
+        "gender": "Male",
+        "specifics": "hiphopové oblečení (štíhlá postava, ale oblečení by mělo být správě \"hiphopově\" volné) "
+      }
+    ],
+    "gatheringPlaces": [2]
+  },
+  {
+    "id": "4b0e9674-717f-4515-8dda-3eee1019abea",
+    "free": true,
+    "children": [
+      {
+        "name": "Ráchel",
+        "age": 14,
+        "gender": "Female",
+        "specifics": "funkční sportovní tričko - Adidas, Nike (velikost S/M)"
+      }
+    ],
+    "gatheringPlaces": [2]
+  },
+  {
+    "id": "3e20c0cb-cfe9-42d6-a088-21cecd7c4d1d",
+    "free": true,
+    "children": [
+      {
+        "name": "Adam",
+        "age": 5,
+        "gender": "Male",
+        "specifics": "vaření, dětská kuchyňka"
+      }
+    ],
+    "gatheringPlaces": [2]
+  }
+]

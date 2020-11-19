@@ -4,11 +4,14 @@ const csvtojson = require('csvtojson')
 const fs = require('fs')
 const uuid = require('uuid/v4')
 
-const inputFilePaths = [
-  'dobra_rodina_2019.csv',
-  'dd_prestavlky_2019.csv',
-  'barevny_svet_deti_2019.csv',
-]
+// Year 2019
+// const inputFilePaths = [
+//   'dobra_rodina_2019.csv',
+//   'dd_prestavlky_2019.csv',
+//   'barevny_svet_deti_2019.csv',
+// ]
+// Year 2020
+const inputFilePaths = ['barevny_svet_deti_2020.csv']
 
 let familiesMap = {}
 

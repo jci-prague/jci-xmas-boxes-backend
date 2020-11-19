@@ -1,0 +1,2104 @@
+[
+  {
+    "id": "25adaa83-3604-48a2-ab93-1a7215f0db41",
+    "free": true,
+    "children": [
+      {
+        "name": "Veronika",
+        "age": 8,
+        "gender": "Female",
+        "specifics": "Koníčky: tancování, zpěv, plavání. Sliz, panenky, kreslící potřeby, oblečení vel. L."
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Tereza Škavronková",
+      "email": "Terka8888@seznam.cz"
+    }
+  },
+  {
+    "id": "6430efdb-0286-4b87-be35-d429a4f94ef7",
+    "free": true,
+    "children": [
+      {
+        "name": "Dušánek",
+        "age": 5,
+        "gender": "Male",
+        "specifics": "potěší cokoliv"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Hana N.",
+      "email": "hana.prg@gmail.com"
+    }
+  },
+  {
+    "id": "c7fd5e5c-2554-4be5-9c78-2d25dafa5a7f",
+    "free": true,
+    "children": [
+      {
+        "name": "Pepík",
+        "age": 3,
+        "gender": "Male",
+        "specifics": "potěší cokoliv"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Kateřina Vecseyová",
+      "email": "katka4.4@seznam.cz"
+    }
+  },
+  {
+    "id": "d11d1306-5c22-4548-aec3-5cd7ddc48232",
+    "free": true,
+    "children": [
+      {
+        "name": "Markus",
+        "age": 11,
+        "gender": "Male",
+        "specifics": "potěší cokoliv"
+      },
+      {
+        "name": "Izabela",
+        "age": 15,
+        "gender": "Female",
+        "specifics": "potěší cokoliv"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Martina Fabiánová",
+      "email": "anitram.k@centrum.cz"
+    }
+  },
+  {
+    "id": "4b7406ab-68f8-4393-bfd3-c2594aa837df",
+    "free": true,
+    "children": [
+      {
+        "name": "Rozálie",
+        "age": 13,
+        "gender": "Female",
+        "specifics": "Koníčky: tancování, pečení dortů, móda a líčení"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Klára Kuncová ",
+      "email": "dlouha.klara@gmail.com "
+    }
+  },
+  {
+    "id": "0e52195e-7fe6-49a8-8735-249591d46d0e",
+    "free": true,
+    "children": [
+      {
+        "name": "Šarlota",
+        "age": 10,
+        "gender": "Female",
+        "specifics": "oblečení vel. XL,  pastelky, omalovánky, dětská knížka"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Dominika Voříšková",
+      "email": "domivoriskova@seznam.cz"
+    }
+  },
+  {
+    "id": "daecb6ef-ddcf-4448-84bd-b4028cf3c5f3",
+    "free": true,
+    "children": [
+      {
+        "name": "Dominik",
+        "age": 9,
+        "gender": "Male",
+        "specifics": "Koníčky: fotbal, atletika  luštění křížovek, dětské encyklopdie, dokumenty"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Hana Bendová",
+      "email": "Hana.benda@centrum.cz"
+    }
+  },
+  {
+    "id": "2481a590-bb53-4eaf-9ec1-1d89dd14940c",
+    "free": true,
+    "children": [
+      {
+        "name": "Amélie",
+        "age": 10,
+        "gender": "Female",
+        "specifics": "oblečení vel. L, kabelky, oblečení, kosmetika"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Eva Rejmonova",
+      "email": "evarejmonova@seznam.cz"
+    }
+  },
+  {
+    "id": "f1066968-c50a-4e4b-82c1-a2de3b152a84",
+    "free": true,
+    "children": [
+      {
+        "name": "Sofie",
+        "age": 7,
+        "gender": "Female",
+        "specifics": "Koníčky: čas tráví hodně venku, keramika"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Petra Brizman ",
+      "email": "Pbrizman@hotmail.co.uk"
+    }
+  },
+  {
+    "id": "5d955ac9-b08e-499f-9644-bbce22736e47",
+    "free": true,
+    "children": [
+      {
+        "name": "Ctirad",
+        "age": 6,
+        "gender": "Male",
+        "specifics": "Koníčky: tráví čas u počítače nebo si hrají s legem"
+      },
+      {
+        "name": "Viktor",
+        "age": 10,
+        "gender": "Male",
+        "specifics": "Koníčky: tráví čas u počítače nebo si hrají s legem"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Ivana ",
+      "email": "jozzefina.mala@gmail.com"
+    }
+  },
+  {
+    "id": "d0dc9d9b-852d-4a41-8792-427ba57efe7b",
+    "free": true,
+    "children": [
+      {
+        "name": "Dominik",
+        "age": 12,
+        "gender": "Male",
+        "specifics": "bude rád za cokoli"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Kristýna Šubrtová ",
+      "email": "kristyn@vilny.cz"
+    }
+  },
+  {
+    "id": "90e14cef-a041-4362-9f1e-2c0b908053fe",
+    "free": true,
+    "children": [
+      {
+        "name": "Filip",
+        "age": 8,
+        "gender": "Male",
+        "specifics": "Koníčky: fotbal a deskové hry"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Klára Zítová",
+      "email": "Zitovaklara88@gmail.com"
+    }
+  },
+  {
+    "id": "291cbc7b-f064-4e89-a9ca-84f46249bf7b",
+    "free": true,
+    "children": [
+      {
+        "name": "Michael",
+        "age": 5,
+        "gender": "Male",
+        "specifics": "Cokoliv, jen prosím žádné oblečení"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Dáša, Honza",
+      "email": "Da.siky@seznam.cz "
+    }
+  },
+  {
+    "id": "735ed957-5f65-4100-b1c5-07bb7e1c52df",
+    "free": true,
+    "children": [
+      {
+        "name": "Adam",
+        "age": 7,
+        "gender": "Male",
+        "specifics": "Cokoliv, jen prosím žádné oblečení"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Mirka",
+      "email": "MirkaKoncelova@seznam.cz"
+    }
+  },
+  {
+    "id": "91dc05be-1a3d-4e51-9e6e-addaf56f4d31",
+    "free": true,
+    "children": [
+      {
+        "name": "David",
+        "age": 9,
+        "gender": "Male",
+        "specifics": "Cokoliv, jen prosím žádné oblečení"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Elizabeth Trčková ",
+      "email": "eliz.trckova@gmail.com"
+    }
+  },
+  {
+    "id": "9607b480-5e09-45bc-bfe8-d96a3f138bb5",
+    "free": true,
+    "children": [
+      {
+        "name": "Kristina",
+        "age": 6,
+        "gender": "Female",
+        "specifics": "Koníčky: tvoření, kreslení a malování (ideálně ne oblečení)"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Eva Rusová ",
+      "email": "Rusovaeva@seznam.cz"
+    }
+  },
+  {
+    "id": "4bfd0a3f-ce79-45a1-aa1e-d68799751552",
+    "free": true,
+    "children": [
+      {
+        "name": "Erika",
+        "age": 8,
+        "gender": "Female",
+        "specifics": "Koníčky: tanec, prosím žádné oblečení"
+      },
+      {
+        "name": "Eda",
+        "age": 6,
+        "gender": "Male",
+        "specifics": "ideálně ne oblečení"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Jaroslava Fojtíková",
+      "email": "Fojtikova.jar@centrum.cz"
+    }
+  },
+  {
+    "id": "172bc8fd-c5bb-46ad-a0d2-056e83020969",
+    "free": true,
+    "children": [
+      {
+        "name": "Angelina",
+        "age": 4,
+        "gender": "Female",
+        "specifics": "Koníčky: tanec,  ideálně ne oblečení"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Markéta Rozehnalová",
+      "email": "maida@email.cz"
+    }
+  },
+  {
+    "id": "eb7f58ac-02ce-4514-bd27-c20546298f3a",
+    "free": true,
+    "children": [
+      {
+        "name": "Viliam",
+        "age": 8,
+        "gender": "Male",
+        "specifics": "Koníčky: sport, hlavně basketbal, ideálně ne oblečení"
+      },
+      {
+        "name": "Anabella",
+        "age": 3,
+        "gender": "Female",
+        "specifics": "prosím žádné oblečení"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Simona Lackovičová",
+      "email": "lackovic.simona@gmail.com"
+    }
+  },
+  {
+    "id": "873649a4-36e6-4408-a99b-1e95d02865d4",
+    "free": true,
+    "children": [
+      {
+        "name": "Sabina",
+        "age": 12,
+        "gender": "Female",
+        "specifics": "make-up, pastelky, fixy"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Lucie",
+      "email": "lucinda.r@email.cz"
+    }
+  },
+  {
+    "id": "9170cf7e-843f-4380-ad8e-0a860b8758fb",
+    "free": true,
+    "children": [
+      {
+        "name": "Tadeáš",
+        "age": 6,
+        "gender": "Male",
+        "specifics": "auto, puzzle, lego."
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Veronika Manová",
+      "email": "ver.manova@seznam.cz"
+    }
+  },
+  {
+    "id": "47046410-2511-4bf2-8295-fd95e42cb927",
+    "free": true,
+    "children": [
+      {
+        "name": "Simon",
+        "age": 10,
+        "gender": "Male",
+        "specifics": "společenská hra, puzzle"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Dominika Vořísková",
+      "email": "domivoriskova@seznam.cz"
+    }
+  },
+  {
+    "id": "b6e40a57-4347-455f-a306-716090aa859e",
+    "free": true,
+    "children": [
+      {
+        "name": "Scarlet",
+        "age": 4,
+        "gender": "Female",
+        "specifics": "panenka"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Julie Fílová",
+      "email": "marketa.filova@seznam.cz"
+    }
+  },
+  {
+    "id": "4e0acc4e-836e-451d-840c-f4d8b87233cd",
+    "free": true,
+    "children": [
+      {
+        "name": "Elizabeth",
+        "age": 12,
+        "gender": "Female",
+        "specifics": "make-up, řasenka"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Dasa, Honza ",
+      "email": "Da.siky@seznam.cz "
+    }
+  },
+  {
+    "id": "3f6213e8-c771-416a-b531-117f94ff0e01",
+    "free": true,
+    "children": [
+      {
+        "name": "Francesco",
+        "age": 16,
+        "gender": "Male",
+        "specifics": "pomůcky do školy"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Lucie Kuhn",
+      "email": "Lucie.kuhn@gmail.com"
+    }
+  },
+  {
+    "id": "595e7413-a395-4493-b11b-7b108d4d2135",
+    "free": true,
+    "children": [
+      {
+        "name": "Gabriela",
+        "age": 10,
+        "gender": "Female",
+        "specifics": "společenská hra, bižuterie"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Andrea Blomann",
+      "email": "kreaa@cemtrum.cz"
+    }
+  },
+  {
+    "id": "e3c24b3f-a4e6-41d2-a4ed-9f6eab7112d9",
+    "free": true,
+    "children": [
+      {
+        "name": "Nela",
+        "age": 5,
+        "gender": "Female",
+        "specifics": "omalovánky, tenisové míčky, panenka LOL"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Lenka Andrlova",
+      "email": "andrlova.lenka@malgym.cz"
+    }
+  },
+  {
+    "id": "f71750a9-b891-4a1f-93f8-2945db170588",
+    "free": true,
+    "children": [
+      {
+        "name": "Laura",
+        "age": 13,
+        "gender": "Female",
+        "specifics": "make-up, bižuterie"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Marina Dowden",
+      "email": "dowden.marina@gmail.com"
+    }
+  },
+  {
+    "id": "2dbde0a8-6995-4aa5-9066-54631967ed24",
+    "free": true,
+    "children": [
+      {
+        "name": "Vendula",
+        "age": 6,
+        "gender": "Female",
+        "specifics": "oblečení s Frozen, panenka, pastelky"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Veronika Mayova",
+      "email": "Ver.mayova@gmail.con"
+    }
+  },
+  {
+    "id": "eb5f31ec-5998-41aa-8665-75ba646a3a80",
+    "free": true,
+    "children": [
+      {
+        "name": "Matyáš",
+        "age": 4,
+        "gender": "Male",
+        "specifics": "auto, lego."
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Karolína",
+      "email": "duskova.karolina@email.cz"
+    }
+  },
+  {
+    "id": "de8433d4-7551-4c29-9fa3-bcff22168412",
+    "free": true,
+    "children": [
+      {
+        "name": "Samantha",
+        "age": 2,
+        "gender": "Female",
+        "specifics": "Minnie od Mickey Mouse, něco ke tvoření (kreslení, vyrábění), princezny, panenky, kočárek, stavebnice, puzzle (ideálně ne oblečení)"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Vlasta Stulíková ",
+      "email": "vlasta.stulikova@gmail.com"
+    }
+  },
+  {
+    "id": "7e6131be-df7e-4113-823b-4f442142ce0f",
+    "free": true,
+    "children": [
+      {
+        "name": "Richard",
+        "age": 3,
+        "gender": "Male",
+        "specifics": "stavebnice, auto, dětské nářadí, puzzle.(ideálně ne oblečení)"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Alena Filipova",
+      "email": "Alena.filipova@centrum.cz"
+    }
+  },
+  {
+    "id": "aa2e8afc-4ba8-4534-90d2-9d8f22bf975e",
+    "free": true,
+    "children": [
+      {
+        "name": "Tereza",
+        "age": 15,
+        "gender": "Female",
+        "specifics": "drogérie (sprchový gel, krém), parfém, pomůcky do školy, antistresové omalovánky (ideálně ne oblečení)"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Míša a Déna ",
+      "email": "novotnamichaela101@gmail.com"
+    }
+  },
+  {
+    "id": "c4458b5f-0a41-4e1f-b3fa-9d557c462f92",
+    "free": true,
+    "children": [
+      {
+        "name": "Barbora",
+        "age": 16,
+        "gender": "Female",
+        "specifics": "drogérie, kosmetika, lak na nehty, parfém, gumičky do vlasů, společenská hra, antistresové omalovánky (ideálně ne oblečení)"
+      },
+      {
+        "name": "Eliška",
+        "age": 8,
+        "gender": "Female",
+        "specifics": "něco ke tvoření, společenská hra, plastelína, psaní potřeby, omalovánky (ideálně ne oblečení)"
+      },
+      {
+        "name": "Lucie",
+        "age": 10,
+        "gender": "Female",
+        "specifics": "něco ke tvoření, společenská hra, plastelína, psaní potřeby, omalovánky (ideálně ne oblečení)"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Marina Dowden",
+      "email": "dowden.marina@gmail.com"
+    }
+  },
+  {
+    "id": "7a3fe048-733b-4f9e-aed1-924c08036a56",
+    "free": true,
+    "children": [
+      {
+        "name": "Justin",
+        "age": 9,
+        "gender": "Male",
+        "specifics": "auto na dálkové ovládání, lego, stavebnice, má rád sport (míč, kopačák) (ideálně ne oblečení)"
+      },
+      {
+        "name": "Tomáš",
+        "age": 10,
+        "gender": "Male",
+        "specifics": "(autista, neslyšící, mentální retardace) – stavebnice a hračky uzpůsobené jeho zdravotnímu stavu (ideálně ne oblečení)"
+      },
+      {
+        "name": "Claudie",
+        "age": 12,
+        "gender": "Female",
+        "specifics": "ráda zpívá, pomůcky do školy, společenská hra"
+      },
+      {
+        "name": "Dana",
+        "age": 3,
+        "gender": "Female",
+        "specifics": "něco ke tvoření, panenky, stavebnice, lego, omalovánky (ideálně ne oblečení)"
+      },
+      {
+        "name": "Ketrin",
+        "age": 8,
+        "gender": "Female",
+        "specifics": "ráda zpívá, omalovánky, společenská hra, něco ke tvoření (ideálně ne oblečení)"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Johana Habiballa",
+      "email": "lucie.habiballa@seznam.cz"
+    }
+  },
+  {
+    "id": "03f032f9-b24a-4581-b0f5-77a46d0d7110",
+    "free": true,
+    "children": [
+      {
+        "name": "Enrico",
+        "age": 4,
+        "gender": "Male",
+        "specifics": "stavebnice, lego, auto, dřevěné hračky, puzzle (ideálně ne oblečení)"
+      },
+      {
+        "name": "Sabina",
+        "age": 10,
+        "gender": "Female",
+        "specifics": "omalovánky, pomůcky do školy, pastelky, fixy, společenská hra, něco ke tvoření, puzzle (ideálně ne oblečení)"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Klára Matějčková",
+      "email": "matejckova.klara@gmail.com"
+    }
+  },
+  {
+    "id": "16173c96-88ce-4e90-a3c9-35d82af06b3e",
+    "free": true,
+    "children": [
+      {
+        "name": "Adriana",
+        "age": 13,
+        "gender": "Female",
+        "specifics": "mají rády koně (něco o koních), puzzle, společenská hra, rády kreslí a něco tvoří. (ideálně ne oblečení)"
+      },
+      {
+        "name": "Tereza",
+        "age": 15,
+        "gender": "Female",
+        "specifics": "mají rády koně (něco o koních), puzzle, společenská hra, rády kreslí a něco tvoří (ideálně ne oblečení)"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Karolína Balková",
+      "email": "granorka@seznam.cz"
+    }
+  },
+  {
+    "id": "d6069c0a-2354-4803-b99d-3f827e32a2d4",
+    "free": true,
+    "children": [
+      {
+        "name": "David",
+        "age": 12,
+        "gender": "Male",
+        "specifics": "společenská hra, stavebnice, pomůcky do školy, sportovní batoh (ideálně ne oblečení)"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Jevgenija Vymetalova",
+      "email": "jevgenija.vym@gmail.com"
+    }
+  },
+  {
+    "id": "16c42b0f-efc7-477e-99c3-60936dbce5ed",
+    "free": true,
+    "children": [
+      {
+        "name": "Karolínka",
+        "age": 5,
+        "gender": "Female",
+        "specifics": "Koníčky: malování. Vysoká postava"
+      },
+      {
+        "name": "Matyáš",
+        "age": 2,
+        "gender": "Male",
+        "specifics": "Koníčky: malování. Vysoká postava"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Pospíšilovi",
+      "email": "neeja@seznam.cz"
+    }
+  },
+  {
+    "id": "1f6ce416-ad65-426b-96c7-36926cb0beca",
+    "free": true,
+    "children": [
+      {
+        "name": "L´udovít",
+        "age": 13,
+        "gender": "Male",
+        "specifics": "sportovně nadaní, ideální např. kopací míč"
+      },
+      {
+        "name": "Kristián",
+        "age": 12,
+        "gender": "Male",
+        "specifics": "sportovně nadaní, ideální např. kopací míč"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "romana šteflová",
+      "email": "romana.steflova@marsarchitects.cz"
+    }
+  },
+  {
+    "id": "1451e4f7-011e-4eb9-886d-1e6af0389918",
+    "free": true,
+    "children": [
+      {
+        "name": "Filip",
+        "age": 10,
+        "gender": "Male",
+        "specifics": "Koníčky: rybaření, jízda na kole, sport v tělocvičně. Vel. Oblečení M, vel. obuvi 39"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Nikola Kotková",
+      "email": "kotkova68@gmail.com"
+    }
+  },
+  {
+    "id": "ebeaab30-a810-47d4-8ae9-d5430c6d7c8e",
+    "free": true,
+    "children": [
+      {
+        "name": "Romanka",
+        "age": 6,
+        "gender": "Female",
+        "specifics": "domeček pro panenky"
+      },
+      {
+        "name": "Hanička",
+        "age": 4,
+        "gender": "Female",
+        "specifics": "koníka s mašličkami"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Milena Chládková",
+      "email": "mila.chladkova@seznam.cz"
+    }
+  },
+  {
+    "id": "de09f85b-5a7c-4b42-957e-7661d237c2d8",
+    "free": true,
+    "children": [
+      {
+        "name": "Kačenka",
+        "age": 7,
+        "gender": "Female",
+        "specifics": "panenku princeznu"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Denisa Kratochvílová",
+      "email": "denisa.kratochvilova17@gmail.com"
+    }
+  },
+  {
+    "id": "47d8868e-6170-4909-83d6-f9771bef1d54",
+    "free": true,
+    "children": [
+      {
+        "name": "Miloslav",
+        "age": 15,
+        "gender": "Male",
+        "specifics": "Koníčky: vaření"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Martina ",
+      "email": "Martina-vachova@post.cz"
+    }
+  },
+  {
+    "id": "fd427510-95c7-405b-a7da-72bbdf6498aa",
+    "free": true,
+    "children": [
+      {
+        "name": "Dominik",
+        "age": 13,
+        "gender": "Male",
+        "specifics": "Koníčky: angličina"
+      },
+      {
+        "name": "Karolínka",
+        "age": 10,
+        "gender": "Female",
+        "specifics": "Koníčky: čtení"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "sekunda B Malgym",
+      "email": "novotna.hana@malgym.cz"
+    }
+  },
+  {
+    "id": "621e9902-f858-41c9-99db-09097a9ef88e",
+    "free": true,
+    "children": [
+      {
+        "name": "Venoušek",
+        "age": 3,
+        "gender": "Male",
+        "specifics": "autíčka"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Václav Ševčík",
+      "email": "vaclav.sevcik@actis.cz"
+    }
+  },
+  {
+    "id": "7b5340dc-6b2a-45eb-ae65-e2953172b830",
+    "free": true,
+    "children": [
+      {
+        "name": "Jaroušek",
+        "age": 4,
+        "gender": "Male",
+        "specifics": "autíčka"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Václav Ševčík",
+      "email": "vaclav.sevcik@actis.cz"
+    }
+  },
+  {
+    "id": "546447ba-7d6a-4f6b-94a1-34d7a153e03a",
+    "free": true,
+    "children": [
+      {
+        "name": "Pavlínka",
+        "age": 6,
+        "gender": "Female",
+        "specifics": "panenku"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Hana Novotná",
+      "email": "hana.prg@gmail.com"
+    }
+  },
+  {
+    "id": "3f9faf88-f0ec-4297-b38c-268b2ba1c167",
+    "free": true,
+    "children": [
+      {
+        "name": "Michal",
+        "age": 13,
+        "gender": "Male",
+        "specifics": "Koníčky: rybaření"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Michaela Hanáková",
+      "email": "hanakova.misha@seznam.cz"
+    }
+  },
+  {
+    "id": "28aafb39-5b2b-49f5-b19e-3962864e8316",
+    "free": true,
+    "children": [
+      {
+        "name": "Natálka",
+        "age": 12,
+        "gender": "Female",
+        "specifics": "věci na líčení"
+      },
+      {
+        "name": "Vaneska",
+        "age": 10,
+        "gender": "Female",
+        "specifics": "potřeby na malování, kreslení"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Iveta Šebečková",
+      "email": "sebeckova.iveta@seznam.cz"
+    }
+  },
+  {
+    "id": "acba27a6-cd32-401c-9d55-48949b571549",
+    "free": true,
+    "children": [
+      {
+        "name": "Věruška",
+        "age": 7,
+        "gender": "Female",
+        "specifics": "panenku"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Tamara Hořejšová",
+      "email": "htamara@seznam.cz"
+    }
+  },
+  {
+    "id": "77793755-8d90-4c36-bcca-58927ae25395",
+    "free": true,
+    "children": [
+      {
+        "name": "Brian",
+        "age": 5,
+        "gender": "Male",
+        "specifics": "auta, stavebnice, pohádková kniha"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Karolína",
+      "email": "duskova.karolina@email.cz"
+    }
+  },
+  {
+    "id": "f0a0f13d-dbd7-47b3-b047-864aa094c5b8",
+    "free": true,
+    "children": [
+      {
+        "name": "Oliver",
+        "age": 5,
+        "gender": "Male",
+        "specifics": "něco s postavou spider-mana, pohádková kniha."
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Blanka Pichlová",
+      "email": "pichlova@jablotron.cz"
+    }
+  },
+  {
+    "id": "00d095d4-38e5-4a36-b137-d9bae7047704",
+    "free": true,
+    "children": [
+      {
+        "name": "Anita Marie",
+        "age": 4,
+        "gender": "Female",
+        "specifics": "má ráda princezny a pohádky jako je Ledové království."
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Julie Fílová",
+      "email": "marketa.filova@seznam.cz"
+    }
+  },
+  {
+    "id": "bede774e-863d-4934-ae95-a17f7f06420e",
+    "free": true,
+    "children": [
+      {
+        "name": "Jan",
+        "age": 15,
+        "gender": "Male",
+        "specifics": "Koníčky: chce být elektrikářem"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Iveta Šebečková",
+      "email": "sebeckova.iveta@seznam.cz"
+    }
+  },
+  {
+    "id": "cebe8d9e-69e6-40d7-8a85-57e5aae4e9f3",
+    "free": true,
+    "children": [
+      {
+        "name": "Sabina",
+        "age": 14,
+        "gender": "Female",
+        "specifics": "trpí mentální retardací, má ráda zvířata"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Martina Antálková",
+      "email": "pelkova.martina@seznam.cz"
+    }
+  },
+  {
+    "id": "e8136c80-85ae-4b09-8b88-8518a3966ec9",
+    "free": true,
+    "children": [
+      {
+        "name": "Nella",
+        "age": 7,
+        "gender": "Female",
+        "specifics": "Koníčky: miluje koně, oblečení vel. L"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Bára Uksová",
+      "email": "bara.uksova@gmail.com"
+    }
+  },
+  {
+    "id": "50880ba2-0cfd-4692-9387-a4b5378e1657",
+    "free": true,
+    "children": [
+      {
+        "name": "Ondřej",
+        "age": 13,
+        "gender": "Male",
+        "specifics": "Koníčky: fotbal a florbal"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Václav Ševčík",
+      "email": "vaclav.sevcik@actis.cz"
+    }
+  },
+  {
+    "id": "36671c36-0d20-4440-89ff-ec62a51a8d8e",
+    "free": true,
+    "children": [
+      {
+        "name": "Kačenka",
+        "age": 13,
+        "gender": "Female",
+        "specifics": "Cokoliv"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Zdena Blahovcova ",
+      "email": "nattally@seznam.cz"
+    }
+  },
+  {
+    "id": "5e14d769-29fb-4d6e-89b9-5e5fd61033ca",
+    "free": true,
+    "children": [
+      {
+        "name": "Filípek",
+        "age": 5,
+        "gender": "Male",
+        "specifics": "Cokoliv"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Anna Haurova",
+      "email": "annahaurova@seznam.cz"
+    }
+  },
+  {
+    "id": "eebee9c8-fb74-4bfb-8ff6-ba1893f263ed",
+    "free": true,
+    "children": [
+      {
+        "name": "Vendulka",
+        "age": 5,
+        "gender": "Female",
+        "specifics": "Cokoliv"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Pospíšilovi",
+      "email": "neeja@seznam.cz"
+    }
+  },
+  {
+    "id": "53d16843-f202-468f-a214-6bd2d25a0580",
+    "free": true,
+    "children": [
+      {
+        "name": "Jana",
+        "age": 5,
+        "gender": "Female",
+        "specifics": "Annu a Elsu - Ledové království, stavebnice, panenky"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Katerina Mikulcova",
+      "email": "Katerina.myfilm@gmail.com"
+    }
+  },
+  {
+    "id": "24105960-f5e2-46a6-88d6-6042460dab10",
+    "free": true,
+    "children": [
+      {
+        "name": "Anežka",
+        "age": 13,
+        "gender": "Female",
+        "specifics": "chlupaté věci – polštář, penál, ponožky"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Markéta Fílová",
+      "email": "marketa.filova@seznam.cz"
+    }
+  },
+  {
+    "id": "951b1f5c-2edf-42e7-9c4a-494d7594ee6a",
+    "free": true,
+    "children": [
+      {
+        "name": "Florián",
+        "age": 5,
+        "gender": "Male",
+        "specifics": "sportovec – bikros, má rád Spidermana (čepici), má rád auta na ovládání, velikost bot 30, oblečení 116"
+      },
+      {
+        "name": "Rubiana",
+        "age": 5,
+        "gender": "Female",
+        "specifics": "Koníčky: sportovkyně, gymnastka, ráda sestavuje puzzle. Má ráda Elsu a Annu, velikost bot 29, oblečení 116"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Šédová",
+      "email": "sedova@gtmskola.cz"
+    }
+  },
+  {
+    "id": "b0534ebd-d48c-4e44-a0bd-ad3ee23dd91b",
+    "free": true,
+    "children": [
+      {
+        "name": "Adéla",
+        "age": 1,
+        "gender": "Female",
+        "specifics": "cokoliv"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Monika Procházková",
+      "email": "prochazkova.monika@malgym.cz"
+    }
+  },
+  {
+    "id": "dfbcbef8-3ce2-4eb3-8cab-ec261f228db9",
+    "free": true,
+    "children": [
+      {
+        "name": "Michael",
+        "age": 14,
+        "gender": "Male",
+        "specifics": "stavebnice, autíčka"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Václav Ševčík",
+      "email": "vaclav.sevcik@actis.cz"
+    }
+  },
+  {
+    "id": "947b3546-481e-4ea0-829b-7dfd8a1a92c8",
+    "free": true,
+    "children": [
+      {
+        "name": "Anežka",
+        "age": 8,
+        "gender": "Female",
+        "specifics": "Koníčky: knihy, zpěv, hra na hudební nástroje (flétna), puzzle. Dítě s kombinovaným postižením"
+      },
+      {
+        "name": "Julie",
+        "age": 8,
+        "gender": "Female",
+        "specifics": "Koníčky: knihy, zpěv, hra na hudební nástroje (flétna)"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Dominika Voříšková",
+      "email": "domivoriskova@seznam.cz"
+    }
+  },
+  {
+    "id": "7c04d51f-18d4-4209-8230-0b56f1e18e47",
+    "free": true,
+    "children": [
+      {
+        "name": "Patrik",
+        "age": 12,
+        "gender": "Male",
+        "specifics": "Koníčky: jízda na koni, tancování, florbal"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Kačka",
+      "email": "kate.hovy@gmail.com"
+    }
+  },
+  {
+    "id": "d8bbc2c5-958b-45a4-b5d2-58b1af775877",
+    "free": true,
+    "children": [
+      {
+        "name": "Mercedes",
+        "age": 1,
+        "gender": "Female",
+        "specifics": "jakékoliv zimní vybavení pro pěstouny"
+      },
+      {
+        "name": "Ricardo",
+        "age": 1,
+        "gender": "Male",
+        "specifics": "jakékoliv zimní vybavení pro pěstouny"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Lucia Martinkova ",
+      "email": "Lucia.martinkova@gmail.com"
+    }
+  },
+  {
+    "id": "1e2a04fb-f480-49ef-9e92-8b26249297ab",
+    "free": true,
+    "children": [
+      {
+        "name": "Roman",
+        "age": 6,
+        "gender": "Male",
+        "specifics": "Koníčky: rybaření, kreslení, kreslené hlavolamy, jako spojovačky, doplňovačky"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Karolína",
+      "email": "duskova.karolina@email.cz"
+    }
+  },
+  {
+    "id": "17092912-d830-4f1e-be9e-ea46810a700e",
+    "free": true,
+    "children": [
+      {
+        "name": "Chanel",
+        "age": 2,
+        "gender": "Female",
+        "specifics": "plenky, jakýkoliv praktický dárek na pomoc k péči"
+      },
+      {
+        "name": "Roman",
+        "age": 3,
+        "gender": "Male",
+        "specifics": "jakýkoliv praktický dárek na pomoc k péči"
+      }
+    ],
+    "gatheringPlaces": [1, 0],
+    "contact": {
+      "name": "Jerhotovi",
+      "email": "jerhotova@outlook.cz"
+    }
+  },
+  {
+    "id": "6b1ee3f9-3178-4a4a-b845-a8bc7a954b35",
+    "free": true,
+    "children": [
+      {
+        "name": "Dušan",
+        "age": 2,
+        "gender": "Male",
+        "specifics": ""
+      },
+      {
+        "name": "Viktorie",
+        "age": 4,
+        "gender": "Female",
+        "specifics": ""
+      }
+    ],
+    "gatheringPlaces": [0],
+    "contact": {
+      "name": "Jitka Kováříková",
+      "email": "jytuska@centrum.cz"
+    }
+  },
+  {
+    "id": "72539c21-f150-4465-b491-e8e7831b2924",
+    "free": true,
+    "children": [
+      {
+        "name": "Helena",
+        "age": 13,
+        "gender": "Female",
+        "specifics": ""
+      },
+      {
+        "name": "Kristýna",
+        "age": 14,
+        "gender": "Female",
+        "specifics": ""
+      },
+      {
+        "name": "Ricky",
+        "age": 6,
+        "gender": "Male",
+        "specifics": ""
+      },
+      {
+        "name": "Richard",
+        "age": 10,
+        "gender": "Male",
+        "specifics": ""
+      },
+      {
+        "name": "Oliver",
+        "age": 9,
+        "gender": "Male",
+        "specifics": ""
+      },
+      {
+        "name": "Maxim",
+        "age": 4,
+        "gender": "Male",
+        "specifics": ""
+      },
+      {
+        "name": "Emil",
+        "age": 13,
+        "gender": "Male",
+        "specifics": ""
+      }
+    ],
+    "gatheringPlaces": [0],
+    "contact": {
+      "name": "Katerina",
+      "email": "katerinitrielka@icloud.com"
+    }
+  },
+  {
+    "id": "148c76d0-0f57-4f21-80a3-798b13d41d6e",
+    "free": true,
+    "children": [
+      {
+        "name": "Eliška",
+        "age": 9,
+        "gender": "Female",
+        "specifics": ""
+      },
+      {
+        "name": "Sylvie",
+        "age": 13,
+        "gender": "Female",
+        "specifics": ""
+      }
+    ],
+    "gatheringPlaces": [0],
+    "contact": {
+      "name": "Natálie Nádassy",
+      "email": "n.nadassy@volny.cz"
+    }
+  },
+  {
+    "id": "286027d6-a9b2-48da-928c-1b88fb859831",
+    "free": true,
+    "children": [
+      {
+        "name": "Natálie",
+        "age": 12,
+        "gender": "Female",
+        "specifics": ""
+      },
+      {
+        "name": "Andrea",
+        "age": 11,
+        "gender": "Female",
+        "specifics": ""
+      }
+    ],
+    "gatheringPlaces": [0],
+    "contact": {
+      "name": "Kristýna Šubrtová ",
+      "email": "kristyn@vilny.cz"
+    }
+  },
+  {
+    "id": "251a6427-6003-4f02-8256-9a2fba3c7812",
+    "free": true,
+    "children": [
+      {
+        "name": "Vlastimil",
+        "age": 12,
+        "gender": "Male",
+        "specifics": ""
+      },
+      {
+        "name": "Iveta",
+        "age": 14,
+        "gender": "Female",
+        "specifics": ""
+      },
+      {
+        "name": "Darina",
+        "age": 16,
+        "gender": "Female",
+        "specifics": ""
+      }
+    ],
+    "gatheringPlaces": [0],
+    "contact": {
+      "name": "Hana Křenková",
+      "email": "info@akkrenkova.cz"
+    }
+  },
+  {
+    "id": "f22cd8b9-919f-4b6b-b608-50f5a71e96ca",
+    "free": true,
+    "children": [
+      {
+        "name": "Ondřej",
+        "age": 17,
+        "gender": "Male",
+        "specifics": ""
+      }
+    ],
+    "gatheringPlaces": [0],
+    "contact": {
+      "name": "Lucie Kokešová",
+      "email": "l.kokesova@seznam.cz"
+    }
+  },
+  {
+    "id": "4bf6ee41-82b6-42fb-ad9f-bee191e089f7",
+    "free": true,
+    "children": [
+      {
+        "name": "Daniel",
+        "age": 10,
+        "gender": "Male",
+        "specifics": ""
+      },
+      {
+        "name": "Agáta",
+        "age": 3,
+        "gender": "Female",
+        "specifics": ""
+      },
+      {
+        "name": "Tereza",
+        "age": 9,
+        "gender": "Female",
+        "specifics": ""
+      },
+      {
+        "name": "Matyas",
+        "age": 4,
+        "gender": "Male",
+        "specifics": ""
+      },
+      {
+        "name": "Kristian",
+        "age": 8,
+        "gender": "Male",
+        "specifics": ""
+      }
+    ],
+    "gatheringPlaces": [0],
+    "contact": {
+      "name": "Tereza Chalupová",
+      "email": "tflanderkova@seznam.cz"
+    }
+  },
+  {
+    "id": "27290f45-18f6-4274-a5eb-805d440c3914",
+    "free": true,
+    "children": [
+      {
+        "name": "Martin",
+        "age": 14,
+        "gender": "Male",
+        "specifics": ""
+      },
+      {
+        "name": "Sandra",
+        "age": 16,
+        "gender": "Female",
+        "specifics": ""
+      }
+    ],
+    "gatheringPlaces": [0],
+    "contact": {
+      "name": "Spáčilovi",
+      "email": "jan.spacil@servier.com"
+    }
+  },
+  {
+    "id": "edb46557-0041-47db-b864-f914a08c7a82",
+    "free": true,
+    "children": [
+      {
+        "name": "Alex",
+        "age": 12,
+        "gender": "Male",
+        "specifics": ""
+      },
+      {
+        "name": "Nikolas",
+        "age": 11,
+        "gender": "Male",
+        "specifics": ""
+      }
+    ],
+    "gatheringPlaces": [0],
+    "contact": {
+      "name": "Katka Štěpánková",
+      "email": "info@atelierpdb.cz"
+    }
+  },
+  {
+    "id": "f347a5ec-101d-4b76-8d5b-07c94f483c69",
+    "free": true,
+    "children": [
+      {
+        "name": "Radek",
+        "age": 18,
+        "gender": "Male",
+        "specifics": ""
+      }
+    ],
+    "gatheringPlaces": [0],
+    "contact": {
+      "name": "Tereza Besskó ",
+      "email": "bessko@seznam.cz"
+    }
+  },
+  {
+    "id": "55975667-22b3-4fde-af10-43779d840347",
+    "free": true,
+    "children": [
+      {
+        "name": "Dominik",
+        "age": 17,
+        "gender": "Male",
+        "specifics": ""
+      }
+    ],
+    "gatheringPlaces": [0],
+    "contact": {
+      "name": "Tereza Svačinová",
+      "email": "Terezasvacinova@gmail.com"
+    }
+  },
+  {
+    "id": "b9760777-24f3-495e-95da-0d1541712aa2",
+    "free": true,
+    "children": [
+      {
+        "name": "Dávid",
+        "age": 18,
+        "gender": "Male",
+        "specifics": ""
+      }
+    ],
+    "gatheringPlaces": [0],
+    "contact": {
+      "name": "Zuzana Kodytková",
+      "email": "z.kodytkova@tiscali.cz"
+    }
+  },
+  {
+    "id": "363b742d-bc09-4241-8d97-518886430a12",
+    "free": true,
+    "children": [
+      {
+        "name": "Dominik",
+        "age": 11,
+        "gender": "Male",
+        "specifics": ""
+      },
+      {
+        "name": "Ilona",
+        "age": 15,
+        "gender": "Female",
+        "specifics": ""
+      }
+    ],
+    "gatheringPlaces": [0],
+    "contact": {
+      "name": "Alice Čepeláková",
+      "email": "alice.cepelakova@gmail.com"
+    }
+  },
+  {
+    "id": "226ae4ec-d049-4060-bd24-47ffda1b5db1",
+    "free": true,
+    "children": [
+      {
+        "name": "Natálie",
+        "age": 5,
+        "gender": "Female",
+        "specifics": ""
+      }
+    ],
+    "gatheringPlaces": [0],
+    "contact": {
+      "name": "Pospíšilovi",
+      "email": "neeja@seznam.cz"
+    }
+  },
+  {
+    "id": "cefc09a7-95bc-47f4-8d16-0b544f3c5e14",
+    "free": true,
+    "children": [
+      {
+        "name": "Kevin",
+        "age": 14,
+        "gender": "Male",
+        "specifics": ""
+      },
+      {
+        "name": "Sandra",
+        "age": 10,
+        "gender": "Female",
+        "specifics": ""
+      }
+    ],
+    "gatheringPlaces": [0],
+    "contact": {
+      "name": "Filip a Danna",
+      "email": "filip.albert7@gmail.com"
+    }
+  },
+  {
+    "id": "2045a605-424e-4d2c-88a6-f67b5b060de6",
+    "free": true,
+    "children": [
+      {
+        "name": "Jiří",
+        "age": 12,
+        "gender": "Male",
+        "specifics": ""
+      }
+    ],
+    "gatheringPlaces": [0],
+    "contact": {
+      "name": "Anna Stejskalová",
+      "email": "annna.stejskalova@gmail.com"
+    }
+  },
+  {
+    "id": "a25cd9ea-da1e-433f-a8dc-f2030ffc27b4",
+    "free": true,
+    "children": [
+      {
+        "name": "Dominika",
+        "age": 17,
+        "gender": "Female",
+        "specifics": ""
+      }
+    ],
+    "gatheringPlaces": [0],
+    "contact": {
+      "name": "Ilona Laužanská",
+      "email": "ilolau@seznam.cz"
+    }
+  },
+  {
+    "id": "af81652a-e3d6-4cb5-9f6d-3d6d2a76afef",
+    "free": true,
+    "children": [
+      {
+        "name": "Michaela",
+        "age": 16,
+        "gender": "Female",
+        "specifics": ""
+      }
+    ],
+    "gatheringPlaces": [0],
+    "contact": {
+      "name": "Jana Dušková",
+      "email": "jana.duskova@volny.cz"
+    }
+  },
+  {
+    "id": "1d2dd0ec-8ab6-4cd7-b5ad-d561096fb287",
+    "free": true,
+    "children": [
+      {
+        "name": "Ondřej",
+        "age": 17,
+        "gender": "Male",
+        "specifics": ""
+      }
+    ],
+    "gatheringPlaces": [0],
+    "contact": {
+      "name": "Martina Antálková",
+      "email": "pelkova.martina@seznam.cz"
+    }
+  },
+  {
+    "id": "4ed1e8ff-618f-4a31-a573-c1f92586523b",
+    "free": true,
+    "children": [
+      {
+        "name": "Vanesa",
+        "age": 8,
+        "gender": "Female",
+        "specifics": ""
+      }
+    ],
+    "gatheringPlaces": [0],
+    "contact": {
+      "name": "Kristýna Šubrtová ",
+      "email": "kristyn@vilny.cz"
+    }
+  },
+  {
+    "id": "62ff70e2-bdeb-4c1f-9e03-9d4fd7f353d9",
+    "free": true,
+    "children": [
+      {
+        "name": "Gabriel",
+        "age": 14,
+        "gender": "Male",
+        "specifics": ""
+      },
+      {
+        "name": "Sandra",
+        "age": 16,
+        "gender": "Female",
+        "specifics": ""
+      }
+    ],
+    "gatheringPlaces": [0],
+    "contact": {
+      "name": "Tereza Vlčková",
+      "email": "tera.vlckova@gmail.com"
+    }
+  },
+  {
+    "id": "b16fd631-02a6-4028-a5d5-a91f54bf0eab",
+    "free": true,
+    "children": [
+      {
+        "name": "Kevin",
+        "age": 13,
+        "gender": "Male",
+        "specifics": ""
+      },
+      {
+        "name": "Tibor",
+        "age": 15,
+        "gender": "Male",
+        "specifics": ""
+      },
+      {
+        "name": "Sabina",
+        "age": 11,
+        "gender": "Female",
+        "specifics": ""
+      }
+    ],
+    "gatheringPlaces": [0],
+    "contact": {
+      "name": "Petr Štěpánek",
+      "email": "petr.stepanek@patriotmarketinggroup.cz"
+    }
+  },
+  {
+    "id": "6e9beefa-1680-4e42-96c2-ba937eea3910",
+    "free": true,
+    "children": [
+      {
+        "name": "Denisa",
+        "age": 16,
+        "gender": "Female",
+        "specifics": ""
+      }
+    ],
+    "gatheringPlaces": [0],
+    "contact": {
+      "name": "Jana Dušková",
+      "email": "jana.duskova@volny.cz"
+    }
+  },
+  {
+    "id": "08f44c9f-0bd4-4260-8c92-2ad8af1857eb",
+    "free": true,
+    "children": [
+      {
+        "name": "Daniel",
+        "age": 2,
+        "gender": "Male",
+        "specifics": ""
+      },
+      {
+        "name": "Jan",
+        "age": 5,
+        "gender": "Male",
+        "specifics": ""
+      },
+      {
+        "name": "Jiří",
+        "age": 10,
+        "gender": "Male",
+        "specifics": ""
+      },
+      {
+        "name": "Ondřej",
+        "age": 6,
+        "gender": "Male",
+        "specifics": ""
+      },
+      {
+        "name": "Adéla",
+        "age": 9,
+        "gender": "Female",
+        "specifics": ""
+      },
+      {
+        "name": "Marie",
+        "age": 3,
+        "gender": "Female",
+        "specifics": ""
+      }
+    ],
+    "gatheringPlaces": [0],
+    "contact": {
+      "name": "Zuzana Nemeckova ",
+      "email": "zuzik.nem@seznam.cz"
+    }
+  },
+  {
+    "id": "b0af8d7b-b312-41e5-8ffd-61dcb23d3e61",
+    "free": true,
+    "children": [
+      {
+        "name": "Danča",
+        "age": 11,
+        "gender": "Female",
+        "specifics": "Drogerie. kosmetika, oblečení vel. 146/152"
+      }
+    ],
+    "gatheringPlaces": [2, 0],
+    "contact": {
+      "name": "hana Novotná",
+      "email": "hana.prg@gmail.com"
+    }
+  },
+  {
+    "id": "b5227dcf-09f2-4554-aec6-daff535aac43",
+    "free": true,
+    "children": [
+      {
+        "name": "Sába",
+        "age": 9,
+        "gender": "Female",
+        "specifics": "Koníčky: Kreativní, venkovní aktivity, oblečení vel. 134/140"
+      }
+    ],
+    "gatheringPlaces": [2, 0],
+    "contact": {
+      "name": "Hana Bendová",
+      "email": "Hana.benda@centrum.cz"
+    }
+  },
+  {
+    "id": "e40783a0-1897-4fc1-a864-bdceba9b4017",
+    "free": true,
+    "children": [
+      {
+        "name": "David",
+        "age": 12,
+        "gender": "Male",
+        "specifics": "Koníčky: technický typ, práce s elektronikou"
+      }
+    ],
+    "gatheringPlaces": [2, 0],
+    "contact": {
+      "name": "Václav Ševčík",
+      "email": "vaclav.sevcik@actis.cz"
+    }
+  },
+  {
+    "id": "21be9b1c-c8ee-4137-8ff8-3526b05a112b",
+    "free": true,
+    "children": [
+      {
+        "name": "Lukáš",
+        "age": 10,
+        "gender": "Male",
+        "specifics": "potřeby pro zálesáky, stolní hry. oblečení vel 134/140"
+      },
+      {
+        "name": "Dan",
+        "age": 12,
+        "gender": "Male",
+        "specifics": "Koníčky: graffiti, repráčky, sluchátka, potřeby pro zálesáky, obl. vel. 146/150"
+      }
+    ],
+    "gatheringPlaces": [2, 0],
+    "contact": {
+      "name": "CADTeam s.r.o.",
+      "email": "karel.krkoska@cadteam.cz"
+    }
+  },
+  {
+    "id": "80e01a70-8443-4d18-9ba8-cb92c0bc4685",
+    "free": true,
+    "children": [
+      {
+        "name": "Klárka",
+        "age": 15,
+        "gender": "Female",
+        "specifics": "Koníčky: cukrařina, umělecky zaměřená, oblečení vel. XS/S"
+      }
+    ],
+    "gatheringPlaces": [2, 0],
+    "contact": {
+      "name": "Adéla Moidl ",
+      "email": "Adela.kapal@gmail.com "
+    }
+  },
+  {
+    "id": "a4d32179-b9e8-4af8-8e4d-b96625f8d475",
+    "free": true,
+    "children": [
+      {
+        "name": "Páťa",
+        "age": 12,
+        "gender": "Male",
+        "specifics": "YOYO, diabolo, cokoliv k hudbě - repráčky, sluchátka"
+      }
+    ],
+    "gatheringPlaces": [2, 0],
+    "contact": {
+      "name": "Jana Vrlová",
+      "email": "jvrl@seznam.cz"
+    }
+  },
+  {
+    "id": "46fe648c-68da-4844-b893-016983ceb6f4",
+    "free": true,
+    "children": [
+      {
+        "name": "Tadeáš",
+        "age": 7,
+        "gender": "Male",
+        "specifics": "autíčka, stavebnice, lego, fotbálek"
+      }
+    ],
+    "gatheringPlaces": [2, 0],
+    "contact": {
+      "name": "Ivana Wachalová",
+      "email": "Ivana@wachal.cz"
+    }
+  },
+  {
+    "id": "2db3b5ba-2611-4c08-8946-842df66e41c1",
+    "free": true,
+    "children": [
+      {
+        "name": "Tomáš",
+        "age": 8,
+        "gender": "Male",
+        "specifics": "Koníčky: karetní hry, fotbal, venkovní aktivity, oblečení vel.134/140"
+      }
+    ],
+    "gatheringPlaces": [2, 0],
+    "contact": {
+      "name": "Pavla Mühlbachová ",
+      "email": "Pavla.muhlbachova@gmail.com "
+    }
+  },
+  {
+    "id": "bc0cca90-95d8-4ecc-bef1-d5069877e606",
+    "free": true,
+    "children": [
+      {
+        "name": "Adam",
+        "age": 13,
+        "gender": "Male",
+        "specifics": "Koníčky: tvorba videií, natáčení, hudba, youtube, skákání"
+      }
+    ],
+    "gatheringPlaces": [2, 0],
+    "contact": {
+      "name": "Jana Vrlová",
+      "email": "jvrl@seznam.cz"
+    }
+  },
+  {
+    "id": "03a7ee28-1c25-4567-948a-6aba57057485",
+    "free": true,
+    "children": [
+      {
+        "name": "Fanda",
+        "age": 7,
+        "gender": "Male",
+        "specifics": "autíčka, stavebnice, lego"
+      }
+    ],
+    "gatheringPlaces": [2, 0],
+    "contact": {
+      "name": "Eva Mašková",
+      "email": "eva.mash@seznam.cz"
+    }
+  },
+  {
+    "id": "4e06b689-4034-4376-a48e-3b03d45b111a",
+    "free": true,
+    "children": [
+      {
+        "name": "Adélka",
+        "age": 14,
+        "gender": "Female",
+        "specifics": "tancování, kosmetika, oblečení vel. M"
+      },
+      {
+        "name": "Terka",
+        "age": 11,
+        "gender": "Female",
+        "specifics": "Koníčky: Koně, kosmetika, tancování, oblečení vel. 146/152"
+      }
+    ],
+    "gatheringPlaces": [2, 0],
+    "contact": {
+      "name": "Markéta Hamerníková",
+      "email": "mavoca@seznam.cz"
+    }
+  }
+]
