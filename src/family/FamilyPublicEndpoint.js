@@ -57,7 +57,7 @@ function FamilyPublicEndpoint(
       if (reservationResults.success) {
         const text = `Dobrý den,\nvelice nás těší Vaše rozhodnutí obdarovat následující děti či sourozence:\n${generateChildrenListForEmail(
           familyIds,
-        )}\n\nDárky přineste na přidělené sběrné místo v týdnu od pondělí 7.12. do pátku 11.12. 2020. Otevírací hodiny jsou od 09:00h do 17:00h v pondělí, úterý, středa a pátek (ve čtvrtek je zavřeno).\n\nV případě jakýchkoliv dotazů nás neváhejte kontaktovat na e-mailové adrese: krabice@jcicr.cz\n\nDěkujeme! :-)\n\nTým "Vánoční krabice od bot"`
+        )}\n\nDárky přineste na přidělené sběrné místo v týdnu od pondělí 7.12. do pátku 11.12. 2020. Otevírací hodiny:\n - České Budějovice: denně od 09:00h do 17:00h\n - Praha: úterý, středa, čtvrtek od 17:00h do 19:00h\n\nBudeme rádi, když nám dáte vědět, kam se chystáte dárek doručit (ČB/Praha).\n\nV případě jakýchkoliv dotazů nás neváhejte kontaktovat na e-mailové adrese: krabice@jcicr.cz\n\nDěkujeme! :-)\n\nTým "Vánoční krabice od bot"`
 
         const message = {
           from: 'krabice@jcicr.cz',
@@ -144,6 +144,9 @@ function FamilyPublicEndpoint(
         return 'Barevný svět dětí: Pod Nuselskými schody 1721/3, Praha 2'
       case 3:
         return 'Dětský domov v Přestavlkách'
+      case 4:
+        'Temperi o.p.s.: Jar. Haška 1818/1, České Budějovice'
+        return ''
       default:
         ''
     }

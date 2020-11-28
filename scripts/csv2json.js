@@ -11,7 +11,10 @@ const uuid = require('uuid/v4')
 //   'barevny_svet_deti_2019.csv',
 // ]
 // Year 2020
-const inputFilePaths = ['barevny_svet_deti_2020.csv']
+const inputFilePaths = [
+  'barevny_svet_deti_2020.csv',
+  'temperi_2020.csv',
+]
 
 let familiesMap = {}
 
