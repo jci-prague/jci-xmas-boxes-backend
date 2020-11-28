@@ -145,8 +145,7 @@ function FamilyPublicEndpoint(
       case 3:
         return 'Dětský domov v Přestavlkách'
       case 4:
-        'Temperi o.p.s.: Jar. Haška 1818/1, České Budějovice'
-        return ''
+        return 'Temperi o.p.s.: Jar. Haška 1818/1, České Budějovice'
       default:
         ''
     }
