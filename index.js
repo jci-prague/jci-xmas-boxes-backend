@@ -3,7 +3,9 @@
 const bodyParser = require('body-parser')
 const express = require('express')
 
-const Configuration = require('./src/common/Configuration.js')()
+const Configuration =
+  require('./src/common/Configuration.js')()
+const placeStore = require('./src/keydata/PlaceStore.js')()
 const familyStore = require('./src/family/FamilyStore.js')()
 
 const app = express()
@@ -14,11 +16,16 @@ const appPort = Configuration.applicationPort || 8888
 
 const familyAdminEndpointModule = require('./src/family/FamilyAdminEndpoint.js')
 const familyPublicEndpointModule = require('./src/family/FamilyPublicEndpoint.js')
+const keydataPublicEndpointModule = require('./src/keydata/KeydataPublicEndpoint.js')
 
 familyStore.init()
+placeStore.init()
 
 const familyAdminEndpoint = familyAdminEndpointModule()
 familyAdminEndpoint.register(app)
+
+const keydataPublicEndpoint = keydataPublicEndpointModule()
+keydataPublicEndpoint.register(app)
 
 const familyPublicEndpoint = familyPublicEndpointModule()
 familyPublicEndpoint.register(app)
