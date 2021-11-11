@@ -5,8 +5,11 @@ const express = require('express')
 
 const Configuration =
   require('./src/common/Configuration.js')()
-const placeStore = require('./src/keydata/PlaceStore.js')()
+
+const centerStore =
+  require('./src/keydata/CenterStore.js')()
 const familyStore = require('./src/family/FamilyStore.js')()
+const placeStore = require('./src/keydata/PlaceStore.js')()
 
 const app = express()
 app.use(bodyParser.urlencoded({ extended: true }))
@@ -18,6 +21,7 @@ const familyAdminEndpointModule = require('./src/family/FamilyAdminEndpoint.js')
 const familyPublicEndpointModule = require('./src/family/FamilyPublicEndpoint.js')
 const keydataPublicEndpointModule = require('./src/keydata/KeydataPublicEndpoint.js')
 
+centerStore.init()
 familyStore.init()
 placeStore.init()
 
