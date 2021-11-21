@@ -9,12 +9,10 @@ function FamilyStore(
   configuration = ConfigurationModule(),
 ) {
   let families = []
-  const pathToFamilyData = `${
-    configuration.dataDirectoryPath
-  }/family.json`
+  const pathToFamilyData = `${configuration.dataDirectoryPath}/family.json`
 
   function init() {
-    return new Promise(resolve => {
+    return new Promise((resolve) => {
       const familyData = JSON.parse(
         fs.readFileSync(pathToFamilyData, 'utf8'),
       )
@@ -25,12 +23,14 @@ function FamilyStore(
 
   function listFree() {
     return _.cloneDeep(families)
-      .filter(family => family.free)
-      .map(family => {
+      .filter((family) => family.free)
+      .map((family) => {
         return {
           id: family.id,
+          centerId: family.centerId,
           free: family.free,
           children: family.children,
+          placeId: family.placeId,
         }
       })
   }
@@ -42,7 +42,7 @@ function FamilyStore(
   function update(family) {
     const familyToUpdate = _.find(
       families,
-      f => family.id == f.id,
+      (f) => family.id == f.id,
     )
     if (!familyToUpdate) {
       console.error('No family to update found', family)
