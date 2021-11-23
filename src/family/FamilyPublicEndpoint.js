@@ -2,11 +2,13 @@
 
 const apiResponse = require('../common/ApiResponse.js')
 
+const CenterServiceModule = require('../keydata/CenterService.js')
 const FamilyServiceModule = require('./FamilyService.js')
 const FamilyStoreModule = require('./FamilyStore.js')
 const MailTransportModule = require('../common/MailTransport.js')
 
 function FamilyPublicEndpoint(
+  CenterService = CenterServiceModule(),
   FamilyService = FamilyServiceModule(),
   FamilyStore = FamilyStoreModule(),
   MailTransport = MailTransportModule(),
@@ -31,6 +33,7 @@ function FamilyPublicEndpoint(
     /*
     Payload:
     {
+      centerId: "c0001",
       familyIds: ['F001', 'F006'],
       donor: {
         name: 'John Doe',
@@ -39,14 +42,17 @@ function FamilyPublicEndpoint(
     }
     */
 
+    const centerId = req.body.centerId
     const familyIds = req.body.familyIds
     const name = req.body.donor.name
     const email = req.body.donor.email
-    const validationResult = validateReservationRequestParams(
-      familyIds,
-      name,
-      email,
-    )
+    const validationResult =
+      validateReservationRequestParams(
+        centerId,
+        familyIds,
+        name,
+        email,
+      )
 
     if (validationResult.success) {
       const reservationResults = FamilyService.reserveGift(
@@ -55,9 +61,8 @@ function FamilyPublicEndpoint(
         email,
       )
       if (reservationResults.success) {
-        const text = `Dobrý den,\nvelice nás těší Vaše rozhodnutí obdarovat následující děti či sourozence:\n${generateChildrenListForEmail(
-          familyIds,
-        )}\n\nDárky přineste na přidělené sběrné místo v týdnu od pondělí 7.12. do pátku 11.12. 2020. Otevírací hodiny:\n - České Budějovice: denně od 09:00h do 17:00h\n - Praha: úterý, středa, čtvrtek od 17:00h do 19:00h\n\nBudeme rádi, když nám dáte vědět, kam se chystáte dárek doručit (ČB/Praha).\n\nV případě jakýchkoliv dotazů nás neváhejte kontaktovat na e-mailové adrese: krabice@jcicr.cz\n\nDěkujeme! :-)\n\nTým "Vánoční krabice od bot"`
+        const text = generateEmailText(centerId, familyIds)
+        console.log(text)
 
         const message = {
           from: 'krabice@jcicr.cz',
@@ -78,6 +83,7 @@ function FamilyPublicEndpoint(
   }
 
   function validateReservationRequestParams(
+    centerId,
     familyIds,
     name,
     email,
@@ -109,46 +115,44 @@ function FamilyPublicEndpoint(
       result.success = false
     }
 
+    if (!centerId) {
+      result.errors.push({
+        code: 1003,
+        message: "Missing attribute 'centerId'",
+      })
+      result.success = false
+    }
+
     return result
+  }
+
+  function generateEmailText(centerId, familyIds) {
+    return `Dobrý den,\nvelice nás těší Vaše rozhodnutí obdarovat následující děti či sourozence:\n${generateChildrenListForEmail(
+      familyIds,
+    )}\n${generatePlaceDetails(
+      centerId,
+    )}\nV případě jakýchkoliv dotazů nás neváhejte kontaktovat na e-mailové adrese: krabice@jcicr.cz\n\nDěkujeme! :-)\n\nTým "Vánoční krabice od bot"`
   }
 
   function generateChildrenListForEmail(familyIds) {
     const giftedFamilies = FamilyStore.listAll().filter(
-      family => familyIds.includes(family.id),
+      (family) => familyIds.includes(family.id),
     )
 
     return giftedFamilies.reduce((acc, family) => {
       const children = family.children
         .map(
-          child =>
+          (child) =>
             ` - ${child.name}\n   - věk: ${child.age}\n   - zájmy: ${child.specifics}`,
         )
         .join('\n')
-      return `${acc}${children}\n   => Sběrná místa: ${generateGatheringPlacesForEmail(
-        family.gatheringPlaces,
-      )}.\n`
+      return `${acc}${children}\n`
     }, '\n=> Jedno vybrané dítě, či sourozenci:\n')
   }
 
-  function generateGatheringPlacesForEmail(places) {
-    return places.map(codeToPlaceName).join('; ')
-  }
-
-  function codeToPlaceName(code) {
-    switch (code) {
-      case 0:
-        return 'Rodinné centrum Letná, o.s.: Janovského 24, Praha 7'
-      case 1:
-        return 'Dobrá rodina o.p.s.: Klimentská 1246/1, Praha 1'
-      case 2:
-        return 'Barevný svět dětí: Pod Nuselskými schody 1721/3, Praha 2'
-      case 3:
-        return 'Dětský domov v Přestavlkách'
-      case 4:
-        return 'Temperi o.p.s.: Jar. Haška 1818/1, České Budějovice'
-      default:
-        ''
-    }
+  function generatePlaceDetails(centerId) {
+    const center = CenterService.findById(centerId)
+    return `Vámi zvolené místo doručení Vánoční krabice:\n\n${center.name}\nAdresa: ${center.address.street}, ${center.address.city}\nKontakt: ${center.contactPerson}\n`
   }
 
   const api = {
