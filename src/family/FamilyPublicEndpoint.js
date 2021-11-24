@@ -131,7 +131,7 @@ function FamilyPublicEndpoint(
       familyIds,
     )}\n${generatePlaceDetails(
       centerId,
-    )}\nV případě jakýchkoliv dotazů nás neváhejte kontaktovat na e-mailové adrese: krabice@jcicr.cz\n\nDěkujeme! :-)\n\nTým "Vánoční krabice od bot"`
+    )}\nV případě jakýchkoliv dotazů nás neváhejte kontaktovat na e-mailové adrese: krabice@jcicr.cz\n\nDěkujeme! :-)\n\nTým "Vánoční krabice"`
   }
 
   function generateChildrenListForEmail(familyIds) {
