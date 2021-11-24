@@ -2,7 +2,8 @@
 
 const csvtojson = require('csvtojson')
 const fs = require('fs')
-const uuid = require('uuid/v4')
+const uuid = require('uuid')
+const uuid4 = uuid.v4
 
 // Year 2019
 // const inputFilePaths = [
@@ -10,28 +11,37 @@ const uuid = require('uuid/v4')
 //   'dd_prestavlky_2019.csv',
 //   'barevny_svet_deti_2019.csv',
 // ]
+//
 // Year 2020
+// const inputFilePaths = [
+//   'barevny_svet_deti_2020.csv',
+//   'temperi_2020.csv',
+// ]
+
 const inputFilePaths = [
-  'barevny_svet_deti_2020.csv',
-  'temperi_2020.csv',
+  'praha_rodinne_centrum_letna_2021.csv',
+  'praha_barevny_svet_deti_2021.csv',
+  'cb_temperi_2021.csv',
+  'plzen_domus_2021.csv',
 ]
 
 let familiesMap = {}
 
 const csvConfig = {
-  delimiter: ';',
+  delimiter: ',',
 }
 
 const csvProcessor = csvtojson(csvConfig)
-const filePromises = inputFilePaths.map(path => {
+const filePromises = inputFilePaths.map((path) => {
   console.log(path)
   return csvtojson(csvConfig).fromFile(path)
 })
 
 Promise.all(filePromises)
-  .then(rawJsons => {
-    rawJsons.map(rawJsonArray => {
-      rawJsonArray.map(row => {
+  .then((rawJsons) => {
+    rawJsons.map((rawJsonArray) => {
+      rawJsonArray.map((row) => {
+        console.log(JSON.stringify(row, null, 2))
         const familyKey = row.family
         const kid = {
           name: row.name,
@@ -41,13 +51,11 @@ Promise.all(filePromises)
         }
         if (!familiesMap[familyKey]) {
           const newFamily = {
+            centerId: row.centerId,
             id: familyKey,
             free: true,
             children: [kid],
-            gatheringPlaces: getPlaces(
-              parseInt(row.place_1),
-              parseInt(row.place_2),
-            ),
+            placeId: row.placeId,
           }
           familiesMap[familyKey] = newFamily
         } else {
@@ -55,8 +63,8 @@ Promise.all(filePromises)
         }
       })
       const familiesList = Object.values(familiesMap).map(
-        family => {
-          family.id = uuid()
+        (family) => {
+          family.id = uuid4()
           return family
         },
       )
@@ -67,7 +75,7 @@ Promise.all(filePromises)
       )
     })
   })
-  .catch(e => console.error)
+  .catch((e) => console.error)
 
 function getGender(sex) {
   switch (sex) {
@@ -77,13 +85,5 @@ function getGender(sex) {
       return 'Male'
     default:
       return 'Unknown'
-  }
-}
-
-function getPlaces(place1, place2) {
-  if (place2 === 99) {
-    return [place1]
-  } else {
-    return [place1, place2]
   }
 }
