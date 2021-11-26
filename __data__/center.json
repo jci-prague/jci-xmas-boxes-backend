@@ -1,0 +1,54 @@
+[
+  {
+    "address": {
+      "city": "Praha 7",
+      "street": "Janovského 24"
+    },
+    "available": true,
+    "contactPerson": "Jitka Kováříková, +420 737 713 544, jytuska@centrum.cz",
+    "id": "c0001",
+    "name": "Rodinné Centrum Letná, o.s.",
+    "openHours": "Úterý - Pátek 9.00 - 12.00 hod., Středa a Pátek 17.00 - 19.00 hod.",
+    "place": "p0003",
+    "universal": true
+  },
+  {
+    "address": {
+      "city": "Praha 2",
+      "street": "Pod Nuselskými schody 1721/3"
+    },
+    "available": true,
+    "contactPerson": "Radka Maršíčková, +420 732 857 225, kamos@barevnysvetdeti.cz",
+    "id": "c0002",
+    "name": "Barevný svět dětí, z.s.",
+    "openHours": "Pondělí, Úterý, Středa, Pátek 9.00 - 17.00 hod. (ve čtvrtek je zavřeno)",
+    "place": "p0003",
+    "universal": false
+  },
+  {
+    "address": {
+      "city": "České Budějovice",
+      "street": "Jar. Haška 1818/1"
+    },
+    "available": true,
+    "contactPerson": "Hana Francová, +420 702 571 757, hana.francova@tempericb.cz",
+    "id": "c0003",
+    "name": "Temperi o.p.s.",
+    "openHours": "Pondělí - Pátek 9.00 - 17.00 hod.",
+    "place": "p0001",
+    "universal": false
+  },
+  {
+    "address": {
+      "city": "Plzeň",
+      "street": "Černická 887/9"
+    },
+    "available": true,
+    "contactPerson": "Martina Hajná, +420 730 890 760, martinahajna@domus-cpr.cz",
+    "id": "c0004",
+    "name": "DOMUS, Centrum pro rodinu, z.s.",
+    "openHours": "Pondělí - Čtvrtek: 9.00 – 17.00 hod.",
+    "place": "p0002",
+    "universal": false
+  }
+]
