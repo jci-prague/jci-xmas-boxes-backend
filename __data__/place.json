@@ -1,0 +1,17 @@
+[
+  {
+    "id": "p0001",
+    "available": true,
+    "name": "České Budějovice"
+  },
+  {
+    "id": "p0002",
+    "available": true,
+    "name": "Plzeň"
+  },
+  {
+    "id": "p0003",
+    "available": true,
+    "name": "Praha"
+  }
+]
