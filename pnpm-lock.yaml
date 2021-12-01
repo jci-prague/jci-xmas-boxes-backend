@@ -14,6 +14,7 @@ specifiers:
   lodash: ^4.17.21
   nodemailer: ^6.7.0
   nodemon: ^2.0.15
+  pnpm: ^6.23.2
   prettier: ^2.4.1
   pretty-quick: ^3.1.1
   uuid: ^8.3.2
@@ -24,6 +25,7 @@ dependencies:
   express: 4.17.1
   lodash: 4.17.21
   nodemailer: 6.7.1
+  pnpm: 6.23.2
   uuid: 8.3.2
 
 devDependencies:
@@ -4040,6 +4042,12 @@ packages:
     dependencies:
       find-up: 4.1.0
     dev: true
+
+  /pnpm/6.23.2:
+    resolution: {integrity: sha512-mb18ZY03mn1wxxco5COfyZgqAxBOfO8F3UU41p1XVSNnkVEUXHIKLRh9UBZjjZS2vO92EqgXd0ewsE3syDmfYw==}
+    engines: {node: '>=12.17'}
+    hasBin: true
+    dev: false
 
   /prelude-ls/1.1.2:
     resolution: {integrity: sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=}
