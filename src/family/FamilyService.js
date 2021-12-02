@@ -3,6 +3,36 @@ const _ = require('lodash')
 const FamilyStoreModule = require('./FamilyStore.js')
 
 function FamilyService(FamilyStore = FamilyStoreModule()) {
+  function cancelFamilyReservation(familyId) {
+    const reservedFamilies = listReserved()
+    const familyToCancel = reservedFamilies.find(
+      (f) => f.id === familyId,
+    )
+
+    if (familyToCancel) {
+      familyToCancel.free = true
+      delete familyToCancel.contact
+      FamilyStore.update(familyToCancel)
+
+      return {
+        familyId: familyId,
+        success: true,
+        errors: [],
+      }
+    } else {
+      return {
+        familyId: familyId,
+        success: false,
+        errors: [
+          {
+            code: 1102,
+            message: `Family (${familyId}) is not reserved, did you try to cancel the reservation twice?`,
+          },
+        ],
+      }
+    }
+  }
+
   function listReserved() {
     return FamilyStore.listAll().filter(
       (family) => family.free === false,
@@ -69,6 +99,7 @@ function FamilyService(FamilyStore = FamilyStoreModule()) {
   }
 
   const api = {
+    cancelFamilyReservation,
     listReserved,
     reserveGift,
   }

@@ -17,6 +17,10 @@ function FamilyAdminEndpoint(
     app.delete(ENDPOINT, apiResponse.http405)
 
     app.get(`${ENDPOINT}/reserved`, _getReserved)
+    app.post(
+      `${ENDPOINT}/reserved`,
+      _postCancelFamilyReservation,
+    )
   }
 
   function _get(req, res) {
@@ -43,6 +47,22 @@ function FamilyAdminEndpoint(
     apiResponse.http200(req, res, {
       families: FamilyService.listReserved(),
     })
+  }
+
+  function _postCancelFamilyReservation(req, res) {
+    const familyUpdate = req.body
+    if (!familyUpdate) {
+      apiResponse.http400(req, res)
+      return
+    }
+    const result = FamilyService.cancelFamilyReservation(
+      familyUpdate.id,
+    )
+    if (result.success) {
+      apiResponse.http200(req, res, { message: 'success' })
+    } else {
+      apiResponse.http500(req, res, result)
+    }
   }
 
   const api = {
