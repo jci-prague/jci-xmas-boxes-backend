@@ -39,10 +39,21 @@ function FamilyService(FamilyStore = FamilyStoreModule()) {
     )
   }
 
-  function reserveGift(familyIds, name, email) {
+  function reserveGift(
+    chosenCenterId,
+    familyIds,
+    name,
+    email,
+  ) {
     const freeFamilies = FamilyStore.listFree()
     const results = familyIds.map((id) =>
-      _reserveOneFamily(freeFamilies, name, email, id),
+      _reserveOneFamily(
+        chosenCenterId,
+        freeFamilies,
+        name,
+        email,
+        id,
+      ),
     )
     const allSuccess = results.reduce(
       (acc, curr) => acc && curr.success,
@@ -56,6 +67,7 @@ function FamilyService(FamilyStore = FamilyStoreModule()) {
   }
 
   function _reserveOneFamily(
+    chosenCenterId,
     freeFamilies,
     name,
     email,
@@ -78,6 +90,7 @@ function FamilyService(FamilyStore = FamilyStoreModule()) {
       })
       result.success = false
     } else {
+      familyToReserve.chosenCenterId = chosenCenterId
       familyToReserve.contact = {
         name: name,
         email: email,

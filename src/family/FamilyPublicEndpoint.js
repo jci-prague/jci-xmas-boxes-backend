@@ -42,13 +42,13 @@ function FamilyPublicEndpoint(
     }
     */
 
-    const centerId = req.body.centerId
+    const chosenCenterId = req.body.centerId
     const familyIds = req.body.familyIds
     const name = req.body.donor.name
     const email = req.body.donor.email
     const validationResult =
       validateReservationRequestParams(
-        centerId,
+        chosenCenterId,
         familyIds,
         name,
         email,
@@ -56,12 +56,16 @@ function FamilyPublicEndpoint(
 
     if (validationResult.success) {
       const reservationResults = FamilyService.reserveGift(
+        chosenCenterId,
         familyIds,
         name,
         email,
       )
       if (reservationResults.success) {
-        const text = generateEmailText(centerId, familyIds)
+        const text = generateEmailText(
+          chosenCenterId,
+          familyIds,
+        )
         console.log(text)
 
         const message = {

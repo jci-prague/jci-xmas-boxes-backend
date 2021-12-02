@@ -48,6 +48,7 @@ function FamilyStore(
       console.error('No family to update found', family)
       return false
     }
+    familyToUpdate.chosenCenterId = family.chosenCenterId
     familyToUpdate.free = family.free
     familyToUpdate.contact = family.contact
     const fileContent = JSON.stringify(families)
