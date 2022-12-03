@@ -13,5 +13,10 @@
     "id": "p0003",
     "available": true,
     "name": "Praha"
+  },
+  {
+    "id": "p9999",
+    "available": true,
+    "name": "Misto, ktere neexistuje"
   }
 ]
