@@ -18,11 +18,20 @@ const uuid4 = uuid.v4
 //   'temperi_2020.csv',
 // ]
 
+// Year 2021
+// const inputFilePaths = [
+//   'praha_rodinne_centrum_letna_2021.csv',
+//   'praha_barevny_svet_deti_2021.csv',
+//   'cb_temperi_2021.csv',
+//   'plzen_domus_2021.csv',
+// ]
+
 const inputFilePaths = [
-  'praha_rodinne_centrum_letna_2021.csv',
-  'praha_barevny_svet_deti_2021.csv',
-  'cb_temperi_2021.csv',
-  'plzen_domus_2021.csv',
+  'cb_temperi_2022.csv',
+  'plzen_domus_2022.csv',
+  'praha_barevny_svet_deti_2022.csv',
+  'praha_detsky_domov_prestavlky_rc_letna_2022.csv',
+  'praha_rc_letna_2022.csv',
 ]
 
 let familiesMap = {}
@@ -33,7 +42,6 @@ const csvConfig = {
 
 const csvProcessor = csvtojson(csvConfig)
 const filePromises = inputFilePaths.map((path) => {
-  console.log(path)
   return csvtojson(csvConfig).fromFile(path)
 })
 
@@ -41,7 +49,6 @@ Promise.all(filePromises)
   .then((rawJsons) => {
     rawJsons.map((rawJsonArray) => {
       rawJsonArray.map((row) => {
-        console.log(JSON.stringify(row, null, 2))
         const familyKey = row.family
         const kid = {
           name: row.name,
