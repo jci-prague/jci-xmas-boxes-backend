@@ -6,11 +6,12 @@
     },
     "available": true,
     "contactPerson": "Jitka Kováříková, +420 737 713 544, jytuska@centrum.cz",
+    "globalUniversal": true,
     "id": "c0001",
     "name": "Rodinné Centrum Letná, o.s.",
-    "openHours": "Úterý - Pátek 9.00 - 12.00 hod., Středa a Pátek 17.00 - 19.00 hod.",
+    "openHours": "Úterý, středa a pátek 09.00 - 12.00 hod.\nPátek (9.12.), Pondělí (12.12.) a Úterý (13.12.) 17.00 - 19.00 hod.",
     "place": "p0003",
-    "universal": true
+    "placeUniversal": true
   },
   {
     "address": {
@@ -19,11 +20,12 @@
     },
     "available": true,
     "contactPerson": "Radka Maršíčková, +420 732 857 225, kamos@barevnysvetdeti.cz",
+    "globalUniversal": false,
     "id": "c0002",
     "name": "Barevný svět dětí, z.s.",
     "openHours": "Pondělí, Úterý, Středa, Pátek 9.00 - 17.00 hod. (ve čtvrtek je zavřeno)",
     "place": "p0003",
-    "universal": false
+    "placeUniversal": false
   },
   {
     "address": {
@@ -32,11 +34,12 @@
     },
     "available": true,
     "contactPerson": "Hana Francová, +420 702 571 757, hana.francova@tempericb.cz",
+    "globalUniversal": false,
     "id": "c0003",
     "name": "Temperi o.p.s.",
-    "openHours": "Pondělí - Pátek 9.00 - 17.00 hod.",
+    "openHours": "Pondělí - Pátek 9.00 - 17.00 hod.\nO konkrétním čase doručení dárků doporučujeme předem telefonicky informovat paní Hanu Francovou, která na Vás bude v centru čekat.",
     "place": "p0001",
-    "universal": false
+    "placeUniversal": true
   },
   {
     "address": {
@@ -45,10 +48,25 @@
     },
     "available": true,
     "contactPerson": "Martina Hajná, +420 730 890 760, martinahajna@domus-cpr.cz",
+    "globalUniversal": false,
     "id": "c0004",
     "name": "DOMUS, Centrum pro rodinu, z.s.",
     "openHours": "Pondělí - Čtvrtek: 9.00 – 17.00 hod.",
     "place": "p0002",
-    "universal": false
+    "placeUniversal": true
+  },
+  {
+    "address": {
+      "city": "Sedlec-Prčice",
+      "street": "Přestavlky 1"
+    },
+    "available": true,
+    "contactPerson": "Martina Hajná, +420 730 890 760, martinahajna@domus-cpr.cz",
+    "globalUniversal": false,
+    "id": "c0005",
+    "name": "Dětský domov Přestavlky",
+    "openHours": "",
+    "place": "p0003",
+    "placeUniversal": false
   }
 ]
