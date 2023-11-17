@@ -1,1914 +1,902 @@
 [
   {
-    "centerId": "c0001",
-    "id": "754b3502-c1d7-4c10-a4e5-e060c8bac3d3",
+    "centerId": "c0005",
+    "id": "a61d6c85-84dd-41a3-94b6-525e3f05a5ee",
     "free": true,
     "children": [
       {
-        "name": "Matyáš",
-        "age": 6,
+        "name": "Ondra",
+        "age": 10,
         "gender": "Male",
-        "specifics": "má rád encyklopedie a stavebnice, momentálně by chtěl být architektem"
-      },
-      {
-        "name": "Miki",
-        "age": 2,
-        "gender": "Male",
-        "specifics": "miluje auta, míčky a balony"
-      },
-      {
-        "name": "Tomáš",
-        "age": 5,
-        "gender": "Male",
-        "specifics": "má zájem o vše hasičské a obecně IZS, rád chodí na výlety a pomáhá v kuchyni"
-      },
-      {
-        "name": "Ester",
-        "age": 4,
-        "gender": "Female",
-        "specifics": "ráda kreslí a vyrábí, panenky, knížky, ráda vaří a pomáhá v kuchyni"
-      },
-      {
-        "name": "Ben",
-        "age": 1,
-        "gender": "Male",
-        "specifics": "batolecí hraní"
+        "specifics": "Doris - velká kreativní sada - Mega Kraft Kit, rád vytváří z různých materiálů a maluje, má dobrou představivost"
       }
     ],
     "placeId": "p0003"
   },
   {
-    "centerId": "c0001",
-    "id": "b446f863-584d-4f4a-99cb-b057433a9287",
+    "centerId": "c0005",
+    "id": "f795a7f6-b2e5-40e5-9eb8-1881bbbf2ccd",
     "free": true,
     "children": [
       {
-        "name": "Ondřej",
+        "name": "Honzík",
         "age": 9,
         "gender": "Male",
-        "specifics": "moc by si přál Deník Minecrafťáka 1 a 3 (číslo 2 má), má rád Avengers a postavičky superhrdinů či malé lego s touto tématikou (má histaminovou intoleranci, nemůže jíst např. čokoládu)"
+        "specifics": "stavebnice Lego - Technic, Sonic, rád pracuje se stavebnicemi nebo vytváří"
       }
     ],
     "placeId": "p0003"
   },
   {
-    "centerId": "c0001",
-    "id": "f9a848be-c342-4450-a71f-b89178526c9c",
+    "centerId": "c0005",
+    "id": "693d32f6-53ab-4c32-9e50-c022b0c2d4d2",
     "free": true,
     "children": [
       {
-        "name": "Isabel",
-        "age": 5,
-        "gender": "Female",
-        "specifics": "má ráda jednorožce a Elsu a Annu"
-      },
-      {
-        "name": "Rafael",
-        "age": 4,
+        "name": "Dan",
+        "age": 6,
         "gender": "Male",
-        "specifics": "Tlapková patrola"
-      },
-      {
-        "name": "Miki",
-        "age": 3,
-        "gender": "Male",
-        "specifics": "miluje kravičky"
+        "specifics": "mluvící plyšová hračka nejlépe Spiderman, chce mít kamaráda"
       }
     ],
     "placeId": "p0003"
   },
   {
-    "centerId": "c0001",
-    "id": "ad27e45a-8c84-4409-84be-48dcacfcda98",
+    "centerId": "c0005",
+    "id": "4c22f8de-fb6d-4195-93ab-7d9f52b8c8b3",
+    "free": true,
+    "children": [
+      {
+        "name": "Adéla",
+        "age": 13,
+        "gender": "Female",
+        "specifics": "kreativní sada výtvarných potřeb nebo fantazy knihy - Letopisy dračích jezdů nebo Vlčí princezna, ráda čte a je kreativní"
+      }
+    ],
+    "placeId": "p0003"
+  },
+  {
+    "centerId": "c0005",
+    "id": "df8430dc-76f5-420c-911e-df29d2248d3e",
+    "free": true,
+    "children": [
+      {
+        "name": "Maruška",
+        "age": 7,
+        "gender": "Female",
+        "specifics": "zpívající a chodící plyšový jednorožec Unicorn Roxy"
+      }
+    ],
+    "placeId": "p0003"
+  },
+  {
+    "centerId": "c0005",
+    "id": "75f7d636-de89-456e-810e-34b706586231",
+    "free": true,
+    "children": [
+      {
+        "name": "Mirek",
+        "age": 7,
+        "gender": "Male",
+        "specifics": "figurka Batmana nebo stavebnice Lego Duplo, rád si hraje se stavebnicemi"
+      }
+    ],
+    "placeId": "p0003"
+  },
+  {
+    "centerId": "c0005",
+    "id": "68cdb190-e272-4dbe-980c-b17823f2be59",
+    "free": true,
+    "children": [
+      {
+        "name": "Lenka",
+        "age": 7,
+        "gender": "Female",
+        "specifics": "hračky, koně, výtvarné potřeby"
+      }
+    ],
+    "placeId": "p0003"
+  },
+  {
+    "centerId": "c0005",
+    "id": "2619b176-a606-43b3-8af9-17a9f75ca1bb",
     "free": true,
     "children": [
       {
         "name": "Marek",
-        "age": 9,
-        "gender": "Male",
-        "specifics": "tramvaje a vše s nimi spojené, pokémoni, policejní pouta"
-      }
-    ],
-    "placeId": "p0003"
-  },
-  {
-    "centerId": "c0001",
-    "id": "521e2ef0-4036-4829-8c8d-a233aeb924c5",
-    "free": true,
-    "children": [
-      {
-        "name": "Damián",
-        "age": 4,
-        "gender": "Male",
-        "specifics": "hračka, tričko, čepice (kšiltovka), omalovánky, míč, Kinder vajíčko"
-      },
-      {
-        "name": "Filip",
         "age": 12,
         "gender": "Male",
-        "specifics": "koloběžka (je silnější postavy, takže spíše větší) nebo kolečkové brusle, tričko, sluchátka, čepice, fitness náramek"
+        "specifics": "mikina vel. M, má rád fotbal, PC hry, jízda na kole"
       }
     ],
     "placeId": "p0003"
   },
   {
-    "centerId": "c0002",
-    "id": "28e29593-79c4-46a8-9f81-229456284942",
+    "centerId": "c0005",
+    "id": "476cf575-8cff-4b03-8838-dbf3419937a9",
     "free": true,
     "children": [
       {
-        "name": "Sabina B.",
-        "age": 11,
+        "name": "Jessica",
+        "age": 8,
         "gender": "Female",
-        "specifics": "líčení, šperky, kreslení, vyrábění, tetovačky, kamarádky"
+        "specifics": "gumičky do vlasů, má ráda tanec, kreslení a jízda na kole"
       }
     ],
     "placeId": "p0003"
   },
   {
-    "centerId": "c0002",
-    "id": "7746faf2-9cd7-4c93-be27-8c00fdcf4f3f",
+    "centerId": "c0005",
+    "id": "63f87667-ea26-4b35-8d37-4d8809b53af9",
     "free": true,
     "children": [
       {
-        "name": "Eliška B.",
+        "name": "Nikolas B.",
+        "age": 6,
+        "gender": "Male",
+        "specifics": "mluvící pejsek, pastelky, rád jezdí na kole, modelování, kreslení"
+      }
+    ],
+    "placeId": "p0003"
+  },
+  {
+    "centerId": "c0005",
+    "id": "7a86a5c7-22e8-4719-a63c-d6715e64766a",
+    "free": true,
+    "children": [
+      {
+        "name": "Štefan",
+        "age": 12,
+        "gender": "Male",
+        "specifics": "vybavený školní penál, hraje basketbal a PC hry"
+      }
+    ],
+    "placeId": "p0003"
+  },
+  {
+    "centerId": "c0005",
+    "id": "2978e348-b5ba-41e4-8c03-9101bc71f4f5",
+    "free": true,
+    "children": [
+      {
+        "name": "Helenka",
+        "age": 9,
+        "gender": "Female",
+        "specifics": "čelenka do vlasů, ledvinka, má ráda jízdra na kole, modelování, kreslení"
+      }
+    ],
+    "placeId": "p0003"
+  },
+  {
+    "centerId": "c0005",
+    "id": "4481ca9d-f7ba-4f2e-8c75-1458d5de23d6",
+    "free": true,
+    "children": [
+      {
+        "name": "Milan",
+        "age": 14,
+        "gender": "Male",
+        "specifics": "tričko, mikina, vel. L, hraje fotbal a PC hry"
+      }
+    ],
+    "placeId": "p0003"
+  },
+  {
+    "centerId": "c0005",
+    "id": "49867c83-32c9-4c98-8216-6e23daa87623",
+    "free": true,
+    "children": [
+      {
+        "name": "Michal",
+        "age": 14,
+        "gender": "Male",
+        "specifics": "tričko, mikina, vel. M, hraje fotbal a PC hry"
+      }
+    ],
+    "placeId": "p0003"
+  },
+  {
+    "centerId": "c0005",
+    "id": "ece5f5e2-e375-4e6e-a09d-574de99dd323",
+    "free": true,
+    "children": [
+      {
+        "name": "Kačka",
         "age": 10,
         "gender": "Female",
-        "specifics": "zvířata, čtení, kreslení, plyšáci, Littlest Pet Shop"
+        "specifics": "puzzle, ráda skládá větší dílky"
       }
     ],
     "placeId": "p0003"
   },
   {
-    "centerId": "c0002",
-    "id": "0d129024-5b3f-4e5c-aa2d-3ff30f91a24d",
+    "centerId": "c0005",
+    "id": "42f9e777-78eb-486e-8e5c-351056382fe2",
     "free": true,
     "children": [
       {
-        "name": "Daniel D.",
-        "age": 14,
-        "gender": "Male",
-        "specifics": "technika, graffiti, hudba"
-      }
-    ],
-    "placeId": "p0003"
-  },
-  {
-    "centerId": "c0002",
-    "id": "33a3a0a5-51be-4167-a428-ce7525b687df",
-    "free": true,
-    "children": [
-      {
-        "name": "Lukáš D.",
-        "age": 12,
-        "gender": "Male",
-        "specifics": "technika, origami, zálesáctví, kutilství, vesmír, dinosauři"
-      }
-    ],
-    "placeId": "p0003"
-  },
-  {
-    "centerId": "c0002",
-    "id": "d8f29c6f-b8a9-4d97-bcbe-635b663b7011",
-    "free": true,
-    "children": [
-      {
-        "name": "Tadeáš K.",
+        "name": "Pepa",
         "age": 9,
         "gender": "Male",
-        "specifics": "kouzelné čtení - Albi tužka, meče, autíčka, stavebnice, míč"
+        "specifics": "puzzle, rád skládá větší dílky"
       }
     ],
     "placeId": "p0003"
   },
   {
-    "centerId": "c0002",
-    "id": "124c9b5b-bff1-4633-ae66-7212c9488b68",
+    "centerId": "c0005",
+    "id": "f6419770-b9c8-4cec-8167-b81625e1aa36",
     "free": true,
     "children": [
       {
-        "name": "František S.",
-        "age": 9,
-        "gender": "Male",
-        "specifics": "kouzelné čtení - Albi tužka, meče, stavebnice, míč, dinosauři"
-      }
-    ],
-    "placeId": "p0003"
-  },
-  {
-    "centerId": "c0002",
-    "id": "8e830219-1384-4145-ad6d-3229bcefdf78",
-    "free": true,
-    "children": [
-      {
-        "name": "Denis Č.",
-        "age": 15,
-        "gender": "Male",
-        "specifics": "pánská kosmetika, posilování, stolní hry, počítač. hry"
-      }
-    ],
-    "placeId": "p0003"
-  },
-  {
-    "centerId": "c0002",
-    "id": "069b2da8-a7ba-4a33-845b-ac93bb9daec4",
-    "free": true,
-    "children": [
-      {
-        "name": "Adam M.",
-        "age": 14,
-        "gender": "Male",
-        "specifics": "knihy - fantazy, dětské horory a detektivky"
-      }
-    ],
-    "placeId": "p0003"
-  },
-  {
-    "centerId": "c0002",
-    "id": "cd514ab8-3734-41e5-8d4c-5efabe0564c6",
-    "free": true,
-    "children": [
-      {
-        "name": "Filip S.",
-        "age": 13,
-        "gender": "Male",
-        "specifics": "youtube, sluchátka, počítačové hry, repráček"
-      }
-    ],
-    "placeId": "p0003"
-  },
-  {
-    "centerId": "c0002",
-    "id": "d9e3bc47-07fb-46cd-ad40-1d4880afec10",
-    "free": true,
-    "children": [
-      {
-        "name": "Verča T.",
-        "age": 15,
-        "gender": "Female",
-        "specifics": "líčení, kosmetika"
-      }
-    ],
-    "placeId": "p0003"
-  },
-  {
-    "centerId": "c0002",
-    "id": "2778db64-9cbd-4751-a001-d17909ce2617",
-    "free": true,
-    "children": [
-      {
-        "name": "Milan G.",
-        "age": 10,
-        "gender": "Male",
-        "specifics": "fotbal, sport, stolní hry"
-      }
-    ],
-    "placeId": "p0003"
-  },
-  {
-    "centerId": "c0002",
-    "id": "658a824c-c36a-4a7b-9003-e449677c6b71",
-    "free": true,
-    "children": [
-      {
-        "name": "Honzík G.",
-        "age": 8,
-        "gender": "Male",
-        "specifics": "fotbal, pokémoni, stolní hry"
-      }
-    ],
-    "placeId": "p0003"
-  },
-  {
-    "centerId": "c0003",
-    "id": "8e78a561-326e-4b8f-9f04-bb632a9cac9b",
-    "free": true,
-    "children": [
-      {
-        "name": "Denis K.",
-        "age": 5,
-        "gender": "Male",
-        "specifics": "interaktivní králíček Bany"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "5395b8b3-44d5-4e15-a6e9-a9c1760dbad3",
-    "free": true,
-    "children": [
-      {
-        "name": "Martin F.",
-        "age": 14,
-        "gender": "Male",
-        "specifics": "karty, Člověče nezlob se, pexeso"
-      },
-      {
-        "name": "David F.",
-        "age": 18,
-        "gender": "Male",
-        "specifics": "karty, Člověče nezlob se, pexeso"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "2cab7674-74be-4c10-9aff-c637326ca11f",
-    "free": true,
-    "children": [
-      {
-        "name": "sourozenci Ch.",
-        "age": 3,
-        "gender": "Female",
-        "specifics": "Play Hoh modelovací sada"
-      },
-      {
-        "name": "sourozenci Ch.",
-        "age": 12,
-        "gender": "Male",
-        "specifics": "společenská hra pro děti 9+"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "17c578d9-36b7-40ea-a6de-b1d90123511a",
-    "free": true,
-    "children": [
-      {
-        "name": "Sam S.",
-        "age": 12,
-        "gender": "Male",
-        "specifics": "powerbanka, bezdrátová sluchátka"
-      },
-      {
-        "name": "Teo S.",
-        "age": 12,
-        "gender": "Male",
-        "specifics": "powerbanka, bezdrátová sluchátka"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "9d798167-1a67-47b0-bae9-daaa0aa9f3cb",
-    "free": true,
-    "children": [
-      {
-        "name": "Míša V.",
+        "name": "Michal P.",
         "age": 6,
         "gender": "Male",
-        "specifics": "mobil"
+        "specifics": "kniha se zvuky zvířat, obkreslovací šablony s obrázky, má rád zvířátka"
       }
     ],
-    "placeId": "p0001"
+    "placeId": "p0003"
   },
   {
-    "centerId": "c0003",
-    "id": "4eceae31-6754-4b45-a5ae-6b3a1e3ae195",
+    "centerId": "c0005",
+    "id": "ef5b7f1c-aeb0-4992-8a18-2f6b001ef347",
     "free": true,
     "children": [
       {
-        "name": "Tomášek V.",
+        "name": "Nikola",
         "age": 4,
-        "gender": "Male",
-        "specifics": "Albi tužka"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "7216eb06-3b9b-4396-aea0-4b6c3da83397",
-    "free": true,
-    "children": [
-      {
-        "name": "Brian R.",
-        "age": 7,
-        "gender": "Male",
-        "specifics": "koloběžka \"McQueen\" z obchodu Dráčik"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "72c58bf6-f752-444d-b13b-92e2d953f64a",
-    "free": true,
-    "children": [
-      {
-        "name": "Saša R.",
-        "age": 9,
-        "gender": "Male",
-        "specifics": "oranžová koloběžka z obchodu Dráčik"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "f08e79b2-17b3-452a-b2f1-e4f93ac8db3d",
-    "free": true,
-    "children": [
-      {
-        "name": "Dan R.",
-        "age": 1,
-        "gender": "Male",
-        "specifics": "svítící medvídek s projektorem z obchodu Dráčik"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "18321ae3-e4c3-47a0-b55e-80284914cfce",
-    "free": true,
-    "children": [
-      {
-        "name": "Karolína",
-        "age": 5,
         "gender": "Female",
-        "specifics": "oblečky na panenku - miminko"
+        "specifics": "dětský telefon, obrázková knížka"
       }
     ],
-    "placeId": "p0001"
+    "placeId": "p0003"
   },
   {
-    "centerId": "c0003",
-    "id": "05fe8c93-cf8f-40d4-a865-1a458d8653a3",
+    "centerId": "c0005",
+    "id": "db39ee36-2a3c-4c1b-8044-03320b2191d7",
     "free": true,
     "children": [
       {
-        "name": "Adélka T.",
-        "age": 6,
-        "gender": "Female",
-        "specifics": "Albi tužka, panenka do kočárku"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "f81f3819-27f0-4b1a-a555-efb931f85557",
-    "free": true,
-    "children": [
-      {
-        "name": "Vašík D.",
-        "age": 7,
-        "gender": "Male",
-        "specifics": "Albi tužka, encyklopedie pro školáky, Albi interaktivní učebnice"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "035a51eb-19c7-4b78-b9ba-b595727b8006",
-    "free": true,
-    "children": [
-      {
-        "name": "Vaneska F.",
-        "age": 7,
-        "gender": "Female",
-        "specifics": "stolní hry, Albi tužka, encyklopedie pro školáky, Albi interaktivní učebnice"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "e47429ed-1967-45fc-b327-145f4ea367ff",
-    "free": true,
-    "children": [
-      {
-        "name": "Kateřina T.",
-        "age": 6,
-        "gender": "Female",
-        "specifics": "panenka do kočárku, rozvojové knihy pro předškoláka"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "b47d9d15-7dc5-4350-8b78-fb851de2fe0e",
-    "free": true,
-    "children": [
-      {
-        "name": "Petr K.",
-        "age": 4,
-        "gender": "Male",
-        "specifics": "míč na kopání, stolní hry pro malé děti, hry na ven"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "e1133412-722a-44bf-8c74-c01014b74f70",
-    "free": true,
-    "children": [
-      {
-        "name": "Šárka P.",
-        "age": 8,
-        "gender": "Female",
-        "specifics": "panenka Baby born, školní procvičovačky"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "e78a1bf1-febf-41d2-a5ff-4f07c657932e",
-    "free": true,
-    "children": [
-      {
-        "name": "Šimon P.",
-        "age": 6,
-        "gender": "Male",
-        "specifics": "Albi tužka - pohádkové učení"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "b3b81b08-1039-4fbd-b853-c5e2aef39738",
-    "free": true,
-    "children": [
-      {
-        "name": "David P.",
-        "age": 15,
-        "gender": "Male",
-        "specifics": "společenské hry, repráček"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "b253e28a-54b1-416a-a25b-c2fc39ca803b",
-    "free": true,
-    "children": [
-      {
-        "name": "Lucie S.",
-        "age": 14,
-        "gender": "Female",
-        "specifics": "sada společenských her"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "9d75a4f2-db1e-47c7-802e-f2a8f8d7f9b0",
-    "free": true,
-    "children": [
-      {
-        "name": "Alex O.",
-        "age": 3,
-        "gender": "Male",
-        "specifics": "sada kostek, Lego Duplo"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "ecfc23b3-4f84-425b-b929-5bc12f4f9113",
-    "free": true,
-    "children": [
-      {
-        "name": "Sebastian O.",
-        "age": 2,
-        "gender": "Male",
-        "specifics": "sada vláčků"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "e46e742b-e7b8-4378-99d2-71893acf251c",
-    "free": true,
-    "children": [
-      {
-        "name": "Emma M. P.",
-        "age": 7,
-        "gender": "Female",
-        "specifics": "desková hra Activity original"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "09d4edd7-f9fb-4cbb-9c06-a2dc982d42d8",
-    "free": true,
-    "children": [
-      {
-        "name": "Gábinka S.",
-        "age": 12,
-        "gender": "Female",
-        "specifics": "overal Unicorn - vel. S"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "2166a1bf-8b3e-4d3b-b24f-9ae8959cb250",
-    "free": true,
-    "children": [
-      {
-        "name": "Mireček S.",
-        "age": 8,
-        "gender": "Male",
-        "specifics": "tepláková souprava Minecraft vel. 134"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "91f4614f-cd92-4443-8782-6b54e3facb05",
-    "free": true,
-    "children": [
-      {
-        "name": "Míša S.",
-        "age": 6,
-        "gender": "Male",
-        "specifics": "tepláková souprava Minecraft vel. 128"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "2269d381-0c24-4c48-a5bf-06dc7fa00515",
-    "free": true,
-    "children": [
-      {
-        "name": "Kamila H.",
-        "age": 17,
-        "gender": "Female",
-        "specifics": "tepláková souprava vel. 44"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "795422f2-96c9-47dc-a6a3-e63f61d1bd57",
-    "free": true,
-    "children": [
-      {
-        "name": "Adam Š.",
-        "age": 6,
-        "gender": "Male",
-        "specifics": "Albi tužka"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "74a49fb3-be96-4f22-9cf2-33bc59fa797f",
-    "free": true,
-    "children": [
-      {
-        "name": "Maruška Š.",
-        "age": 2,
-        "gender": "Female",
-        "specifics": "kuchyňka (2 roky), dětské kuchyňské potřeby"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "e8458dc8-0eac-4c37-9ea2-8ecce34287fc",
-    "free": true,
-    "children": [
-      {
-        "name": "Natálka",
-        "age": 3,
-        "gender": "Female",
-        "specifics": "dětský vysavač"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "506d7e8d-eb4d-48af-a86f-8e2bf741e2ec",
-    "free": true,
-    "children": [
-      {
-        "name": "sourozenci H.",
-        "age": 9,
-        "gender": "Male",
-        "specifics": "robot"
-      },
-      {
-        "name": "sourozenci H.",
-        "age": 8,
-        "gender": "Female",
-        "specifics": "doktorský kufřík"
-      },
-      {
-        "name": "sourozenci H.",
-        "age": 7,
-        "gender": "Male",
-        "specifics": "společenská hra pro děti 7+"
-      },
-      {
-        "name": "sourozenci H.",
-        "age": 3,
-        "gender": "Female",
-        "specifics": "plastelýna Play Doh"
-      },
-      {
-        "name": "sourozenci H.",
-        "age": 1,
-        "gender": "Female",
-        "specifics": "interaktivní hračka"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "7d42837c-7833-4499-867f-9d28bae23743",
-    "free": true,
-    "children": [
-      {
-        "name": "Šimon R.",
-        "age": 2,
-        "gender": "Male",
-        "specifics": "Lego Duplo"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "aa30816e-ceaa-4e09-a4ea-554d8e5a8f65",
-    "free": true,
-    "children": [
-      {
-        "name": "Štěpán R.",
-        "age": 4,
-        "gender": "Male",
-        "specifics": "dětské plastové autíčko"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "96545086-4f5d-4e98-b3af-8a257bbca6ee",
-    "free": true,
-    "children": [
-      {
-        "name": "Eliška R.",
+        "name": "Vanesa",
         "age": 10,
         "gender": "Female",
-        "specifics": "realistická panenka"
+        "specifics": "sluchátka, hraje basketbal, zajímá se o gymnastiku"
       }
     ],
-    "placeId": "p0001"
+    "placeId": "p0003"
   },
   {
-    "centerId": "c0003",
-    "id": "03475025-cb94-4e5a-bd93-68ce12198037",
+    "centerId": "c0005",
+    "id": "185ac86f-49c1-48b0-88fc-aa15ef2bd38c",
     "free": true,
     "children": [
       {
-        "name": "Klárka",
-        "age": 8,
-        "gender": "Female",
-        "specifics": "domeček pro panenky"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "13677bb1-a680-45bb-a6ba-960e60c7ff0c",
-    "free": true,
-    "children": [
-      {
-        "name": "Petr U.",
-        "age": 3,
-        "gender": "Male",
-        "specifics": "Petr má rád auta, ideální by bylo auto na ovládání, nebo které bliká, příp. vydává zvuk"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "d9a77ef9-464f-487b-bea4-5f005763f929",
-    "free": true,
-    "children": [
-      {
-        "name": "Samuel F.",
-        "age": 14,
-        "gender": "Male",
-        "specifics": "Sam má mentální postižení a je náročné ho zabavit, aktuálně se dokáže zabavit na tabletu pohádkami, ale již ho rozbil, rodině by se hodil náhradní, stačí nějaký obyčejný (levný)"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "c0c3f238-1791-4e10-98e5-ba29d5d4cb9e",
-    "free": true,
-    "children": [
-      {
-        "name": "Karolínka F.",
-        "age": 8,
-        "gender": "Female",
-        "specifics": "Baby born - vanička pro panenku, dívce je sice už 8 let, ale je stále je velmi \"dětská\" a hravá"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "f8e7345f-d022-475b-80f8-8f90a1a279f1",
-    "free": true,
-    "children": [
-      {
-        "name": "Barborka F.",
-        "age": 12,
-        "gender": "Female",
-        "specifics": "kosmetika + potřeby na líčení, zdobení"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "557313ab-8da0-4530-b4c2-79afdc4f5c57",
-    "free": true,
-    "children": [
-      {
-        "name": "Kuba T.",
-        "age": 11,
-        "gender": "Male",
-        "specifics": "Kuba je sportovní kluk, který touží mít pořádného draka - https://www.decathlon.cz/p/letajici-drak-feel-r-180/_/R-p-177192?mc=8494906"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "4aa2a13e-09f5-42fc-904a-8029a971f0de",
-    "free": true,
-    "children": [
-      {
-        "name": "Anička J.",
-        "age": 11,
-        "gender": "Female",
-        "specifics": "Anička je velmi akční, ale zároveň je to velká parádnice - https://www.mall.cz/vytvor-sam/webhiddenbrand-make-it-real-sperkove-studio"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "14d6d8f1-3c83-4454-83ad-46952e35b4f3",
-    "free": true,
-    "children": [
-      {
-        "name": "Nikola Ď.",
-        "age": 16,
-        "gender": "Female",
-        "specifics": "Nikča je dívka s DMO, která ale miluje Linkin Park a tričko by jí udělala velkou radost - https://www.impericon.com/cz/linkin-park-street-soldier-white-black-girl-longsleeve.html"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "36218f1a-d76e-4bbd-95b4-d1f07d78078d",
-    "free": true,
-    "children": [
-      {
-        "name": "Amálka H.",
-        "age": 13,
-        "gender": "Female",
-        "specifics": "Amálka je dívka s Aspergerovým syndromem, která miluje vlky a moc by ji potěšilo toto - \n https://m.lightinthebox.com/cz/p/teenager-dospele-pyzama-kigurumi-husky-pyzamo-onesie-flanel-cerna-seda-cosplay-pro-damy-a-panove-animal-sleepwear-karikatura-festival-svatek-kostymy_p7655747.html#header_anchor - a to v šedé variantě"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "4315af8f-17a1-4151-87e4-84af14f67ae3",
-    "free": true,
-    "children": [
-      {
-        "name": "Zuzanka H.",
-        "age": 15,
-        "gender": "Female",
-        "specifics": "Zuzka má poruchu CNS a nemluví - potěšila by jí jakákoli knížka o zvířátkách a nebo fotoalbum, do kterého si může dávat fotky blízkých osob - https://www.barvosvet.cz/prvni-fotoalbum-pro-deti/"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "6db62d27-b697-47f0-ae32-3ea243b24136",
-    "free": true,
-    "children": [
-      {
-        "name": "Adam Š.",
+        "name": "Verča",
         "age": 6,
-        "gender": "Male",
-        "specifics": "Adámek je akční klučina, který často a rád jezdí vláčkem - https://www.mall.cz/doplnky-vlacky-masinky/rappa-vlak-ceske-drahy-se-zvukem-a-svetlem"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "ccab6bb0-f6d4-4c3f-bb0b-d1b3a454b6b6",
-    "free": true,
-    "children": [
-      {
-        "name": "Tobík F.",
-        "age": 13,
-        "gender": "Male",
-        "specifics": "Tobík je velmi akční kluk, který rád zkouší nové hry - https://www.hras.cz/nevsedni-darky/jenga-vez-barevna/"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "d446a83e-e930-481e-9736-3a4c9207f97f",
-    "free": true,
-    "children": [
-      {
-        "name": "Miky R.",
-        "age": 7,
-        "gender": "Male",
-        "specifics": "Miky touží po svém legu, miluje Star Wars a Minecraft"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "3c1fccd2-1b85-4843-9a78-32545e483f51",
-    "free": true,
-    "children": [
-      {
-        "name": "Šárka P.",
-        "age": 8,
         "gender": "Female",
-        "specifics": "moc ráda vyrábí a taky miluje Ledové království - https://www.mall.cz/vytvor-sam/melissa-and-doug-ledove-kralovstvi-ii-vyrob-si-naramky"
+        "specifics": "čelenka do vlasů, trojhranné pastelky, puzzle"
       }
     ],
-    "placeId": "p0001"
+    "placeId": "p0003"
   },
   {
-    "centerId": "c0003",
-    "id": "431e6e38-802a-445e-a965-91a7406e7458",
+    "centerId": "c0005",
+    "id": "5a6747ae-0e17-4489-a50e-20f6aa5a2c44",
     "free": true,
     "children": [
       {
-        "name": "Miky P.",
-        "age": 12,
-        "gender": "Male",
-        "specifics": "Miky je velmi dětský a miluje dětské příběhy a jejich hrdiny - Tlapková patrola vede v posledním měsíci - https://www.svet-modelu.cz/plys-ty-15-cm-tlapkova-patrola-paw-patrol-skye-ty-ty-41210-008421412105/d-109667/"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "f2da3f9e-0e94-45aa-96a3-f591c549f984",
-    "free": true,
-    "children": [
-      {
-        "name": "Janička O.",
-        "age": 13,
-        "gender": "Female",
-        "specifics": "Janička je na vozíčku a moc ráda maluje a něco vytváří. V poslední době by chtěla být kadeřnicí - https://panenky.heureka.cz/zapf-creation-starsi-sestricka-baby-born-cesaci-hlava/"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "79400184-89ca-4f43-a58d-e2a1c7278f23",
-    "free": true,
-    "children": [
-      {
-        "name": "Mates B.",
-        "age": 8,
-        "gender": "Male",
-        "specifics": "Mates je klučina, který je trochu při těle a potřebuje se hýbat - v této mikině by mu to šlo určitě lépe - https://www.enjoythemovement.cz/mikina-s-kapuci-kralik-nufik-cervena/ - velikost M"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "5b3e04b9-d8a1-40f3-890a-6e5231c985dc",
-    "free": true,
-    "children": [
-      {
-        "name": "Anička R.",
-        "age": 14,
-        "gender": "Female",
-        "specifics": "miluje pejsky - https://www.answear.cz/p/happy-socks-ponozky-dog-walking-gift-set-3-pack-562599 - velikost 41-46"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "f0b0414e-9562-4c92-bdde-968674fe276c",
-    "free": true,
-    "children": [
-      {
-        "name": "Jiřík M.",
-        "age": 11,
-        "gender": "Male",
-        "specifics": "Jirka je klučina, který raději hraje hry než se hýbe - tuto ještě nezná - https://www.albatrosmedia.cz/tituly/51086499/unikovka-minecraft/"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "f592ce0d-319c-422b-92ff-78afa749d7b0",
-    "free": true,
-    "children": [
-      {
-        "name": "Gábinka H.",
-        "age": 12,
-        "gender": "Female",
-        "specifics": "přála by si tajný deník - https://www.agatinsvet.cz/tajny-denik-s-magickym-perem-oana/"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "20803fcd-2893-4e61-8509-84d80c35c5c9",
-    "free": true,
-    "children": [
-      {
-        "name": "Zuzanka Č.",
-        "age": 11,
-        "gender": "Female",
-        "specifics": "Zuzka je na vozíku a miluje čtení, teď je pro ni nejlepší Harry Potter - radost by jí udělala jedna nebo obě knížky - https://www.megaknihy.cz/fantasy-sci-fi/210677-bestiar-harryho-pottera.html a https://www.megaknihy.cz/fantasy/327113-harry-potter-a-kamen-mudrcu-ilustrovane-vydani.html"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "c08e54a9-0982-4c9b-b188-2cb8b930ad32",
-    "free": true,
-    "children": [
-      {
-        "name": "Teo S.",
-        "age": 12,
-        "gender": "Male",
-        "specifics": "Teo miluje stavění lega - https://m.alza.cz/hracky/lego-technic-42118-monster-jam-grave-digger-d6284006.htm"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "6e0cd96c-ba28-468d-8a72-9946ac9d05d8",
-    "free": true,
-    "children": [
-      {
-        "name": "Kuba K.",
-        "age": 14,
-        "gender": "Male",
-        "specifics": "Kubík má aspergerův syndrom a miluje postřehové hry - https://www.mall.cz/cestovni-hry/dino-dino-cestovni-hra-spravna-dvojka-100052380729"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "da567057-1e81-42a6-9939-dfa3f9effd07",
-    "free": true,
-    "children": [
-      {
-        "name": "Hana S.",
-        "age": 14,
-        "gender": "Female",
-        "specifics": "moc by si přála sluchátka - https://www.alza.cz/trust-primo-touch-bt-earphones-cerna-d6121722.htm"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "0df3a41e-f843-4b48-b2a3-dd8300e375dc",
-    "free": true,
-    "children": [
-      {
-        "name": "Míša M.",
-        "age": 14,
-        "gender": "Female",
-        "specifics": "ráda se maluje - https://makeup.cz/product/384553/"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "342b0bff-b703-4db9-b765-d0117ca48dd0",
-    "free": true,
-    "children": [
-      {
-        "name": "Simona Š.",
-        "age": 17,
-        "gender": "Female",
-        "specifics": "moc by ji potěšil tento vak oblíbené skupiny - https://www.blakk.market/cs/blakkw-batoh-sbw"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "4c548879-a4ee-4492-8274-7c8e672813ee",
-    "free": true,
-    "children": [
-      {
-        "name": "Natálie T.",
-        "age": 17,
-        "gender": "Female",
-        "specifics": "Naty je velká slečna, ale je velmi dětská, ráda se maluje, má ráda teplé odstíny do červena - https://makeup.cz/product/438817/ - typ Allure"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "9025246f-a9ab-46a2-93aa-76b759f53527",
-    "free": true,
-    "children": [
-      {
-        "name": "Vašík",
-        "age": 6,
-        "gender": "Male",
-        "specifics": "doktorský kufřík"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "ab5da79b-2ed7-4285-9296-2fe736accf8b",
-    "free": true,
-    "children": [
-      {
-        "name": "Matýsek",
-        "age": 3,
-        "gender": "Male",
-        "specifics": "kufřík s nářadím"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "92526f6a-e155-47bd-8da1-a510a0bd34cb",
-    "free": true,
-    "children": [
-      {
-        "name": "Sára Š.",
+        "name": "Erika",
         "age": 3,
         "gender": "Female",
-        "specifics": "Lego Duplo box s kostkami číslo 10913"
-      },
-      {
-        "name": "Lili K.",
-        "age": 5,
-        "gender": "Female",
-        "specifics": "Lego Duplo box s kostkami číslo 10913"
+        "specifics": "dětský telefon, obrázková knížka"
       }
     ],
-    "placeId": "p0001"
+    "placeId": "p0003"
   },
   {
-    "centerId": "c0003",
-    "id": "fa27a8a1-80d1-4fcc-a323-608147498853",
-    "free": true,
-    "children": [
-      {
-        "name": "Viktorie K.",
-        "age": 4,
-        "gender": "Female",
-        "specifics": "MiDeer Set her 16 v 1 - https://www.mracekzhracek.cz/stolni-hry/set-her-16-v-1-2/"
-      },
-      {
-        "name": "Gertruda K.",
-        "age": 1,
-        "gender": "Female",
-        "specifics": "hračky pro batole"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "8d081444-d4a2-46e2-bc24-0357b52dc1fe",
-    "free": true,
-    "children": [
-      {
-        "name": "Martin Š.",
-        "age": 7,
-        "gender": "Male",
-        "specifics": "stavebnice ze sady Lego Creator nebo Lego Ninjago"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "c0bed2be-4de6-48ca-a7ce-545c44db237e",
-    "free": true,
-    "children": [
-      {
-        "name": "Dana M.",
-        "age": 11,
-        "gender": "Female",
-        "specifics": "Carcassonne, Osadníky z Katanu nebo karetní hry (Uno, Dobble, Kočičí klub), náramky, přívěsky, laky na nehty apod."
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0003",
-    "id": "0e889545-786c-4ec5-bd05-da2e2cebccc2",
-    "free": true,
-    "children": [
-      {
-        "name": "Filip",
-        "age": 8,
-        "gender": "Male",
-        "specifics": "někrerá z figuerek Transformers"
-      }
-    ],
-    "placeId": "p0001"
-  },
-  {
-    "centerId": "c0004",
-    "id": "59c6696a-e4ee-4797-b382-810a18add49b",
-    "free": true,
-    "children": [
-      {
-        "name": "Emma",
-        "age": 8,
-        "gender": "Female",
-        "specifics": "společenské hry, tvoření"
-      }
-    ],
-    "placeId": "p0002"
-  },
-  {
-    "centerId": "c0004",
-    "id": "c53eb376-08ae-41b2-b167-e6a566119b6a",
-    "free": true,
-    "children": [
-      {
-        "name": "Roman",
-        "age": 17,
-        "gender": "Male",
-        "specifics": "tričko, mikina L, kosmetika"
-      }
-    ],
-    "placeId": "p0002"
-  },
-  {
-    "centerId": "c0004",
-    "id": "970c2dcc-9b2b-41b5-9069-97c65d3a91c7",
-    "free": true,
-    "children": [
-      {
-        "name": "Kristýna",
-        "age": 17,
-        "gender": "Female",
-        "specifics": "kosmetika, tvoření"
-      }
-    ],
-    "placeId": "p0002"
-  },
-  {
-    "centerId": "c0004",
-    "id": "cd7034c0-d45c-44da-86fd-978bd39aa284",
-    "free": true,
-    "children": [
-      {
-        "name": "Patrik",
-        "age": 10,
-        "gender": "Male",
-        "specifics": "fotbal"
-      }
-    ],
-    "placeId": "p0002"
-  },
-  {
-    "centerId": "c0004",
-    "id": "24653f72-3c47-4750-a455-5b214153ae1a",
+    "centerId": "c0005",
+    "id": "a8c7df7c-680d-4ee1-8784-c48ef0077f1e",
     "free": true,
     "children": [
       {
         "name": "Eliška",
-        "age": 7,
+        "age": 13,
         "gender": "Female",
-        "specifics": "panenky, tvoření, tanec"
+        "specifics": "kosmetika, zajímá se o hudbu"
       }
     ],
-    "placeId": "p0002"
+    "placeId": "p0003"
   },
   {
-    "centerId": "c0004",
-    "id": "60ca7c1d-7509-4936-8dff-4444095529aa",
+    "centerId": "c0005",
+    "id": "4d2c6896-5465-43fa-86f2-a729417a2d1c",
     "free": true,
     "children": [
       {
-        "name": "Sára",
-        "age": 6,
+        "name": "Natálie",
+        "age": 9,
         "gender": "Female",
-        "specifics": "společenská hra, tvoření"
+        "specifics": "výtvarné potřeby, ráda maluje"
       }
     ],
-    "placeId": "p0002"
+    "placeId": "p0003"
   },
   {
-    "centerId": "c0004",
-    "id": "0116c96e-12fd-4131-830f-f88b677a9c0a",
+    "centerId": "c0005",
+    "id": "b6196051-be1d-4264-91c7-c22fa1f7ec16",
     "free": true,
     "children": [
       {
-        "name": "Daniel",
-        "age": 11,
+        "name": "Nikola D.",
+        "age": 14,
+        "gender": "Female",
+        "specifics": "sluchátka, kosmetika"
+      }
+    ],
+    "placeId": "p0003"
+  },
+  {
+    "centerId": "c0005",
+    "id": "4629e871-6044-4ed3-939e-6390e51a7c26",
+    "free": true,
+    "children": [
+      {
+        "name": "Sandra",
+        "age": 14,
+        "gender": "Female",
+        "specifics": "sluchátka, kosmetika"
+      }
+    ],
+    "placeId": "p0003"
+  },
+  {
+    "centerId": "c0005",
+    "id": "6c51c32f-8164-46f2-bb10-00949a420728",
+    "free": true,
+    "children": [
+      {
+        "name": "Radek",
+        "age": 15,
         "gender": "Male",
-        "specifics": "jízdní kolo, fotbal"
+        "specifics": "sluchátka"
       }
     ],
-    "placeId": "p0002"
+    "placeId": "p0003"
   },
   {
-    "centerId": "c0004",
-    "id": "24761c81-00f5-4837-aa65-817d74a105bf",
+    "centerId": "c0005",
+    "id": "f3d121e8-3682-47fe-a51d-c93de772011f",
     "free": true,
     "children": [
       {
-        "name": "Miroslav",
+        "name": "Lucie",
+        "age": 18,
+        "gender": "Female",
+        "specifics": "kosmetika"
+      }
+    ],
+    "placeId": "p0003"
+  },
+  {
+    "centerId": "c0005",
+    "id": "3b5db755-5e63-47d8-a4ca-cec2c9402563",
+    "free": true,
+    "children": [
+      {
+        "name": "Denisa",
+        "age": 16,
+        "gender": "Female",
+        "specifics": "kosmetika"
+      }
+    ],
+    "placeId": "p0003"
+  },
+  {
+    "centerId": "c0005",
+    "id": "b72f1234-5460-46e6-b48a-5707dfd0b3dc",
+    "free": true,
+    "children": [
+      {
+        "name": "Viktorie",
+        "age": 9,
+        "gender": "Female",
+        "specifics": "kosmetika"
+      }
+    ],
+    "placeId": "p0003"
+  },
+  {
+    "centerId": "c0005",
+    "id": "5e5b2f7d-3e18-4c91-9df2-92ba09dc5636",
+    "free": true,
+    "children": [
+      {
+        "name": "Matyáš",
         "age": 10,
         "gender": "Male",
-        "specifics": "jízdní kolo, fotbal"
+        "specifics": "auto na ovládání"
       }
     ],
-    "placeId": "p0002"
+    "placeId": "p0003"
   },
   {
-    "centerId": "c0004",
-    "id": "85482b0e-889b-439a-8bf6-0af2ffadddc0",
+    "centerId": "c0005",
+    "id": "9d0de0f1-c142-4568-b078-1c08401264dc",
     "free": true,
     "children": [
       {
-        "name": "Diana",
-        "age": 4,
+        "name": "Tereza",
+        "age": 10,
         "gender": "Female",
-        "specifics": "panenky"
+        "specifics": "sluchátka a kniha"
+      }
+    ],
+    "placeId": "p0003"
+  },
+  {
+    "centerId": "c0005",
+    "id": "f839537e-6dfb-4eac-a49b-07ef1a13c162",
+    "free": true,
+    "children": [
+      {
+        "name": "Charlota",
+        "age": 7,
+        "gender": "Female",
+        "specifics": "dětský telefon, obrázková knížka"
+      }
+    ],
+    "placeId": "p0003"
+  },
+  {
+    "centerId": "c0005",
+    "id": "024e04d9-5208-45bf-99c8-50e355a3068d",
+    "free": true,
+    "children": [
+      {
+        "name": "Mirek",
+        "age": 17,
+        "gender": "Male",
+        "specifics": "tepláková souprava vel. L"
+      }
+    ],
+    "placeId": "p0003"
+  },
+  {
+    "centerId": "c0005",
+    "id": "8fbfdbca-61ef-46d8-96eb-3333719ebe0d",
+    "free": true,
+    "children": [
+      {
+        "name": "Vlasta",
+        "age": 16,
+        "gender": "Male",
+        "specifics": "kosmetika"
+      }
+    ],
+    "placeId": "p0003"
+  },
+  {
+    "centerId": "c0005",
+    "id": "89b99896-36de-47d9-9a5b-08c2ba0ef123",
+    "free": true,
+    "children": [
+      {
+        "name": "Iveta",
+        "age": 18,
+        "gender": "Female",
+        "specifics": "výtvarné potřeby, ráda maluje"
+      }
+    ],
+    "placeId": "p0003"
+  },
+  {
+    "centerId": "c0005",
+    "id": "da6d9bbc-c5f7-4df2-b0d0-97cf419cad6b",
+    "free": true,
+    "children": [
+      {
+        "name": "Ernest",
+        "age": 15,
+        "gender": "Male",
+        "specifics": "taška na fotbal"
+      }
+    ],
+    "placeId": "p0003"
+  },
+  {
+    "centerId": "c0005",
+    "id": "b9f3667a-0184-4cd3-91bd-e9c5a98292b0",
+    "free": true,
+    "children": [
+      {
+        "name": "Nikola B.",
+        "age": 15,
+        "gender": "Female",
+        "specifics": "vlasová kosmetika, chce jít na kadeřníka"
+      }
+    ],
+    "placeId": "p0003"
+  },
+  {
+    "centerId": "c0005",
+    "id": "b9d820ad-fa19-4396-9adf-0aae1d6ca797",
+    "free": true,
+    "children": [
+      {
+        "name": "Vojta",
+        "age": 15,
+        "gender": "Male",
+        "specifics": "velký fotbalista - vše o fotbalu"
+      }
+    ],
+    "placeId": "p0003"
+  },
+  {
+    "centerId": "c0005",
+    "id": "97c289b2-6c6a-4039-b258-ec1697e917fc",
+    "free": true,
+    "children": [
+      {
+        "name": "Jirka P.",
+        "age": 16,
+        "gender": "Male",
+        "specifics": "sluchátka, stavebnice"
+      }
+    ],
+    "placeId": "p0003"
+  },
+  {
+    "centerId": "c0005",
+    "id": "5d7d2cfc-37f6-43c3-9a16-c435c9470b11",
+    "free": true,
+    "children": [
+      {
+        "name": "Martin",
+        "age": 13,
+        "gender": "Male",
+        "specifics": "kopačky Predátorky, vel. 41"
+      }
+    ],
+    "placeId": "p0003"
+  },
+  {
+    "centerId": "c0005",
+    "id": "ea3900c3-a28c-473f-a556-a0f0ede42e00",
+    "free": true,
+    "children": [
+      {
+        "name": "Jirka D.",
+        "age": 8,
+        "gender": "Male",
+        "specifics": "auto na ovládání"
+      }
+    ],
+    "placeId": "p0003"
+  },
+  {
+    "centerId": "c0005",
+    "id": "d0481f0a-b666-4945-bc40-a491c620bff1",
+    "free": true,
+    "children": [
+      {
+        "name": "Sam",
+        "age": 5,
+        "gender": "Male",
+        "specifics": "auto na ovládání"
+      }
+    ],
+    "placeId": "p0003"
+  },
+  {
+    "centerId": "c0005",
+    "id": "f93867b5-c61e-4e9d-966e-029fcb053075",
+    "free": true,
+    "children": [
+      {
+        "name": "Jirka B.",
+        "age": 14,
+        "gender": "Male",
+        "specifics": "power banka"
+      }
+    ],
+    "placeId": "p0003"
+  },
+  {
+    "centerId": "c0004",
+    "id": "e6945ab5-a2b5-4dd9-825e-f2d6847ee535",
+    "free": true,
+    "children": [
+      {
+        "name": "Jana",
+        "age": 12,
+        "gender": "Female",
+        "specifics": "ráda si maluje, staví z Lega - lepší pastelky, malířská sada např. Lidl"
+      },
+      {
+        "name": "Hanka",
+        "age": 11,
+        "gender": "Female",
+        "specifics": "ráda tvoří - sada/blok \"módní návrhářka\""
+      },
+      {
+        "name": "Věrka",
+        "age": 7,
+        "gender": "Female",
+        "specifics": "ráda tvoří - vyškrabávací obrázek"
+      },
+      {
+        "name": "Terka",
+        "age": 17,
+        "gender": "Female",
+        "specifics": "dekorativní kosmetika - např. řasenka"
       }
     ],
     "placeId": "p0002"
   },
   {
     "centerId": "c0004",
-    "id": "4e818264-8c3b-4c58-a845-0b14980c144b",
+    "id": "974f8822-fbfe-47d9-b486-8ff669d4b159",
     "free": true,
     "children": [
       {
-        "name": "Derin",
+        "name": "Bertík",
         "age": 2,
-        "gender": "Female",
-        "specifics": "hračky"
+        "gender": "Male",
+        "specifics": "auto"
       }
     ],
     "placeId": "p0002"
   },
   {
     "centerId": "c0004",
-    "id": "107f5cf6-6a66-485f-a8c1-55a9a4e242dc",
+    "id": "8be961ea-8d50-4225-b638-756dc7256be5",
+    "free": true,
+    "children": [
+      {
+        "name": "Justin",
+        "age": 11,
+        "gender": "Male",
+        "specifics": "Lego creator 3 v 1"
+      },
+      {
+        "name": "Josefínka",
+        "age": 7,
+        "gender": "Female",
+        "specifics": "drobné holčičí Lego"
+      },
+      {
+        "name": "Klárka",
+        "age": 5,
+        "gender": "Female",
+        "specifics": "drobné holčičí Lego"
+      }
+    ],
+    "placeId": "p0002"
+  },
+  {
+    "centerId": "c0004",
+    "id": "8732f5e5-0d69-4518-9732-b1936725010d",
+    "free": true,
+    "children": [
+      {
+        "name": "Milan",
+        "age": 10,
+        "gender": "Male",
+        "specifics": "cokoliv k rybářství nebo Lego (nejvíce by si přál notebook - i starší)"
+      },
+      {
+        "name": "Lucie",
+        "age": 15,
+        "gender": "Female",
+        "specifics": "drogerie, kosmetika"
+      }
+    ],
+    "placeId": "p0002"
+  },
+  {
+    "centerId": "c0004",
+    "id": "87130515-eb53-4bfd-a779-5584ecc56255",
     "free": true,
     "children": [
       {
         "name": "Sofie",
         "age": 5,
         "gender": "Female",
-        "specifics": "panenky, malovátka"
-      }
-    ],
-    "placeId": "p0002"
-  },
-  {
-    "centerId": "c0004",
-    "id": "b975dbe3-082c-4c96-8844-8e20ff5f5fc9",
-    "free": true,
-    "children": [
+        "specifics": "společenská hra zaměřená na rozvoj nebo loutkové či maňáskové divadlo, vývojové opoždění"
+      },
       {
-        "name": "Patrik",
-        "age": 6,
-        "gender": "Male",
-        "specifics": "kolo, auta"
-      }
-    ],
-    "placeId": "p0002"
-  },
-  {
-    "centerId": "c0004",
-    "id": "5c9de118-76a5-4d1e-a66d-f72929d9a182",
-    "free": true,
-    "children": [
-      {
-        "name": "Adam",
-        "age": 14,
-        "gender": "Male",
-        "specifics": "fotbal"
-      }
-    ],
-    "placeId": "p0002"
-  },
-  {
-    "centerId": "c0004",
-    "id": "ec666048-258e-4c10-9b5b-46f9718284cf",
-    "free": true,
-    "children": [
-      {
-        "name": "Michaela",
-        "age": 10,
-        "gender": "Female",
-        "specifics": "společenské hry, tvoření"
-      }
-    ],
-    "placeId": "p0002"
-  },
-  {
-    "centerId": "c0004",
-    "id": "7e65f62e-2bc1-4bcd-b288-4637ce8156d4",
-    "free": true,
-    "children": [
-      {
-        "name": "Anna",
-        "age": 2,
-        "gender": "Female",
-        "specifics": "hračky"
-      }
-    ],
-    "placeId": "p0002"
-  },
-  {
-    "centerId": "c0004",
-    "id": "78134107-ff11-46cc-988e-4cb8e6c2b32b",
-    "free": true,
-    "children": [
-      {
-        "name": "Robin",
+        "name": "Lukas",
         "age": 7,
         "gender": "Male",
-        "specifics": "lego, auto"
+        "specifics": "společenská hra zaměřená na rozvoj nebo loutkové či maňáskové divadlo, vývojové opoždění"
       }
     ],
     "placeId": "p0002"
   },
   {
     "centerId": "c0004",
-    "id": "cebbdde3-7b7e-4c68-bab3-8c472d629d4c",
+    "id": "60088c79-5483-45ef-ab42-927881aaaad7",
     "free": true,
     "children": [
       {
-        "name": "Tereza",
+        "name": "Klára",
         "age": 13,
         "gender": "Female",
-        "specifics": "dekorativní kosmetika, líčení"
+        "specifics": "kosmetika nebo sportovní vybavení (hraje basketbal, jezdí na kole)"
       }
     ],
     "placeId": "p0002"
   },
   {
     "centerId": "c0004",
-    "id": "c010e67d-3437-4ae3-9b0e-21a053a14500",
+    "id": "0c0b872a-0c71-4e50-b4be-1a0fe7f56471",
     "free": true,
     "children": [
       {
-        "name": "Fabián",
-        "age": 6,
-        "gender": "Male",
-        "specifics": "auto, dinosauři, lego"
-      }
-    ],
-    "placeId": "p0002"
-  },
-  {
-    "centerId": "c0004",
-    "id": "da0f5433-43ed-4508-9c05-b1fab6c696b2",
-    "free": true,
-    "children": [
-      {
-        "name": "Kristýna",
-        "age": 15,
-        "gender": "Female",
-        "specifics": "dekorativní kosmetika, líčení"
-      }
-    ],
-    "placeId": "p0002"
-  },
-  {
-    "centerId": "c0004",
-    "id": "6a052583-dc9f-4655-9d41-00149c403e1a",
-    "free": true,
-    "children": [
-      {
-        "name": "Jiří",
-        "age": 17,
-        "gender": "Male",
-        "specifics": "tepláková souprava XL, nejlépe s fotbal. motivem - např. Viktorka Plzeň, pánská kosmetika"
-      }
-    ],
-    "placeId": "p0002"
-  },
-  {
-    "centerId": "c0004",
-    "id": "02987944-1df9-4541-bd87-aca0903c88e1",
-    "free": true,
-    "children": [
-      {
-        "name": "Petr",
-        "age": 12,
-        "gender": "Male",
-        "specifics": "všechno na téma policie - lego, auto, atd."
-      }
-    ],
-    "placeId": "p0002"
-  },
-  {
-    "centerId": "c0004",
-    "id": "dab5029e-656c-4956-991b-148326f5aa00",
-    "free": true,
-    "children": [
-      {
-        "name": "Kristiyan",
+        "name": "Tina",
         "age": 13,
-        "gender": "Male",
-        "specifics": "mikina M s chlapeckým motivem, nesmí být pro holku :-)"
-      }
-    ],
-    "placeId": "p0002"
-  },
-  {
-    "centerId": "c0004",
-    "id": "94defb6b-896c-4f65-9641-550996b9ddd2",
-    "free": true,
-    "children": [
-      {
-        "name": "Šimon",
-        "age": 4,
-        "gender": "Male",
-        "specifics": "auto, dětská knížka"
-      }
-    ],
-    "placeId": "p0002"
-  },
-  {
-    "centerId": "c0004",
-    "id": "aaef1d5f-5ce1-4684-8cf8-41cf053f4f10",
-    "free": true,
-    "children": [
-      {
-        "name": "Hana",
-        "age": 17,
         "gender": "Female",
-        "specifics": "dekorativní kosmetika, líčení"
-      }
-    ],
-    "placeId": "p0002"
-  },
-  {
-    "centerId": "c0004",
-    "id": "4f46a41f-131d-441f-b838-85706a3ba91f",
-    "free": true,
-    "children": [
+        "specifics": "sada na tvoření pro větší slečny"
+      },
       {
-        "name": "Meti",
-        "age": 8,
-        "gender": "Male",
-        "specifics": "auto na ovládání"
-      }
-    ],
-    "placeId": "p0002"
-  },
-  {
-    "centerId": "c0004",
-    "id": "63ec5716-20a5-4ee3-b33f-a3b2f2f733cd",
-    "free": true,
-    "children": [
-      {
-        "name": "Lorena",
-        "age": 11,
-        "gender": "Female",
-        "specifics": "bezdrátová sluchátka, sada na chemické pokusy"
-      }
-    ],
-    "placeId": "p0002"
-  },
-  {
-    "centerId": "c0004",
-    "id": "12c93c3b-007a-4f53-aebf-d9ab664d0e34",
-    "free": true,
-    "children": [
-      {
-        "name": "Elissa",
-        "age": 16,
-        "gender": "Female",
-        "specifics": "dekorativní kosmetika, líčení"
-      }
-    ],
-    "placeId": "p0002"
-  },
-  {
-    "centerId": "c0004",
-    "id": "16d32169-15ad-4660-9e6c-a94f044eaaff",
-    "free": true,
-    "children": [
-      {
-        "name": "Tobias",
-        "age": 8,
-        "gender": "Male",
-        "specifics": "stavebnice Lego nebo jiná, auto"
-      }
-    ],
-    "placeId": "p0002"
-  },
-  {
-    "centerId": "c0004",
-    "id": "312802de-fbe4-4816-aec2-edc303f8e42f",
-    "free": true,
-    "children": [
-      {
-        "name": "Štěpán",
-        "age": 6,
-        "gender": "Male",
-        "specifics": "stavebnice Lego nebo jiná, auto"
-      }
-    ],
-    "placeId": "p0002"
-  },
-  {
-    "centerId": "c0004",
-    "id": "854043ec-0bcb-4963-87f0-c1cd18a41b72",
-    "free": true,
-    "children": [
-      {
-        "name": "Aneta",
-        "age": 17,
-        "gender": "Female",
-        "specifics": "dekorativní kosmetika, líčení, mikina S"
-      }
-    ],
-    "placeId": "p0002"
-  },
-  {
-    "centerId": "c0004",
-    "id": "56696bf5-5833-406e-8a3b-1e24b1f390ec",
-    "free": true,
-    "children": [
-      {
-        "name": "Martin",
-        "age": 10,
-        "gender": "Male",
-        "specifics": "stavebnice"
-      }
-    ],
-    "placeId": "p0002"
-  },
-  {
-    "centerId": "c0004",
-    "id": "06eb95f0-9436-45ac-875f-8474cd334b26",
-    "free": true,
-    "children": [
-      {
-        "name": "Petr",
-        "age": 5,
-        "gender": "Male",
-        "specifics": "autodráha, auto na ovládání"
-      }
-    ],
-    "placeId": "p0002"
-  },
-  {
-    "centerId": "c0004",
-    "id": "3e1a0f23-42b2-433b-a644-c57a9c789c53",
-    "free": true,
-    "children": [
-      {
-        "name": "Nikola",
-        "age": 7,
-        "gender": "Female",
-        "specifics": "panenka, pastelky"
-      }
-    ],
-    "placeId": "p0002"
-  },
-  {
-    "centerId": "c0004",
-    "id": "f5094db7-8ec8-4277-a01d-9c9e1c8241ab",
-    "free": true,
-    "children": [
-      {
-        "name": "Adrian",
-        "age": 10,
-        "gender": "Male",
-        "specifics": "stavebnice"
-      }
-    ],
-    "placeId": "p0002"
-  },
-  {
-    "centerId": "c0004",
-    "id": "9ade16e2-618f-4694-89bd-8a555fb266cc",
-    "free": true,
-    "children": [
-      {
-        "name": "Dominika",
-        "age": 5,
-        "gender": "Female",
-        "specifics": "panenky"
-      }
-    ],
-    "placeId": "p0002"
-  },
-  {
-    "centerId": "c0004",
-    "id": "7ae35082-3394-4f0c-8995-428de4378c76",
-    "free": true,
-    "children": [
-      {
-        "name": "Matyáš",
-        "age": 5,
-        "gender": "Male",
-        "specifics": "autíčka"
-      }
-    ],
-    "placeId": "p0002"
-  },
-  {
-    "centerId": "c0004",
-    "id": "cb8c3c5d-269b-4420-ab51-a7bfbfe07569",
-    "free": true,
-    "children": [
-      {
-        "name": "Anna",
-        "age": 7,
-        "gender": "Female",
-        "specifics": "sada na kreslení, stolní hra"
-      }
-    ],
-    "placeId": "p0002"
-  },
-  {
-    "centerId": "c0004",
-    "id": "4f2f8e3d-6d8d-484c-bc34-b4cd50e1cb47",
-    "free": true,
-    "children": [
-      {
-        "name": "Veronika",
-        "age": 7,
-        "gender": "Female",
-        "specifics": "sada na kreslení, stolní hra"
-      }
-    ],
-    "placeId": "p0002"
-  },
-  {
-    "centerId": "c0004",
-    "id": "40a5a0fc-648f-486f-8527-d30ceb397b28",
-    "free": true,
-    "children": [
-      {
-        "name": "Dominik",
-        "age": 9,
-        "gender": "Female",
-        "specifics": "stavebnice"
-      }
-    ],
-    "placeId": "p0002"
-  },
-  {
-    "centerId": "c0004",
-    "id": "f98ffdd8-ac44-4b33-a7a2-6a2caf23b6de",
-    "free": true,
-    "children": [
-      {
-        "name": "Ivan",
-        "age": 7,
-        "gender": "Male",
-        "specifics": "cokoliv pohybového, míč, auto na ovládání, kolo"
-      }
-    ],
-    "placeId": "p0002"
-  },
-  {
-    "centerId": "c0004",
-    "id": "11975c7b-cb18-40cb-bfcb-756965f512e4",
-    "free": true,
-    "children": [
-      {
-        "name": "Leon",
+        "name": "Pavel",
         "age": 9,
         "gender": "Male",
-        "specifics": "cokoliv pohybového, míč, auto na ovládání, kolo"
-      }
-    ],
-    "placeId": "p0002"
-  },
-  {
-    "centerId": "c0004",
-    "id": "b2b17eb6-8e7c-459b-84f7-c0501360dbfb",
-    "free": true,
-    "children": [
+        "specifics": "rád hraje divadlo - např. škrabošky, větší loutky nebo cokoliv k IZS (hasiči, záchranáři, policisté)"
+      },
       {
-        "name": "Jan",
-        "age": 10,
-        "gender": "Male",
-        "specifics": "auto na ovládání, lego"
-      }
-    ],
-    "placeId": "p0002"
-  },
-  {
-    "centerId": "c0004",
-    "id": "616c162e-f649-4ecf-8727-016ca3bede42",
-    "free": true,
-    "children": [
-      {
-        "name": "Eliška",
-        "age": 2,
+        "name": "Tina",
+        "age": 5,
         "gender": "Female",
-        "specifics": "hračky, panenka"
+        "specifics": "fotbalový míč, cokoliv k IZS (hasiči, záchranáři, policisté)"
       }
     ],
     "placeId": "p0002"
   },
   {
     "centerId": "c0004",
-    "id": "8b947eaa-9412-4132-8f29-e6a4befe3921",
+    "id": "c248fae1-d01f-47ae-aa1c-ceffc28cba9e",
     "free": true,
     "children": [
       {
-        "name": "Lukáš",
-        "age": 16,
+        "name": "Daniel",
+        "age": 9,
         "gender": "Male",
-        "specifics": "florbalová hůl, fotbalový míč, Viktorka Plzeň"
+        "specifics": "fotbalový míč a fotbalový dres (velikost 152)"
       }
     ],
     "placeId": "p0002"
   },
   {
     "centerId": "c0004",
-    "id": "d0b57e26-c7b6-41f4-89bd-ff8ecb6ffc45",
+    "id": "ed19ec35-976e-4a02-b538-b4ab223409c6",
     "free": true,
     "children": [
       {
         "name": "Tobiáš",
-        "age": 11,
+        "age": 4,
         "gender": "Male",
-        "specifics": "společenská hra, cokoliv co hraje a svítí"
+        "specifics": "míče, něco na tvoření, pastelky, fixy, obrázkové knihy"
+      },
+      {
+        "name": "Vanessa",
+        "age": 12,
+        "gender": "Female",
+        "specifics": "dívčí kosmetika, něco ke tvoření, fimo, lepší pastelky"
       }
     ],
     "placeId": "p0002"
   },
   {
     "centerId": "c0004",
-    "id": "5b7e0e4d-254a-4715-b90a-c1d159757936",
+    "id": "90a42b51-0bcb-4628-9c39-c4b9b5ce7ff1",
     "free": true,
     "children": [
       {
-        "name": "Sebík",
-        "age": 9,
+        "name": "Adéla",
+        "age": 12,
+        "gender": "Female",
+        "specifics": "speciálnější potřeby a pomůcky na malování (obrázků)"
+      }
+    ],
+    "placeId": "p0002"
+  },
+  {
+    "centerId": "c0004",
+    "id": "7c2df31b-c09b-466c-869d-f344805956be",
+    "free": true,
+    "children": [
+      {
+        "name": "Matyáš",
+        "age": 7,
+        "gender": "Male",
+        "specifics": "drak - postavička"
+      }
+    ],
+    "placeId": "p0002"
+  },
+  {
+    "centerId": "c0004",
+    "id": "154b09a1-8d3b-43d4-98b6-cbb51b10ebed",
+    "free": true,
+    "children": [
+      {
+        "name": "Tobiáš",
+        "age": 5,
+        "gender": "Male",
+        "specifics": "plyšák SONIC černý"
+      },
+      {
+        "name": "Marcel",
+        "age": 3,
+        "gender": "Male",
+        "specifics": "plyšák SONIC modrý"
+      }
+    ],
+    "placeId": "p0002"
+  },
+  {
+    "centerId": "c0004",
+    "id": "9c287758-56ba-4d3c-b3c1-64dd9e27267d",
+    "free": true,
+    "children": [
+      {
+        "name": "Dominika",
+        "age": 7,
+        "gender": "Female",
+        "specifics": "stolní hra"
+      }
+    ],
+    "placeId": "p0002"
+  },
+  {
+    "centerId": "c0004",
+    "id": "b25644f8-0e95-4d72-8b44-71f609dd0d8b",
+    "free": true,
+    "children": [
+      {
+        "name": "Dominik",
+        "age": 12,
+        "gender": "Male",
+        "specifics": "chytré hodinky (stačily by úplně obyčejné, nejlevnější nebo použité) nebo stavenice Lego"
+      }
+    ],
+    "placeId": "p0002"
+  },
+  {
+    "centerId": "c0004",
+    "id": "18b09e8a-34f6-4655-a230-437a3da0ea99",
+    "free": true,
+    "children": [
+      {
+        "name": "Petr",
+        "age": 7,
+        "gender": "Male",
+        "specifics": "fotbalové kopačky vel. 34"
+      }
+    ],
+    "placeId": "p0002"
+  },
+  {
+    "centerId": "c0004",
+    "id": "b2510dd2-03a4-4763-abf1-6f8e7797e09d",
+    "free": true,
+    "children": [
+      {
+        "name": "Michaela",
+        "age": 13,
+        "gender": "Female",
+        "specifics": "dívčí kosmetika, dekorativní kosmetika"
+      },
+      {
+        "name": "Adam",
+        "age": 16,
+        "gender": "Male",
+        "specifics": "fotbalový míč, nebo nějaké sportovní vybavení"
+      },
+      {
+        "name": "Roman",
+        "age": 5,
         "gender": "Male",
         "specifics": "stavebnice"
       }
@@ -1917,16 +905,614 @@
   },
   {
     "centerId": "c0004",
-    "id": "a8ef5788-7efb-4a1f-b8ee-0e9e30df634c",
+    "id": "b9880d20-e8c8-438a-ad49-5d512ba0e3e4",
     "free": true,
     "children": [
       {
-        "name": "Sára",
-        "age": 13,
-        "gender": "Female",
-        "specifics": "společenská hra, dekorativní kosmetika"
+        "name": "Daniel",
+        "age": 11,
+        "gender": "Male",
+        "specifics": "rád hraje PC hry a čte komiksy"
       }
     ],
     "placeId": "p0002"
+  },
+  {
+    "centerId": "c0004",
+    "id": "5f0ca9a3-b392-4885-b979-d755483aef36",
+    "free": true,
+    "children": [
+      {
+        "name": "Patrik",
+        "age": 13,
+        "gender": "Male",
+        "specifics": "rád hraje fotbal"
+      }
+    ],
+    "placeId": "p0002"
+  },
+  {
+    "centerId": "c0004",
+    "id": "266df0f8-0a85-43b4-ad1d-aa5bf94fe5f4",
+    "free": true,
+    "children": [
+      {
+        "name": "Adéla",
+        "age": 11,
+        "gender": "Female",
+        "specifics": "panenka LOL (jákákoliv)"
+      }
+    ],
+    "placeId": "p0002"
+  },
+  {
+    "centerId": "c0004",
+    "id": "ac221480-633e-432c-9cf7-db5dc3508687",
+    "free": true,
+    "children": [
+      {
+        "name": "Tomáš",
+        "age": 12,
+        "gender": "Male",
+        "specifics": "společenská hra Bull´s Eye"
+      }
+    ],
+    "placeId": "p0002"
+  },
+  {
+    "centerId": "c0004",
+    "id": "643e5828-0219-4699-a075-8d4430e8517e",
+    "free": true,
+    "children": [
+      {
+        "name": "Nataly",
+        "age": 10,
+        "gender": "Female",
+        "specifics": "panenka nebo stolní hra"
+      },
+      {
+        "name": "Melisa",
+        "age": 8,
+        "gender": "Female",
+        "specifics": "panenka nebo stolní hra nebo potřeby na kreslení, malování"
+      }
+    ],
+    "placeId": "p0002"
+  },
+  {
+    "centerId": "c0004",
+    "id": "b96b1179-729f-4d55-998f-c313e2680461",
+    "free": true,
+    "children": [
+      {
+        "name": "Samuel",
+        "age": 3,
+        "gender": "Male",
+        "specifics": "koleje s vláčkem (dřevěné)"
+      }
+    ],
+    "placeId": "p0002"
+  },
+  {
+    "centerId": "c0004",
+    "id": "6339333c-ef3f-4d1f-bd51-56fa4ec6a31c",
+    "free": true,
+    "children": [
+      {
+        "name": "Natálie",
+        "age": 17,
+        "gender": "Female",
+        "specifics": "kosmetická sada na akné"
+      }
+    ],
+    "placeId": "p0002"
+  },
+  {
+    "centerId": "c0004",
+    "id": "f1a56ceb-dd6f-485e-8b6a-2411f77bf099",
+    "free": true,
+    "children": [
+      {
+        "name": "Fabián",
+        "age": 8,
+        "gender": "Male",
+        "specifics": "auto Ferrari z Lega"
+      }
+    ],
+    "placeId": "p0002"
+  },
+  {
+    "centerId": "c0004",
+    "id": "8eccaa2e-c696-4532-bb3a-928d3f5686d4",
+    "free": true,
+    "children": [
+      {
+        "name": "Kristiyan",
+        "age": 15,
+        "gender": "Male",
+        "specifics": "teplé kalhoty pánské černé vel. S"
+      }
+    ],
+    "placeId": "p0002"
+  },
+  {
+    "centerId": "c0004",
+    "id": "e4e6971e-4d68-42fd-aa77-4e8663b9dcf4",
+    "free": true,
+    "children": [
+      {
+        "name": "Robin",
+        "age": 9,
+        "gender": "Male",
+        "specifics": "Lego nebo tablet (klidně starší)"
+      }
+    ],
+    "placeId": "p0002"
+  },
+  {
+    "centerId": "c0004",
+    "id": "66246a4b-5492-4108-a049-eeea9143ae60",
+    "free": true,
+    "children": [
+      {
+        "name": "Anna",
+        "age": 4,
+        "gender": "Female",
+        "specifics": "stavebnice, omalovánky"
+      }
+    ],
+    "placeId": "p0002"
+  },
+  {
+    "centerId": "c0004",
+    "id": "86c6bd20-7302-47b5-b186-0cc5c8dd3150",
+    "free": true,
+    "children": [
+      {
+        "name": "Natálie",
+        "age": 13,
+        "gender": "Female",
+        "specifics": "růžový parfém Playboy"
+      }
+    ],
+    "placeId": "p0002"
+  },
+  {
+    "centerId": "c0004",
+    "id": "dd39b6ae-a00c-4c72-91fb-e2e70416cec0",
+    "free": true,
+    "children": [
+      {
+        "name": "Matyáš",
+        "age": 10,
+        "gender": "Male",
+        "specifics": "auto na ovládání"
+      },
+      {
+        "name": "Michal",
+        "age": 4,
+        "gender": "Male",
+        "specifics": "pistolka"
+      },
+      {
+        "name": "Melissa",
+        "age": 1,
+        "gender": "Female",
+        "specifics": "panenka"
+      }
+    ],
+    "placeId": "p0002"
+  },
+  {
+    "centerId": "c0004",
+    "id": "dfb548ec-470b-4fe7-8ac1-bc32d34cd1fd",
+    "free": true,
+    "children": [
+      {
+        "name": "Simona",
+        "age": 16,
+        "gender": "Female",
+        "specifics": "bluetooth adaptér"
+      }
+    ],
+    "placeId": "p0002"
+  },
+  {
+    "centerId": "c0004",
+    "id": "b914278a-6c1b-41df-8cd3-7d351b687add",
+    "free": true,
+    "children": [
+      {
+        "name": "Meti",
+        "age": 10,
+        "gender": "Male",
+        "specifics": "kabelka malá černá"
+      },
+      {
+        "name": "Lorena",
+        "age": 13,
+        "gender": "Female",
+        "specifics": "fotbalový batoh"
+      }
+    ],
+    "placeId": "p0002"
+  },
+  {
+    "centerId": "c0004",
+    "id": "84718553-9b4c-4576-888e-bf217aef5ff6",
+    "free": true,
+    "children": [
+      {
+        "name": "Vanesa",
+        "age": 16,
+        "gender": "Female",
+        "specifics": "dekorativní kosmetika"
+      },
+      {
+        "name": "Kristián",
+        "age": 11,
+        "gender": "Male",
+        "specifics": "auto z Lega"
+      }
+    ],
+    "placeId": "p0002"
+  },
+  {
+    "centerId": "c0004",
+    "id": "903d65a5-9c01-47b7-b3dd-593cbbf9bd3e",
+    "free": true,
+    "children": [
+      {
+        "name": "Sandra",
+        "age": 16,
+        "gender": "Female",
+        "specifics": "šála - hokej ŠKODA (popř. jakýkoliv funshopový dárek)"
+      }
+    ],
+    "placeId": "p0002"
+  },
+  {
+    "centerId": "c0004",
+    "id": "fa66b2e1-4ec9-4874-9d4e-7f7190ba733e",
+    "free": true,
+    "children": [
+      {
+        "name": "Veronika",
+        "age": 11,
+        "gender": "Female",
+        "specifics": "šminky, malovátka"
+      }
+    ],
+    "placeId": "p0002"
+  },
+  {
+    "centerId": "c0004",
+    "id": "539820b6-ae44-4662-a6a6-03d706d95ccd",
+    "free": true,
+    "children": [
+      {
+        "name": "Kačka",
+        "age": 12,
+        "gender": "Female",
+        "specifics": "stavebnice, dětské šminky"
+      }
+    ],
+    "placeId": "p0002"
+  },
+  {
+    "centerId": "c0004",
+    "id": "834a1e86-a1bb-478f-a311-9b7e85a70696",
+    "free": true,
+    "children": [
+      {
+        "name": "Tobík",
+        "age": 1,
+        "gender": "Male",
+        "specifics": "Lego"
+      }
+    ],
+    "placeId": "p0002"
+  },
+  {
+    "centerId": "c0001",
+    "id": "d091946e-8814-4a80-9373-25ac7d7e3e4f",
+    "free": true,
+    "children": [
+      {
+        "name": "Damián",
+        "age": 6,
+        "gender": "Male",
+        "specifics": "modelína, tempery, pexeso, karty, dětská sluchátka na hudbu, dětský šampon, sprchový gel, jelení lůj, cukrovinky"
+      },
+      {
+        "name": "Filip",
+        "age": 14,
+        "gender": "Male",
+        "specifics": "kameny, laboratoř na výrobu krystalů, geologie, tričko L, mikina L, kosmetika, cukrovinky, jeho přání je dostat starší notebook do školy"
+      },
+      {
+        "name": "Marek",
+        "age": 0,
+        "gender": "Male",
+        "specifics": "pleny od 9 kg, kosmetika, hračka"
+      }
+    ],
+    "placeId": "p0003"
+  },
+  {
+    "centerId": "c0001",
+    "id": "dddde494-6e64-48b0-8818-6a0eef409c8e",
+    "free": true,
+    "children": [
+      {
+        "name": "Miki",
+        "age": 5,
+        "gender": "Male",
+        "specifics": "krávy, Lego"
+      },
+      {
+        "name": "Rafael",
+        "age": 6,
+        "gender": "Male",
+        "specifics": "karty s fotbalisty, Lego"
+      },
+      {
+        "name": "Isabela",
+        "age": 7,
+        "gender": "Female",
+        "specifics": "ráda maluje a vyrábí ozdoby a bižuterii na sebe"
+      }
+    ],
+    "placeId": "p0003"
+  },
+  {
+    "centerId": "c0001",
+    "id": "ff372d2c-51ef-4789-9764-3265d4f93ae7",
+    "free": true,
+    "children": [
+      {
+        "name": "Dorotka",
+        "age": 3,
+        "gender": "Female",
+        "specifics": "má ráda pohádkového králíčka Binga a postavičky z Tlapkové patroly (nejradši má dalmatina Marshalla), ráda maluje, modeluje a skládá puzzle"
+      },
+      {
+        "name": "Annička",
+        "age": 7,
+        "gender": "Female",
+        "specifics": "figurky koníků s pohyblivou hlavou, klasické kostičky LEGO, LEGO Technik,  knihu Felix, Hísek: Zvířata Ameriky, ráda vyrábí náramky z korálků, má ráda třpytky a samolepky, potřebovala by zimní boty 31 (má úzkou nohu)"
+      },
+      {
+        "name": "Jana",
+        "age": 10,
+        "gender": "Female",
+        "specifics": "poštovní známky do sbírky, luk se šípy, které mají přísavky, LEGO Technik,  klasické kostičky LEGO, knihu Felix, Hísek: Zvířata Asie, magnetické stavebnice, kartičky s Pokemony"
+      }
+    ],
+    "placeId": "p0003"
+  },
+  {
+    "centerId": "c0001",
+    "id": "b906ac0f-c66a-4329-bfe1-9d021af6bb95",
+    "free": true,
+    "children": [
+      {
+        "name": "Filip",
+        "age": 8,
+        "gender": "Male",
+        "specifics": "lego Minekraft, cokoliv s Minecraft"
+      }
+    ],
+    "placeId": "p0003"
+  },
+  {
+    "centerId": "c0001",
+    "id": "5f0c547e-4dbb-4808-84d2-5d9b9e69e08d",
+    "free": true,
+    "children": [
+      {
+        "name": "Martin",
+        "age": 11,
+        "gender": "Male",
+        "specifics": "má rád trabanty"
+      }
+    ],
+    "placeId": "p0003"
+  },
+  {
+    "centerId": "c0001",
+    "id": "58caa021-a48a-4085-8f11-6d48af143722",
+    "free": true,
+    "children": [
+      {
+        "name": "Jarda",
+        "age": 11,
+        "gender": "Male",
+        "specifics": "plyšák Freddy z Five Nights at Freddy's, návleky na kolena (18 cm, nejlépe merino, ovčí, velikost L, tělová barva), bederní pás, zdravotní přezůvky s pevnou patou, vel. 42 (můžou být i dva páry - do školy a na doma), kdyby se našla i nějaká starší televize"
+      }
+    ],
+    "placeId": "p0003"
+  },
+  {
+    "centerId": "c0003",
+    "id": "0a8d343b-80f8-4352-8202-598fd0d1f247",
+    "free": true,
+    "children": [
+      {
+        "name": "Kamila",
+        "age": 17,
+        "gender": "Female",
+        "specifics": "1) náramek: https://www.sperkyskalimar.cz/naramky/skalimar-naramek--z-chirurgicke-oceli-retizkovy-srdicka-12004008/ nebo 2) prstýnek: https://sperky-eshop.cz/36270-prsten-z-925-stribra-tri-trpytive-cire-zirkony-uzka-leskla-ramena-vykladana-zirkony.html - velikost prstýnku 62"
+      }
+    ],
+    "placeId": "p0001"
+  },
+  {
+    "centerId": "c0003",
+    "id": "5d872f84-be36-4416-a62f-4e37d547307e",
+    "free": true,
+    "children": [
+      {
+        "name": "Gábina",
+        "age": 14,
+        "gender": "Female",
+        "specifics": "1) album jihokorejské chlapecké skupiny Enhypen: https://www.kspaceproject.com/products/enhypen-border-carnival nebo 2) album Lisa - Lalisa: https://www.kspaceproject.com/products/lisa-first-single-album-lalisa-black-ver"
+      }
+    ],
+    "placeId": "p0001"
+  },
+  {
+    "centerId": "c0003",
+    "id": "5076c4ac-eb18-41ab-9a43-bea1901c3e67",
+    "free": true,
+    "children": [
+      {
+        "name": "Míša",
+        "age": 8,
+        "gender": "Male",
+        "specifics": "stavebnice zaoceánského parníku: https://stavebnice-cobi.heureka.cz/cobi-1929-historical-collection-zaoceanska-lod-r-m-s-titanic-1-450/"
+      }
+    ],
+    "placeId": "p0001"
+  },
+  {
+    "centerId": "c0003",
+    "id": "8ddf4ba1-68ee-4722-82bd-d6a9fa0f02fd",
+    "free": true,
+    "children": [
+      {
+        "name": "Mireček",
+        "age": 10,
+        "gender": "Male",
+        "specifics": "1) Lego Minecraft: https://pompo.cz/lego-minecraft-21185-podzemni-hrad_z2027/ nebo 2) plyšák Skibidi Toilet: https://www.mall.cz/cpane-plysove-hracky/interest-skibidi-toilet-plysovy-titan-100132583953"
+      }
+    ],
+    "placeId": "p0001"
+  },
+  {
+    "centerId": "c0003",
+    "id": "26e9574d-1393-4479-9203-30a87aa56e1f",
+    "free": true,
+    "children": [
+      {
+        "name": "David",
+        "age": 12,
+        "gender": "Male",
+        "specifics": "plastový hrnek, polštářek, povlečení - vše s motivem Šmoulů (modernější verze Šmoulů)"
+      }
+    ],
+    "placeId": "p0001"
+  },
+  {
+    "centerId": "c0003",
+    "id": "7d4eeab9-6b36-4430-a1b7-096113596dff",
+    "free": true,
+    "children": [
+      {
+        "name": "Dominik",
+        "age": 17,
+        "gender": "Male",
+        "specifics": "1) parfém: https://parizske.cz/sklep/panske-parfemy/rocni-obdobi-panske-parfemy/leto-rocni-obdobi-panske-parfemy/perfumy-nr-435-armani-stronger-with-you/"
+      }
+    ],
+    "placeId": "p0001"
+  },
+  {
+    "centerId": "c0003",
+    "id": "be563307-f326-4373-bcbe-29bcb6f177fa",
+    "free": true,
+    "children": [
+      {
+        "name": "Julie J.",
+        "age": 7,
+        "gender": "Female",
+        "specifics": "Maru - hračka pro 7letou holčičku (ne panenka), deskovéh hry (https://www.obchodumotyla.cz/Dobble-Zakladni-hra-d730.htm"
+      }
+    ],
+    "placeId": "p0001"
+  },
+  {
+    "centerId": "c0003",
+    "id": "be39ecee-bf09-4127-b711-21c2f016b45e",
+    "free": true,
+    "children": [
+      {
+        "name": "Pavel",
+        "age": 7,
+        "gender": "Male",
+        "specifics": "terénní auto Buggy: https://www.mall.cz/rc-modely/teddies-auto-rc-buggy-terenni-zelene-22cm"
+      }
+    ],
+    "placeId": "p0001"
+  },
+  {
+    "centerId": "c0003",
+    "id": "20122b97-10db-4000-ae70-1cdd5a7673ae",
+    "free": true,
+    "children": [
+      {
+        "name": "Adéla",
+        "age": 4,
+        "gender": "Female",
+        "specifics": "deskové hry: https://www.svet-her.cz/spolecenske-hry/pojd-si-hrat"
+      }
+    ],
+    "placeId": "p0001"
+  },
+  {
+    "centerId": "c0003",
+    "id": "03634084-be1e-4415-9048-a9fe0ec267ab",
+    "free": true,
+    "children": [
+      {
+        "name": "Nela",
+        "age": 2,
+        "gender": "Female",
+        "specifics": "interaktivní podložka: https://www.mall.cz/hracky-nejmensi/ricokids-vyukova-interaktivni-podlozka-100107539927"
+      }
+    ],
+    "placeId": "p0001"
+  },
+  {
+    "centerId": "c0003",
+    "id": "9ac93c4e-59c1-4b14-8eb6-534c5b2c8e28",
+    "free": true,
+    "children": [
+      {
+        "name": "Amálie",
+        "age": 0,
+        "gender": "Female",
+        "specifics": "interaktivní podložka: https://www.mall.cz/hracky-nejmensi/ricokids-vyukova-interaktivni-podlozka-100107539927"
+      }
+    ],
+    "placeId": "p0001"
+  },
+  {
+    "centerId": "c0003",
+    "id": "0c6fbeca-56b0-4f52-a585-eea929e86a8f",
+    "free": true,
+    "children": [
+      {
+        "name": "Nicolas",
+        "age": 2,
+        "gender": "Male",
+        "specifics": "má rád dřevěné skládačky a kostky (https://allegro.cz/nabidka/montessori-senzoricke-puzzle-tridic-dreveny-12597904574), nebo vše na co se dá mačkat a hraje to"
+      }
+    ],
+    "placeId": "p0001"
+  },
+  {
+    "centerId": "c0003",
+    "id": "ba03d7d8-0b1e-4d04-a649-403e40e6dbfe",
+    "free": true,
+    "children": [
+      {
+        "name": "Daniel",
+        "age": 6,
+        "gender": "Male",
+        "specifics": "auto na ovládání - https://www.mall.cz/rc-modely/teddies-auto-rc-terenni-plast-30cm-velka-kola-na-dalkove-ovladani-cervene"
+      }
+    ],
+    "placeId": "p0001"
   }
 ]
