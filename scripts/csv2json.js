@@ -27,11 +27,10 @@ const uuid4 = uuid.v4
 // ]
 
 const inputFilePaths = [
-  'cb_temperi_2022.csv',
-  'plzen_domus_2022.csv',
-  'praha_barevny_svet_deti_2022.csv',
-  'praha_detsky_domov_prestavlky_rc_letna_2022.csv',
-  'praha_rc_letna_2022.csv',
+  '2023_dd_prestavlky.csv',
+  '2023_domus.csv',
+  '2023_rc_letna.csv',
+  '2023_temperi.csv',
 ]
 
 let familiesMap = {}
