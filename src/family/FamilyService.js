@@ -86,7 +86,7 @@ function FamilyService(FamilyStore = FamilyStoreModule()) {
     if (!familyToReserve) {
       result.errors.push({
         code: 1101,
-        message: `Family (${id}) not available anymore, probably reserved in the mean time.`,
+        message: `Family (${familyId}) not available anymore, probably reserved in the mean time.`,
       })
       result.success = false
     } else {
