@@ -156,7 +156,7 @@ function FamilyPublicEndpoint(
 
   function generatePlaceDetails(centerId) {
     const center = CenterService.findById(centerId)
-    return `Vámi zvolené místo doručení Vánoční krabice:\n\n${center.name}\nAdresa: ${center.address.street}, ${center.address.city}\nOtevírací doba: ${center.openHours}\nKontakt: ${center.contactPerson}\n`
+    return `Vámi zvolené místo doručení Vánoční krabice:\n\n${center.name}\nAdresa: ${center.address.street}, ${center.address.city}\nOtevírací doba: ${center.openHours}\nDárky doneste během sběrného týdne 4.-8.12.2024\nKontakt: ${center.contactPerson}\n`
   }
 
   const api = {
