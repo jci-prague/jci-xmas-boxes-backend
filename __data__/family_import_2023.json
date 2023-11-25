@@ -1514,5 +1514,75 @@
       }
     ],
     "placeId": "p0001"
+  },
+  {
+    "centerId": "c0003",
+    "id": "0ba5c744-fe20-4e09-8f3b-b0d17b661ee9",
+    "free": true,
+    "children": [
+      {
+        "name": "Martina",
+        "age": 6,
+        "gender": "Female",
+        "specifics": "zaplétač copánků: https://www.wikyhracky.cz/zapletac-copanku-26-cm"
+      }
+    ],
+    "placeId": "p0001"
+  },
+  {
+    "centerId": "c0003",
+    "id": "46a24e74-7bad-469c-a408-7b12f81dc1f4",
+    "free": true,
+    "children": [
+      {
+        "name": "Eliška",
+        "age": 9,
+        "gender": "Female",
+        "specifics": "nehtové studio: https://www.wikyhracky.cz/nehtove-studio-se-susickou"
+      }
+    ],
+    "placeId": "p0001"
+  },
+  {
+    "centerId": "c0003",
+    "id": "74cd7590-2a56-4bcb-a9c5-c6d5aeb2075a",
+    "free": true,
+    "children": [
+      {
+        "name": "Rozárie",
+        "age": 3,
+        "gender": "Female",
+        "specifics": "hodinky Tlapková patrola: https://www.wikyhracky.cz/vtech-mluvici-hodinky-marshall-tlapkova-patrola"
+      }
+    ],
+    "placeId": "p0001"
+  },
+  {
+    "centerId": "c0003",
+    "id": "c6c9e0b4-3e34-4c07-ab00-17253f2edd69",
+    "free": true,
+    "children": [
+      {
+        "name": "Honza",
+        "age": 4,
+        "gender": "Male",
+        "specifics": "autodráha: https://www.mall.cz/autodrahy/made-autodraha-440-cm-s-chargerem"
+      }
+    ],
+    "placeId": "p0001"
+  },
+  {
+    "centerId": "c0003",
+    "id": "5c6d1d65-53a6-4c36-94e8-95a6030c346b",
+    "free": true,
+    "children": [
+      {
+        "name": "Mirek",
+        "age": 12,
+        "gender": "Male",
+        "specifics": "oblečení na fotbal: https://www.decathlon.cz/p/detske-funkcni-leginy-keepcomfort-100-cerne/_/R-p-330956, https://www.decathlon.cz/p/detske-spodni-funkcni-tricko-s-dlouhym-rukavem-keepcomfort-100-cerne/_/R-p-331031"
+      }
+    ],
+    "placeId": "p0001"
   }
 ]
