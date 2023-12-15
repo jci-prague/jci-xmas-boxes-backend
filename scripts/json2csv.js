@@ -2,7 +2,7 @@
 const json2csv = require('json2csv')
 
 const centerList = require('../__data__/center.json')
-const familyList = require('./family_final_2021.json')
+const familyList = require('../__data__/family_final_2023.json')
 const placeList = require('../__data__/place.json')
 
 const centerDict = _centerListToDict(centerList)
@@ -17,8 +17,8 @@ familyList.forEach((family) => {
       name: child.name,
       age: child.age,
       gender: child.gender,
-      donor: family.contact.name,
-      email: family.contact.email,
+      donor: family.contact?.name,
+      email: family.contact?.email,
       chosenOriginCenter:
         centerDict[family.chosenCenterId]?.name ||
         'MISSING',
