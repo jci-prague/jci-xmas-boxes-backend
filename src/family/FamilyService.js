@@ -40,20 +40,19 @@ function FamilyService(FamilyStore = FamilyStoreModule()) {
   }
 
   function reserveGift(
-    chosenCenterId,
-    familyIds,
+    familyCenterIds,
     name,
     email,
   ) {
     const freeFamilies = FamilyStore.listFree()
-    const results = familyIds.map((id) =>
-      _reserveOneFamily(
-        chosenCenterId,
+    const results = familyCenterIds.map((familyCenterId) => {
+      return _reserveOneFamily(
+        familyCenterId.chosenCenterId,
         freeFamilies,
         name,
         email,
-        id,
-      ),
+        familyCenterId.familyId,
+      )}
     )
     const allSuccess = results.reduce(
       (acc, curr) => acc && curr.success,
@@ -86,7 +85,7 @@ function FamilyService(FamilyStore = FamilyStoreModule()) {
     if (!familyToReserve) {
       result.errors.push({
         code: 1101,
-        message: `Family (${familyId}) not available anymore, probably reserved in the mean time.`,
+        message: `Family (${JSON.stringify(familyId)}) not available anymore, probably reserved in the mean time.`,
       })
       result.success = false
     } else {

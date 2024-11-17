@@ -5,13 +5,13 @@ const apiResponse = require('../common/ApiResponse.js')
 const CenterServiceModule = require('../keydata/CenterService.js')
 const FamilyServiceModule = require('./FamilyService.js')
 const FamilyStoreModule = require('./FamilyStore.js')
-const MailTransportModule = require('../common/MailTransport.js')
+const PostmarkTransportModule = require('../common/PostmarkTransport.js')
 
 function FamilyPublicEndpoint(
   CenterService = CenterServiceModule(),
   FamilyService = FamilyServiceModule(),
   FamilyStore = FamilyStoreModule(),
-  MailTransport = MailTransportModule(),
+  PostmarkTransport = PostmarkTransportModule(),
 ) {
   const ENDPOINT = '/api/family'
 
@@ -42,42 +42,37 @@ function FamilyPublicEndpoint(
     }
     */
 
-    const chosenCenterId = req.body.centerId
-    const familyIds = req.body.familyIds
+    const familyCenterIds = req.body.familyCenterIds
     const name = req.body.donor.name
     const email = req.body.donor.email
     const validationResult =
       validateReservationRequestParams(
-        chosenCenterId,
-        familyIds,
+        familyCenterIds,
         name,
         email,
       )
 
     if (validationResult.success) {
       const reservationResults = FamilyService.reserveGift(
-        chosenCenterId,
-        familyIds,
+        familyCenterIds,
         name,
         email,
       )
       if (reservationResults.success) {
         const text = generateEmailText(
-          chosenCenterId,
-          familyIds,
+          familyCenterIds,
         )
-        console.log(text)
 
         const message = {
-          from: 'krabice@jcicr.cz',
-          to: email,
-          cc: 'krabice@jcicr.cz',
-          subject: 'Vánoční Krabice - potvrzení registrace',
-          text: text,
+          From: 'krabice@jcicr.cz',
+          To: email,
+          Cc: 'krabice@jcicr.cz',
+          Subject: 'Vánoční Krabice - potvrzení registrace',
+          TextBody: text,
         }
-        MailTransport.sendMail(message).then(() => {
-          apiResponse.http200(req, res, reservationResults)
-        })
+        PostmarkTransport.sendMail(message)
+        apiResponse.http200(req, res, reservationResults)
+
       } else {
         apiResponse.http400(req, res, reservationResults)
       }
@@ -87,8 +82,7 @@ function FamilyPublicEndpoint(
   }
 
   function validateReservationRequestParams(
-    centerId,
-    familyIds,
+    familyCenterIds,
     name,
     email,
   ) {
@@ -97,7 +91,7 @@ function FamilyPublicEndpoint(
       errors: [],
     }
 
-    if (!familyIds) {
+    if (!familyCenterIds) {
       result.errors.push({
         code: 1000,
         message: "Missing attribute 'familyIds'",
@@ -119,44 +113,45 @@ function FamilyPublicEndpoint(
       result.success = false
     }
 
-    if (!centerId) {
-      result.errors.push({
-        code: 1003,
-        message: "Missing attribute 'centerId'",
-      })
-      result.success = false
-    }
-
     return result
   }
 
-  function generateEmailText(centerId, familyIds) {
-    return `Dobrý den,\nvelice nás těší Vaše rozhodnutí obdarovat následující děti či sourozence:\n${generateChildrenListForEmail(
-      familyIds,
-    )}\n${generatePlaceDetails(
-      centerId,
+  function generateEmailText(familyCenterIds) {
+    return `Dobrý den,\nvelice nás těší Vaše rozhodnutí obdarovat následující dítě, děti či sourozence.\n${generateChildrenListForEmail(
+      familyCenterIds,
     )}\nV případě jakýchkoliv dotazů nás neváhejte kontaktovat na e-mailové adrese: krabice@jcicr.cz\n\nDěkujeme! :-)\n\nTým "Vánoční krabice"`
   }
 
-  function generateChildrenListForEmail(familyIds) {
+  function generateChildrenListForEmail(familyCenterIds) {
+    const familyIds = familyCenterIds.map(familyCenterId => familyCenterId.familyId)
     const giftedFamilies = FamilyStore.listAll().filter(
       (family) => familyIds.includes(family.id),
     )
 
-    return giftedFamilies.reduce((acc, family) => {
+    const childrenText = giftedFamilies.reduce((acc, family) => {
       const children = family.children
         .map(
-          (child) =>
-            ` - ${child.name}\n   - věk: ${child.age}\n   - zájmy: ${child.specifics}`,
+          (child) => {
+            let text = ` - ${child.name}\n   - věk: ${child.age}\n   - zájmy: ${child.specifics}`
+            if (child.url.length > 0) {
+              text = text.concat(`\n   - odkaz: ${child.url}`)
+            }
+            return text
+          }
         )
         .join('\n')
-      return `${acc}${children}\n`
-    }, '\n=> Jedno vybrané dítě, či sourozenci:\n')
+
+        const centerText = generatePlaceDetails(family.chosenCenterId)
+
+      return `${acc}${children}\n${centerText}\n`
+    }, '\nVybrané dítě, děti či sourozenci:\n')
+
+    return childrenText
   }
 
   function generatePlaceDetails(centerId) {
     const center = CenterService.findById(centerId)
-    return `Vámi zvolené místo doručení Vánoční krabice:\n\n${center.name}\nAdresa: ${center.address.street}, ${center.address.city}\nOtevírací doba: ${center.openHours}\nDárky doneste během sběrného týdne 4.-8.12.2024\nKontakt: ${center.contactPerson}\n`
+    return `   - Vámi zvolené místo doručení Vánoční krabice pro toto dítě nebo všechny sourozence:\n     - ${center.name}\n     - Adresa: ${center.address.street}, ${center.address.city}\n     - Otevírací doba: ${center.openHours}\n     - Dárky doneste během sběrného týdne 4.-8.12.2024\n     - Kontakt: ${center.contactPerson}\n`
   }
 
   const api = {
