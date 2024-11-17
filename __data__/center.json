@@ -9,10 +9,9 @@
     "globalUniversal": true,
     "id": "c0001",
     "name": "PRAHA - Rodinné Centrum Letná, o.s.",
-    "openHours": "Úterý, Středa a Pátek 9.00 - 12.00 hod.; Pondělí, Úterý, Čtvrtek, Pátek 17.00 - 19.00 hod.",
+    "openHours": "Úterý, Středa a Pátek 9.00 - 12.00 hod.; Středa, Čtvrtek, Pátek 17.00 - 19.00 hod.",
     "place": "p0003",
-    "placeUniversal": true,
-    "universal": true
+    "placeUniversal": true
   },
   {
     "address": {
@@ -26,8 +25,7 @@
     "name": "PRAHA - Barevný svět dětí, z.s.",
     "openHours": "Pondělí, Úterý, Středa, Pátek 9.00 - 17.00 hod. (ve čtvrtek je zavřeno)",
     "place": "p0003",
-    "placeUniversal": false,
-    "universal": false
+    "placeUniversal": false
   },
   {
     "address": {
@@ -41,8 +39,7 @@
     "name": "ČESKÉ BUDĚJOVICE - Temperi o.p.s.",
     "openHours": "Pondělí - Pátek 9.00 - 17.00 hod.",
     "place": "p0001",
-    "placeUniversal": true,
-    "universal": false
+    "placeUniversal": true
   },
   {
     "address": {
@@ -54,10 +51,9 @@
     "globalUniversal": false,
     "id": "c0004",
     "name": "PLZEŇ - DOMUS, Centrum pro rodinu, z.s.",
-    "openHours": "Pondělí - Čtvrtek: 9.00 – 17.00 hod.; Pátek 9.00 - 14.00 hod.",
+    "openHours": "Pondělí a Středa: 9.00 – 17.00 hod.; Úterý a Čtvrtek: 9.00 - 16.00 hod.; Pátek: 9.00 - 15.00 hod.",
     "place": "p0002",
-    "placeUniversal": true,
-    "universal": false
+    "placeUniversal": true
   },
   {
     "address": {
@@ -71,6 +67,20 @@
     "name": "PRAHA - Dětský domov Přestavlky",
     "openHours": "",
     "place": "p0003",
+    "placeUniversal": false
+  },
+  {
+    "address": {
+      "city": "České Budějovice",
+      "street": "Čechova 164/1"
+    },
+    "available": true,
+    "contactPerson": "Zuzana Divišová, +420 734 781 833, zuzana.divisova@ranapece.cz",
+    "globalUniversal": false,
+    "id": "c0006",
+    "name": "ČESKÉ BUDĚJOVICE - Společnost pro ranou péči, z.s.",
+    "openHours": "Pondělí - Pátek 7.30 - 17.00 hod.",
+    "place": "p0001",
     "placeUniversal": false
   }
 ]

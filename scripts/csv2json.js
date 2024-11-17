@@ -26,11 +26,19 @@ const uuid4 = uuid.v4
 //   'plzen_domus_2021.csv',
 // ]
 
+// const inputFilePaths = [
+//   '2023_dd_prestavlky.csv',
+//   '2023_domus.csv',
+//   '2023_rc_letna.csv',
+//   '2023_temperi.csv',
+// ]
+
 const inputFilePaths = [
-  '2023_dd_prestavlky.csv',
-  '2023_domus.csv',
-  '2023_rc_letna.csv',
-  '2023_temperi.csv',
+  '2024_dd_prestavlky.csv',
+  '2024_domus.csv',
+  '2024_rc_letna.csv',
+  '2024_stredisko_pro_ranou_peci.csv',
+  '2024_temperi.csv',
 ]
 
 let familiesMap = {}
@@ -54,6 +62,7 @@ Promise.all(filePromises)
           age: parseInt(row.age),
           gender: getGender(row.sex),
           specifics: row.specifics,
+          url: row.url,
         }
         if (!familiesMap[familyKey]) {
           const newFamily = {
