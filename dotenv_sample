@@ -4,3 +4,4 @@ DATA_DIRECTORY_PATH="__data__/"
 
 MAIL_CONFIGURATION_PATH="__data__/mail_sample.conf"
 
+POSTMARK_API_TOKEN="abcd....."
