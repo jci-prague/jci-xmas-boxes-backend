@@ -2,7 +2,7 @@
 const json2csv = require('json2csv')
 
 const centerList = require('../__data__/center.json')
-const familyList = require('../__data__/family_final_2023.json')
+const familyList = require('../__data__/family_final_2024.json')
 const placeList = require('../__data__/place.json')
 
 const centerDict = _centerListToDict(centerList)
@@ -19,6 +19,7 @@ familyList.forEach((family) => {
       gender: child.gender,
       donor: family.contact?.name,
       email: family.contact?.email,
+      transfer: _isTransferNecessary(family.centerId, family.chosenCenterId),
       chosenOriginCenter:
         centerDict[family.chosenCenterId]?.name ||
         'MISSING',
@@ -35,6 +36,7 @@ const fields = [
   'gender',
   'donor',
   'email',
+  'transfer',
   'chosenOriginCenter',
   'originCenter',
   'originPlace',
@@ -77,4 +79,12 @@ function _placeListToDict(placeList) {
     acc[placeId] = place
     return acc
   }, {})
+}
+
+function _isTransferNecessary(origincenterId, chosenCenterId) {
+  if (origincenterId === chosenCenterId) {
+    return 'NO'
+  } else {
+    return 'YES'
+  }
 }
