@@ -1,0 +1,22 @@
+[
+  {
+    "centerId": "c0001",
+    "id": "6f352e4d-836d-4bbd-8481-e061cb9c3f08-a",
+    "free": false,
+    "children": [
+      {
+        "name": "Adriana",
+        "age": 9,
+        "gender": "Female",
+        "specifics": "ráda vyrábí bižuterii",
+        "url": ""
+      }
+    ],
+    "placeId": "p0003",
+    "chosenCenterId": "c0001",
+    "contact": {
+      "name": "Test Testic",
+      "email": "aa@bb.cc"
+    }
+  }
+]
