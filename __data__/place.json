@@ -15,6 +15,11 @@
     "name": "Praha"
   },
   {
+    "id": "p0004",
+    "available": true,
+    "name": "Karlovy Vary"
+  },
+  {
     "id": "p9999",
     "available": true,
     "name": "Misto, ktere neexistuje"

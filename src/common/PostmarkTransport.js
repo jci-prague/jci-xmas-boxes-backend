@@ -13,7 +13,9 @@ function PostmarkTransportModule(
   }
 
   function sendMail(message) {
+    // message.MessageStream = 'broadcast'
     message.MessageStream = 'outbound'
+    // console.log('Sending email:', JSON.stringify(message, null, 2))
     return postmarkClient.sendEmail(message)
   }
 

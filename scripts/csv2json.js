@@ -33,12 +33,22 @@ const uuid4 = uuid.v4
 //   '2023_temperi.csv',
 // ]
 
+// const inputFilePaths = [
+//   '2024_dd_prestavlky.csv',
+//   '2024_domus.csv',
+//   '2024_rc_letna.csv',
+//   '2024_stredisko_pro_ranou_peci.csv',
+//   '2024_temperi.csv',
+// ]
+
 const inputFilePaths = [
-  '2024_dd_prestavlky.csv',
-  '2024_domus.csv',
-  '2024_rc_letna.csv',
-  '2024_stredisko_pro_ranou_peci.csv',
-  '2024_temperi.csv',
+  '2025_dd_ostrava.csv',
+  '2025_dd_prestavlky.csv',
+  '2025_domus.csv',
+  '2025_rana_pece_ceske_budejovice.csv',
+  '2025_rana_pece_karlovy_vary.csv',
+  '2025_rc_letna.csv',
+  '2025_temperi.csv'
 ]
 
 let familiesMap = {}

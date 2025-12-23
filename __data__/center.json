@@ -82,5 +82,19 @@
     "openHours": "Pondělí - Pátek 7.30 - 17.00 hod.",
     "place": "p0001",
     "placeUniversal": false
+  },
+  {
+    "address": {
+      "city": "Karlovy Vary",
+      "street": "Třeboňská 907/90"
+    },
+    "available": true,
+    "contactPerson": "Kristýna Velecká, +420 734 308 720, kristyna.velecka@ranapece.cz",
+    "globalUniversal": false,
+    "id": "c0007",
+    "name": "Společnost pro ranou péči Karlovy Vary, z.s.",
+    "openHours": "Pondělí - Pátek 7.30 - 17.00 hod.",
+    "place": "p0004",
+    "placeUniversal": false
   }
 ]

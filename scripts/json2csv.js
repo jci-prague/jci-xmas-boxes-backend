@@ -1,8 +1,8 @@
-#!/usr/local/bin/node
+#!/Users/tomm/.asdf/shims/node
 const json2csv = require('json2csv')
 
 const centerList = require('../__data__/center.json')
-const familyList = require('../__data__/family_final_2024.json')
+const familyList = require('../__data__/family.json')
 const placeList = require('../__data__/place.json')
 
 const centerDict = _centerListToDict(centerList)
@@ -10,29 +10,36 @@ const placeDict = _placeListToDict(placeList)
 
 const data = []
 
-familyList.forEach((family) => {
-  family.children.forEach((child) => {
-    data.push({
-      familyId: family.id,
-      name: child.name,
-      age: child.age,
-      gender: child.gender,
-      donor: family.contact?.name,
-      email: family.contact?.email,
-      transfer: _isTransferNecessary(family.centerId, family.chosenCenterId),
-      chosenOriginCenter:
-        centerDict[family.chosenCenterId]?.name ||
-        'MISSING',
-      originCenter: centerDict[family.centerId].name,
-      originPlace: placeDict[family.placeId].name,
-    })
+familyList
+  .filter((family) => {
+    return family.free === false
   })
-})
+  .forEach((family) => {
+    family.children
+      .forEach((child) => {
+        data.push({
+          familyId: family.id,
+          name: child.name,
+          age: child.age,
+          specifics: child.specifics,
+          gender: child.gender,
+          donor: family.contact?.name,
+          email: family.contact?.email,
+          transfer: _isTransferNecessary(family.centerId, family.chosenCenterId),
+          chosenOriginCenter:
+            centerDict[family.chosenCenterId]?.name ||
+            'MISSING',
+          originCenter: centerDict[family.centerId].name,
+          originPlace: placeDict[family.placeId].name,
+        })
+      })
+  })
 
 const fields = [
   'familyId',
   'name',
   'age',
+  'specifics',
   'gender',
   'donor',
   'email',
