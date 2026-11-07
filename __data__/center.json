@@ -9,7 +9,7 @@
     "globalUniversal": true,
     "id": "c0001",
     "name": "PRAHA - Rodinné Centrum Letná, o.s.",
-    "openHours": "Úterý, Středa a Pátek 9.00 - 12.00 hod.; Středa, Čtvrtek, Pátek 17.00 - 19.00 hod.",
+    "openHours": "Pondělí, Středa a Pátek 9.00 - 12.00 hod.; Úterý, Čtvrtek a Pátek 17.00 - 19.00 hod.",
     "place": "p0003",
     "placeUniversal": true
   },
@@ -29,10 +29,24 @@
   },
   {
     "address": {
+      "city": "Praha 1",
+      "street": "Josefská 7"
+    },
+    "available": true,
+    "contactPerson": "Jitka Kováříková, +420 737 713 544, jytuska@centrum.cz",
+    "globalUniversal": false,
+    "id": "c0008",
+    "name": "PRAHA - Malostranské gymnázium",
+    "openHours": "Pondělí - Pátek 8.00 - 18.00 hod.",
+    "place": "p0003",
+    "placeUniversal": true
+  },
+  {
+    "address": {
       "city": "České Budějovice",
       "street": "Jar. Haška 1818/1"
     },
-    "available": true,
+    "available": false,
     "contactPerson": "Hana Francová, +420 702 571 757, hana.francova@tempericb.cz",
     "globalUniversal": false,
     "id": "c0003",
@@ -47,11 +61,25 @@
       "street": "Černická 887/9"
     },
     "available": true,
-    "contactPerson": "Martina Hajná, +420 730 890 760, martinahajna@domus-cpr.cz",
+    "contactPerson": "Martina Polášková, +420 724 377 421, martinapolaskova@domus-cpr.cz",
     "globalUniversal": false,
     "id": "c0004",
     "name": "PLZEŇ - DOMUS, Centrum pro rodinu, z.s.",
-    "openHours": "Pondělí a Středa: 9.00 – 17.00 hod.; Úterý a Čtvrtek: 9.00 - 16.00 hod.; Pátek: 9.00 - 15.00 hod.",
+    "openHours": "Pondělí 9.00 – 17.00 hod.; Středa: 9.00 - 12.30 hod.",
+    "place": "p0002",
+    "placeUniversal": true
+  },
+  {
+    "address": {
+      "city": "Plzeň",
+      "street": "Sedláčkova 39"
+    },
+    "available": true,
+    "contactPerson": "Blanka Bendová, +420 777 124 643, bendlova@arnies.cz",
+    "globalUniversal": false,
+    "id": "c0009",
+    "name": "PLZEŇ - Arnie's fresh bistro & coffee",
+    "openHours": "Pondělí: 10.30 - 18.00; Úterý - Čtvrtek: 8.00 - 18.00 hod.; Pátek: 8.00 - 15.00 hod.",
     "place": "p0002",
     "placeUniversal": true
   },
@@ -79,7 +107,7 @@
     "globalUniversal": false,
     "id": "c0006",
     "name": "ČESKÉ BUDĚJOVICE - Společnost pro ranou péči, z.s.",
-    "openHours": "Pondělí - Pátek 7.30 - 17.00 hod.",
+    "openHours": "Pondělí - Pátek 7.00 - 15.00 hod.",
     "place": "p0001",
     "placeUniversal": false
   },
@@ -93,7 +121,7 @@
     "globalUniversal": false,
     "id": "c0007",
     "name": "Společnost pro ranou péči Karlovy Vary, z.s.",
-    "openHours": "Pondělí - Pátek 7.30 - 17.00 hod.",
+    "openHours": "Pondělí - Pátek 8.00 - 17.00 hod.",
     "place": "p0004",
     "placeUniversal": false
   }
