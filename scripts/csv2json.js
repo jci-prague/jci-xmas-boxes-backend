@@ -41,14 +41,22 @@ const uuid4 = uuid.v4
 //   '2024_temperi.csv',
 // ]
 
+// const inputFilePaths = [
+//   '2025_dd_ostrava.csv',
+//   '2025_dd_prestavlky.csv',
+//   '2025_domus.csv',
+//   '2025_rana_pece_ceske_budejovice.csv',
+//   '2025_rana_pece_karlovy_vary.csv',
+//   '2025_rc_letna.csv',
+//   '2025_temperi.csv'
+// ]
+
 const inputFilePaths = [
-  '2025_dd_ostrava.csv',
-  '2025_dd_prestavlky.csv',
-  '2025_domus.csv',
-  '2025_rana_pece_ceske_budejovice.csv',
-  '2025_rana_pece_karlovy_vary.csv',
-  '2025_rc_letna.csv',
-  '2025_temperi.csv'
+  '2026_dd_vizina_ostrava.csv',
+  '2026_domus.csv',
+  '2026_rana_pece_ceske_budejovice.csv',
+  '2026_rana_pece_karlovy_vary.csv',
+  '2026_rc_letna.csv'
 ]
 
 let familiesMap = {}
@@ -105,8 +113,10 @@ Promise.all(filePromises)
 function getGender(sex) {
   switch (sex) {
     case 'f':
+    case 'D':
       return 'Female'
     case 'm':
+    case 'CH':
       return 'Male'
     default:
       return 'Unknown'
