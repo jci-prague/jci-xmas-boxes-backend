@@ -3,10 +3,10 @@ const _ = require('lodash')
 const FamilyStoreModule = require('./FamilyStore.js')
 
 function FamilyService(FamilyStore = FamilyStoreModule()) {
-  function cancelFamilyReservation(familyId) {
+  function cancelFamilyReservation(family) {
     const reservedFamilies = listReserved()
     const familyToCancel = reservedFamilies.find(
-      (f) => f.id === familyId,
+      (f) => f.id === family.id,
     )
 
     if (familyToCancel) {
@@ -15,18 +15,18 @@ function FamilyService(FamilyStore = FamilyStoreModule()) {
       FamilyStore.update(familyToCancel)
 
       return {
-        familyId: familyId,
+        familyId: family.id,
         success: true,
         errors: [],
       }
     } else {
       return {
-        familyId: familyId,
+        familyId: family.id,
         success: false,
         errors: [
           {
             code: 1102,
-            message: `Family (${familyId}) is not reserved, did you try to cancel the reservation twice?`,
+            message: `Family (${family.id}) is not reserved, did you try to cancel the reservation twice?`,
           },
         ],
       }
@@ -52,7 +52,8 @@ function FamilyService(FamilyStore = FamilyStoreModule()) {
         name,
         email,
         familyCenterId.familyId,
-      )}
+      )
+    }
     )
     const allSuccess = results.reduce(
       (acc, curr) => acc && curr.success,
