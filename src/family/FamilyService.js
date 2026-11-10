@@ -43,6 +43,7 @@ function FamilyService(FamilyStore = FamilyStoreModule()) {
     familyCenterIds,
     name,
     email,
+    packageCode,
   ) {
     const freeFamilies = FamilyStore.listFree()
     const results = familyCenterIds.map((familyCenterId) => {
@@ -52,6 +53,7 @@ function FamilyService(FamilyStore = FamilyStoreModule()) {
         name,
         email,
         familyCenterId.familyId,
+        packageCode,
       )
     }
     )
@@ -72,6 +74,7 @@ function FamilyService(FamilyStore = FamilyStoreModule()) {
     name,
     email,
     familyId,
+    packageCode,
   ) {
     let result = {
       familyId: familyId,
@@ -96,6 +99,7 @@ function FamilyService(FamilyStore = FamilyStoreModule()) {
         email: email,
       }
       familyToReserve.free = false
+      familyToReserve.packageCode = packageCode
       const storeResult =
         FamilyStore.update(familyToReserve)
       if (!storeResult) {

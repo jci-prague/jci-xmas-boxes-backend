@@ -51,6 +51,7 @@ function FamilyStore(
     familyToUpdate.chosenCenterId = family.chosenCenterId
     familyToUpdate.free = family.free
     familyToUpdate.contact = family.contact
+    familyToUpdate.packageCode = family.packageCode
     const fileContent = JSON.stringify(families)
     fs.writeFileSync(pathToFamilyData, fileContent)
 

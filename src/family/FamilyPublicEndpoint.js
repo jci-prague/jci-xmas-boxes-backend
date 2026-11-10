@@ -1,5 +1,7 @@
 'use strict'
 
+const { UniqueCharOTP } = require('unique-string-generator')
+
 const apiResponse = require('../common/ApiResponse.js')
 
 const CenterServiceModule = require('../keydata/CenterService.js')
@@ -45,11 +47,13 @@ function FamilyPublicEndpoint(
     const familyCenterIds = req.body.familyCenterIds
     const name = req.body.donor.name
     const email = req.body.donor.email
+    const packageCode = UniqueCharOTP(5)
     const validationResult =
       validateReservationRequestParams(
         familyCenterIds,
         name,
         email,
+        packageCode,
       )
 
     if (validationResult.success) {
@@ -57,10 +61,11 @@ function FamilyPublicEndpoint(
         familyCenterIds,
         name,
         email,
+        packageCode
       )
       if (reservationResults.success) {
         const text = generateEmailText(
-          familyCenterIds,
+          familyCenterIds, packageCode
         )
 
         const message = {
@@ -116,17 +121,18 @@ function FamilyPublicEndpoint(
     return result
   }
 
-  function generateEmailText(familyCenterIds) {
+  function generateEmailText(familyCenterIds, packageCode) {
     return `Dobrý den,\nvelice nás těší Vaše rozhodnutí obdarovat následující dítě, děti či sourozence.\n${generateChildrenListForEmail(
-      familyCenterIds,
+      familyCenterIds, packageCode
     )}\nV případě jakýchkoliv dotazů nás neváhejte kontaktovat na e-mailové adrese: krabice@jcicr.cz\n\nDěkujeme! :-)\n\nTým "Vánoční krabice"`
   }
 
-  function generateChildrenListForEmail(familyCenterIds) {
+  function generateChildrenListForEmail(familyCenterIds, packageCode) {
     const familyIds = familyCenterIds.map(familyCenterId => familyCenterId.familyId)
     const giftedFamilies = FamilyStore.listAll().filter(
       (family) => familyIds.includes(family.id),
     )
+
 
     const childrenText = giftedFamilies.reduce((acc, family) => {
       const children = family.children
@@ -144,14 +150,14 @@ function FamilyPublicEndpoint(
       const centerText = generatePlaceDetails(family.chosenCenterId)
 
       return `${acc}${children}\n${centerText}\n`
-    }, '\nVybrané dítě, děti či sourozenci:\n')
+    }, `\nNa krabici, prosím, napište kód: ${packageCode}\n\nVybrané dítě, děti či sourozenci:\n`)
 
     return childrenText
   }
 
   function generatePlaceDetails(centerId) {
     const center = CenterService.findById(centerId)
-    return `\n   - Vámi zvolené místo doručení Vánoční krabice pro toto dítě nebo všechny sourozence:\n     - ${center.name}\n     - Adresa: ${center.address.street}, ${center.address.city}\n     - Otevírací doba: ${center.openHours}\n     - Dárky doneste během sběrného týdne 1.-5.12.2025\n     - Kontakt: ${center.contactPerson}\n`
+    return `\n   - Vámi zvolené místo doručení Vánoční krabice pro toto dítě nebo všechny sourozence:\n     - ${center.name}\n     - Adresa: ${center.address.street}, ${center.address.city}\n     - Otevírací doba: ${center.openHours}\n     - Dárky doneste během sběrného týdne 7.-11.12.2026\n     - Kontakt: ${center.contactPerson}\n`
   }
 
   const api = {

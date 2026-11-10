@@ -26,6 +26,9 @@ importers:
       postmark:
         specifier: 5.1.0
         version: 5.1.0
+      unique-string-generator:
+        specifier: ^1.1.1
+        version: 1.1.1
       uuid:
         specifier: 14.0.3
         version: 14.0.3
@@ -1343,6 +1346,9 @@ packages:
       node-notifier:
         optional: true
 
+  js-base64@3.7.2:
+    resolution: {integrity: sha512-NnRs6dsyqUXejqk/yv2aiXlAvOs56sLkX6nUdeaNezI5LFFLlsZjOThmwnrcwh5ZZRwZlCMnVAY3CvhIhoVEKQ==}
+
   js-tokens@4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
 
@@ -1847,6 +1853,9 @@ packages:
   undici-types@8.9.0:
     resolution: {integrity: sha512-KTDyRTYX8sWmKXAikPHHSyc63CRPETMctyjKFupcC6OBLXT3xsN0e9aF7m+mIXutFWpUXuedtowG7iLOzp0kQg==}
 
+  unique-string-generator@1.1.1:
+    resolution: {integrity: sha512-OScuWaQLe6Zbp+2xKeKOdMtoqIM6EDBxs5XJ1H6XspmCtPDs3+BW11iPxhrX8R/Oqm7XqpCw1CG+zcDOrfuM4A==}
+
   unpipe@1.0.0:
     resolution: {integrity: sha512-pjy2bYhSsufwWlKwPc+l3cN7+wuJlK6uz0YdJEOlQDbl6jo/YlPi4mb8agUkVC8BF7V8NuzeyPNqRksA3hztKQ==}
     engines: {node: '>= 0.8'}
@@ -1862,6 +1871,11 @@ packages:
 
   uuid@14.0.3:
     resolution: {integrity: sha512-Sc5u1VVln93y1Xnz4R+CunOZc7R9LUcTmhj7Rc7Eg3HVcf7rVn2FOoa812fe0W8p3jD7xeoGSYbfqCGGH2B6xw==}
+    hasBin: true
+
+  uuid@9.0.1:
+    resolution: {integrity: sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==}
+    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
     hasBin: true
 
   v8-to-istanbul@9.3.0:
@@ -3500,6 +3514,8 @@ snapshots:
       - supports-color
       - ts-node
 
+  js-base64@3.7.2: {}
+
   js-tokens@4.0.0: {}
 
   js-yaml@3.15.2:
@@ -3971,6 +3987,11 @@ snapshots:
 
   undici-types@8.9.0: {}
 
+  unique-string-generator@1.1.1:
+    dependencies:
+      js-base64: 3.7.2
+      uuid: 9.0.1
+
   unpipe@1.0.0: {}
 
   unrs-resolver@1.13.0:
@@ -4006,6 +4027,8 @@ snapshots:
       picocolors: 1.1.1
 
   uuid@14.0.3: {}
+
+  uuid@9.0.1: {}
 
   v8-to-istanbul@9.3.0:
     dependencies:
