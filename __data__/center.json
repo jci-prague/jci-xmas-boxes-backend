@@ -65,7 +65,7 @@
     "globalUniversal": false,
     "id": "c0004",
     "name": "PLZEŇ - DOMUS, Centrum pro rodinu, z.s.",
-    "openHours": "Pondělí 9.00 – 17.00 hod.; Středa: 9.00 - 12.30 hod.",
+    "openHours": "Pondělí 9.00 – 17.00 hod.; Středa: 9.00 - 12.30 hod.; Dárky je možné nosit po telefonické domluvě i v jiné dny.",
     "place": "p0002",
     "placeUniversal": true
   },
@@ -107,7 +107,7 @@
     "globalUniversal": false,
     "id": "c0006",
     "name": "ČESKÉ BUDĚJOVICE - Společnost pro ranou péči, z.s.",
-    "openHours": "Pondělí - Pátek 7.00 - 15.00 hod.",
+    "openHours": "Pondělí - Pátek 7.00 - 15.00 hod.; Doporučujeme domluvit čas předem.",
     "place": "p0001",
     "placeUniversal": false
   },
@@ -121,7 +121,7 @@
     "globalUniversal": false,
     "id": "c0007",
     "name": "Společnost pro ranou péči Karlovy Vary, z.s.",
-    "openHours": "Pondělí - Pátek 8.00 - 17.00 hod.",
+    "openHours": "Pondělí - Pátek 8.00 - 17.00 hod.; O konkrétním čase doručení dárků doporučujeme předem telefonicky informovat paní Kristýnu Veleckou.",
     "place": "p0004",
     "placeUniversal": false
   }
