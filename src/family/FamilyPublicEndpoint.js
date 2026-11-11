@@ -47,13 +47,13 @@ function FamilyPublicEndpoint(
     const familyCenterIds = req.body.familyCenterIds
     const name = req.body.donor.name
     const email = req.body.donor.email
+    const phone = req.body.donor.phone
     const packageCode = UniqueCharOTP(5)
     const validationResult =
       validateReservationRequestParams(
         familyCenterIds,
         name,
         email,
-        packageCode,
       )
 
     if (validationResult.success) {
@@ -61,6 +61,7 @@ function FamilyPublicEndpoint(
         familyCenterIds,
         name,
         email,
+        phone,
         packageCode
       )
       if (reservationResults.success) {

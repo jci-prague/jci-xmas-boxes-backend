@@ -43,6 +43,7 @@ function FamilyService(FamilyStore = FamilyStoreModule()) {
     familyCenterIds,
     name,
     email,
+    phone,
     packageCode,
   ) {
     const freeFamilies = FamilyStore.listFree()
@@ -52,6 +53,7 @@ function FamilyService(FamilyStore = FamilyStoreModule()) {
         freeFamilies,
         name,
         email,
+        phone,
         familyCenterId.familyId,
         packageCode,
       )
@@ -73,6 +75,7 @@ function FamilyService(FamilyStore = FamilyStoreModule()) {
     freeFamilies,
     name,
     email,
+    phone,
     familyId,
     packageCode,
   ) {
@@ -97,6 +100,7 @@ function FamilyService(FamilyStore = FamilyStoreModule()) {
       familyToReserve.contact = {
         name: name,
         email: email,
+        phone: phone,
       }
       familyToReserve.free = false
       familyToReserve.packageCode = packageCode
